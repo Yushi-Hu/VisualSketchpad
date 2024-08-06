@@ -1,0 +1,30 @@
+{
+    "target_object": [
+        "red balloon",
+        "white balloon"
+    ],
+    "bbox": [
+        [
+            1593,
+            759,
+            24,
+            18
+        ],
+        [
+            1558,
+            714,
+            21,
+            23
+        ]
+    ],
+    "question": "Is the red balloon above or below the white balloon?",
+    "options": [
+        "The red balloon is below the white balloon.",
+        "The red balloon is above the white balloon."
+    ],
+    "query": "<img src='/Users/yushihu/Desktop/Sketchpad/tasks/vstar/processed/relative_position@sa_46221/sa_46221.jpg'> Is the red balloon above or below the white balloon? Options: (A) The red balloon is below the white balloon. (B) The red balloon is above the white balloon.",
+    "images": [
+        "/Users/yushihu/Desktop/Sketchpad/tasks/vstar/processed/relative_position@sa_46221/sa_46221.jpg"
+    ],
+    "answer": "(A)"
+}
