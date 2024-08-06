@@ -22,7 +22,7 @@ pip install pyautogen==0.2.26
 pip install 'pyautogen[jupyter-executor]'
 pip install Pillow joblib matplotlib opencv-python numpy gradio gradio_client networkx scipy datasets
 ```
-Set up your OpenAI API key in `agent/config.py`. Edit the following:
+Set up your OpenAI API key in [`agent/config.py`](https://github.com/Yushi-Hu/VisualSketchpad/blob/main/agent/config.py). Edit the following:
 ```python
 # set up the LLM for the agent
 os.environ['OPENAI_API_KEY'] = '[YOUR OPENAI API KEY]'
@@ -35,4 +35,4 @@ Above is all it needs for math and geometry tasks.
 
 For computer vision tasks, you also need to install the vision experts.
 In this code base, each vision expert is a gradio server. You can set them up in other servers, and access them through web link. This allows you to run sketchpad agents on your computer, while all vision models running on another GPU server.
-Follow `vision_experts/installation.md` to install and launch all the vision experts.
+Follow [`vision_experts/installation.md`](https://github.com/Yushi-Hu/VisualSketchpad/blob/main/vision_experts/installation.md) to install and launch all the vision experts.
