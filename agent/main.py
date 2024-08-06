@@ -44,13 +44,20 @@ def run_agent(task_input, output_dir, task_type="vision", task_name=None):
     
     
     if task_type == "vision":
+        
+        # test if vision tools are loaded
+        try:
+            from tools import *
+        except ImportError as e:
+            raise ImportError("Vision tools are not loaded. Please install vision_experts.")
+        
         task_metadata = json.load(open(os.path.join(task_input, "request.json")))
         query = task_metadata['query']
         images = task_metadata['images']
     
         prompt_generator = ReACTPrompt()
         parser = Parser()
-        executor = CodeExecutor(working_dir=task_directory)
+        executor = CodeExecutor(working_dir=task_directory, use_vision_tools=True)
         
         # read all images, save them in image_1, image_2, ... as PIL images
         image_reading_codes = python_codes_for_images_reading(images)

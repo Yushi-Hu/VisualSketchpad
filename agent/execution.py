@@ -14,7 +14,8 @@ if parent_dir not in sys.path:
 class CodeExecutor:
     def __init__(
         self, 
-        working_dir: str = ""
+        working_dir: str = "",
+        use_vision_tools: bool = False,
         ):
         self.working_dir = working_dir
         
@@ -28,7 +29,7 @@ class CodeExecutor:
         self.executor = JupyterCodeExecutor(self.server, output_dir=self.working_dir)
         
         # initialize the environment
-        self.init_env()
+        self.init_env(use_vision_tools)
         
     def result_processor(self, result):
         # Change an IPythonCodeResult object to a string, and the list of files
@@ -102,15 +103,17 @@ class CodeExecutor:
         )
         return self.result_processor(execution_result)
     
-    def init_env(self):
+    def init_env(self, use_vision_tools):
         init_code = ("import sys\n"
                      "from PIL import Image\n"
                      "from IPython.display import display\n"
                      f"parent_dir = '{parent_dir}'\n"
                      "if parent_dir not in sys.path:\n"
                      "    sys.path.insert(0, parent_dir)\n"
-                     "from tools import *\n"
         )
+        if use_vision_tools:
+            init_code += "from tools import *\n"
+        
         init_resp = self.execute(init_code)
         print(init_resp[1])
 
