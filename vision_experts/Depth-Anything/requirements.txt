@@ -1,0 +1,4 @@
+torch
+torchvision
+opencv-python
+huggingface_hub
