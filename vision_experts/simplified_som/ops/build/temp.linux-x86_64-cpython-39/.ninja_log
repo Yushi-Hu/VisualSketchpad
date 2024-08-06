@@ -1,0 +1,4 @@
+# ninja log v5
+6	8101	1720583956280052704	/mmfs1/gscratch/ark/yushihu/sketchpad_old/simplified_som/ops/build/temp.linux-x86_64-cpython-39/mmfs1/gscratch/ark/yushihu/sketchpad_old/simplified_som/ops/src/cpu/ms_deform_attn_cpu.o	8247eb3f70de9c55
+7	23600	1720583971779920292	/mmfs1/gscratch/ark/yushihu/sketchpad_old/simplified_som/ops/build/temp.linux-x86_64-cpython-39/mmfs1/gscratch/ark/yushihu/sketchpad_old/simplified_som/ops/src/vision.o	e7b706789c701d51
+7	149548	1720584097675085098	/mmfs1/gscratch/ark/yushihu/sketchpad_old/simplified_som/ops/build/temp.linux-x86_64-cpython-39/mmfs1/gscratch/ark/yushihu/sketchpad_old/simplified_som/ops/src/cuda/ms_deform_attn_cuda.o	4003a22058663da5
