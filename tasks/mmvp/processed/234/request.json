@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/234/234.jpg'> Is the sky in the background dark blue or light blue? Options: (a) Dark blue (b) Light blue",
+    "images": [
+        "../tasks/mmvp/processed/234/234.jpg"
+    ],
+    "answer": "(b)"
+}

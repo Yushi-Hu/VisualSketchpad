@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/181/181.jpg'> Is the stripe in the middle of the car blue or white? Options: (a) Blue (b) White",
+    "images": [
+        "../tasks/mmvp/processed/181/181.jpg"
+    ],
+    "answer": "(a)"
+}

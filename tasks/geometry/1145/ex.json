@@ -1,0 +1,84 @@
+{
+    "problem_text": "Find x (Line AC).",
+    "choices": [
+        "8",
+        "8 \\sqrt { 2 }",
+        "8 \\sqrt { 3 }",
+        "16"
+    ],
+    "answer": "B",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Triangle"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "textbook1_chapter_8.pdf",
+    "comment": "",
+    "id": 1145,
+    "annot_id": "pan_2020-03-24_00_35_11",
+    "is_standard": false,
+    "compact_choices": [
+        "8",
+        "8\\sqrt{2}",
+        "8\\sqrt{3}",
+        "16"
+    ],
+    "precise_value": [
+        8.0,
+        11.313708498984761,
+        13.856406460551018,
+        16.0
+    ],
+    "rough_value": [
+        8,
+        11.31,
+        13.86,
+        16
+    ],
+    "compact_text": "Find x.",
+    "annotat_text": "Find x.",
+    "unit": "",
+    "img_width": 297,
+    "img_height": 194,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Find(x)"
+        ],
+        "dissolved_text_logic_form": [
+            "Find(x)"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(B, C)), 16)",
+            "Equals(MeasureOf(Angle(C, B, A)), 45)",
+            "Equals(LengthOf(Line(A, C)), x)",
+            "Perpendicular(Line(A, B), Line(A, C))"
+        ],
+        "line_instances": [
+            "AB",
+            "AC",
+            "BC"
+        ],
+        "circle_instances": [],
+        "point_positions": {
+            "A": [
+                129.34600543089897,
+                131.99757991520175
+            ],
+            "B": [
+                1.9702045234433,
+                1.992593858599669
+            ],
+            "C": [
+                263.0,
+                1.0
+            ]
+        }
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Define the coordinates\npoints = {\n    \"A\": [129.34600543089897, 131.99757991520175],\n    \"B\": [1.9702045234433, 1.992593858599669],\n    \"C\": [263.0, 1.0]\n}\n\n# Create the figure and axis\nfig, ax = plt.subplots()\nfig.set_size_inches(10, 10)\nax.set_aspect('equal')\n\n# Draw lines between points\nlines = [(\"A\", \"B\"), (\"A\", \"C\"), (\"B\", \"C\")]\nfor line in lines:\n    x_vals = [points[line[0]][0], points[line[1]][0]]\n    y_vals = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_vals, y_vals, 'k')  # 'k' is the color black\n\n# Plot points and labels\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' for black circle\n    ax.text(coord[0], coord[1] + 5, point, fontsize=20, color='red', horizontalalignment='right')\n\n# Set limits and aspect\nax.set_xlim(-10, 280)\nax.set_ylim(-10, 150)\n\n# Turn off the axis\nax.axis('off')\n\n# Show the plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/9a2fcfce135b410c94f977e66b3375f5.png"
+}

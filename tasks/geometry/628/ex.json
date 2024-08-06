@@ -1,0 +1,103 @@
+{
+    "problem_text": "In A, the radius is 14 and C D = 22. Find C E.",
+    "choices": [
+        "7",
+        "11",
+        "14",
+        "22"
+    ],
+    "answer": "B",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Circle"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "textbook1_chapter_10.pdf",
+    "comment": "",
+    "id": 628,
+    "annot_id": "Shibiao_2020-03-27_13_01_06",
+    "is_standard": false,
+    "compact_choices": [
+        "7",
+        "11",
+        "14",
+        "22"
+    ],
+    "precise_value": [
+        7.0,
+        11.0,
+        14.0,
+        22.0
+    ],
+    "rough_value": [
+        7,
+        11,
+        14,
+        22
+    ],
+    "compact_text": "In A, the radius is 14 and CD = 22. Find CE.",
+    "annotat_text": "In A, the radius is $14$ and $CD = 22$. Find $CE$.",
+    "unit": "",
+    "img_width": 477,
+    "img_height": 438,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Equals(RadiusOf(Circle(A)),14)",
+            "Equals(LengthOf(Line(C,D)),22)",
+            "Find(LengthOf(Line(C,E)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Equals(RadiusOf(Circle(A)),14)",
+            "Equals(LengthOf(Line(C,D)),22)",
+            "Find(LengthOf(Line(C,E)))"
+        ],
+        "diagram_logic_form": [
+            "PointLiesOnLine(E, Line(B, A))",
+            "PointLiesOnLine(E, Line(C, D))",
+            "PointLiesOnCircle(B, Circle(A, radius_2_0))",
+            "PointLiesOnCircle(C, Circle(A, radius_2_0))",
+            "PointLiesOnCircle(D, Circle(A, radius_2_0))",
+            "Perpendicular(Line(A, E), Line(E, D))"
+        ],
+        "line_instances": [
+            "AE",
+            "BA",
+            "BE",
+            "CD",
+            "EC",
+            "ED"
+        ],
+        "point_positions": {
+            "A": [
+                147.0,
+                147.0
+            ],
+            "B": [
+                247.0,
+                245.0
+            ],
+            "C": [
+                123.0,
+                288.0
+            ],
+            "D": [
+                287.0,
+                123.0
+            ],
+            "E": [
+                206.0,
+                204.0
+            ]
+        },
+        "circle_instances": [
+            "A"
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Define coordinates\npoints = {\n    \"A\": [147.0, 147.0],\n    \"B\": [247.0, 245.0],\n    \"C\": [123.0, 288.0],\n    \"D\": [287.0, 123.0],\n    \"E\": [206.0, 204.0]\n}\n\n# Create the plot\nfig, ax = plt.subplots()\n\n# Draw lines\nlines = {\n    \"AE\": (\"A\", \"E\"),\n    \"BA\": (\"B\", \"A\"),\n    \"BE\": (\"B\", \"E\"),\n    \"CD\": (\"C\", \"D\"),\n    \"EC\": (\"E\", \"C\"),\n    \"ED\": (\"E\", \"D\")\n}\n\nfor line in lines.values():\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Draw circle around point A with radius to B\nradius = np.sqrt((points[\"B\"][0] - points[\"A\"][0])**2 + (points[\"B\"][1] - points[\"A\"][1])**2)\ncircle = plt.Circle((points[\"A\"][0], points[\"A\"][1]), radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Set limits considering the circle\nax.set_xlim(points[\"A\"][0] - radius - 10, points[\"A\"][0] + radius + 10)\nax.set_ylim(points[\"A\"][1] - radius - 10, points[\"A\"][1] + radius + 10)\n\n# Label points\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], f' {point}', fontsize=20, color='r')\n\n# Set aspect of the plot to be equal\nax.set_aspect('equal')\n\n# Remove axes\nax.axis('off')\n\n# Show plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/13a13c42b1064a08894d0ed7b7864c7b.png"
+}

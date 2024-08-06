@@ -1,0 +1,91 @@
+{
+    "problem_text": "Trapezoid A B C D has an area of 750 square meters. Find the height of A B C D.",
+    "choices": [
+        "20",
+        "25",
+        "30",
+        "35"
+    ],
+    "answer": "B",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Trapezoid"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+    "comment": "",
+    "id": 803,
+    "annot_id": "pan_2020-03-22_05_30_45",
+    "is_standard": false,
+    "unit": "m",
+    "compact_choices": [
+        "20",
+        "25",
+        "30",
+        "35"
+    ],
+    "precise_value": [
+        20.0,
+        25.0,
+        30.0,
+        35.0
+    ],
+    "rough_value": [
+        20,
+        25,
+        30,
+        35
+    ],
+    "compact_text": "Trapezoid ABCD has an area of 750 square meters. Find the height of ABCD.",
+    "annotat_text": "Trapezoid $ABCD$ has an area of 750 square meters. Find the height of $ABCD$.",
+    "img_width": 295,
+    "img_height": 240,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Equals(AreaOf(Trapezoid(A,B,C,D)),750)",
+            "Find(HeightOf(Quadrilateral(A,B,C,D)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Equals(AreaOf(Trapezoid(A,B,C,D)),750)",
+            "Find(HeightOf(Quadrilateral(A,B,C,D)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(B, A)), 35)",
+            "Equals(LengthOf(Line(C, D)), 25)"
+        ],
+        "line_instances": [
+            "AD",
+            "BA",
+            "BC",
+            "CD"
+        ],
+        "point_positions": {
+            "A": [
+                1.0,
+                3.0
+            ],
+            "B": [
+                245.0,
+                1.0
+            ],
+            "C": [
+                208.0,
+                141.0
+            ],
+            "D": [
+                35.0,
+                141.0
+            ]
+        },
+        "circle_instances": [
+            ""
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Define the coordinates\npoints = {\n    \"A\": [1.0, 3.0],\n    \"B\": [245.0, 1.0],\n    \"C\": [208.0, 141.0],\n    \"D\": [35.0, 141.0]\n}\n\n# Create the figure and axis\nfig, ax = plt.subplots(figsize=(10, 8))  # Adjust the size to your need\nax.set_aspect('equal')\n\n# Draw lines between points\nlines = {\n    \"AD\": (\"A\", \"D\"),\n    \"BA\": (\"B\", \"A\"),\n    \"BC\": (\"B\", \"C\"),\n    \"CD\": (\"C\", \"D\")\n}\n\nfor line, (start, end) in lines.items():\n    x_values = [points[start][0], points[end][0]]\n    y_values = [points[start][1], points[end][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Plot points and labels\nfor point, coord in points.items():\n    ax.plot(*coord, 'ko')  # 'ko' for black circle\n    ax.text(coord[0], coord[1], f' {point}', fontsize=20, color='red', verticalalignment='center', horizontalalignment='right')\n\n# Hide the axes\nax.axis('off')\n\n# Display the plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/d993940ae14b4ab0ae4b2d6202c1e7f2.png"
+}

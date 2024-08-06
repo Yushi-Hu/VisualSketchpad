@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/221/221.jpg'> In the photo, is one of the man's hands blocked by the woman? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/221/221.jpg"
+    ],
+    "answer": "(a)"
+}

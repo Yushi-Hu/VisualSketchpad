@@ -1,0 +1,123 @@
+{
+    "problem_text": "Find x (Angle IAH) (Hint: Draw an auxiliary line).",
+    "choices": [
+        "22",
+        "36",
+        "50",
+        "72"
+    ],
+    "answer": "A",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Line"
+    ],
+    "problem_type_goal": [
+        "Angle"
+    ],
+    "source": "textbook1_chapter_3.pdf",
+    "comment": "",
+    "id": 1687,
+    "annot_id": "pan_2020-03-15_01_35_51",
+    "is_standard": false,
+    "compact_choices": [
+        "22",
+        "36",
+        "50",
+        "72"
+    ],
+    "precise_value": [
+        22.0,
+        36.0,
+        50.0,
+        72.0
+    ],
+    "rough_value": [
+        22,
+        36,
+        50,
+        72
+    ],
+    "compact_text": "Find x. (Hint: Draw an auxiliary line).",
+    "annotat_text": "Find $x$. (Hint: Draw an auxiliary line.)",
+    "unit": "",
+    "img_width": 526,
+    "img_height": 296,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Find(x)"
+        ],
+        "dissolved_text_logic_form": [
+            "Find(x)"
+        ],
+        "diagram_logic_form": [
+            "Equals(MeasureOf(Angle(I, A, H)), x)",
+            "Equals(MeasureOf(Angle(J, L, A)), 72)",
+            "Equals(MeasureOf(Angle(G, J, C)), 50)",
+            "PointLiesOnLine(A, Line(H, L))",
+            "PointLiesOnLine(A, Line(I, O))",
+            "PointLiesOnLine(J, Line(L, G))",
+            "PointLiesOnLine(J, Line(C, N))",
+            "Parallel(Line(I, O), Line(C, N))"
+        ],
+        "line_instances": [
+            "AH",
+            "AI",
+            "AL",
+            "AO",
+            "CJ",
+            "CN",
+            "HL",
+            "IO",
+            "JG",
+            "JN",
+            "LG",
+            "LJ"
+        ],
+        "point_positions": {
+            "A": [
+                274.0,
+                51.0
+            ],
+            "C": [
+                0.0,
+                157.0
+            ],
+            "G": [
+                212.0,
+                255.0
+            ],
+            "H": [
+                150.0,
+                0.0
+            ],
+            "I": [
+                0.0,
+                50.0
+            ],
+            "J": [
+                294.0,
+                159.0
+            ],
+            "L": [
+                357.0,
+                85.0
+            ],
+            "N": [
+                489.0,
+                157.0
+            ],
+            "O": [
+                492.0,
+                51.0
+            ]
+        },
+        "circle_instances": [
+            ""
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Define the coordinates\npoints = {\n    \"A\": [274.0, 51.0],\n    \"C\": [0.0, 157.0],\n    \"G\": [212.0, 255.0],\n    \"H\": [150.0, 0.0],\n    \"I\": [0.0, 50.0],\n    \"J\": [294.0, 159.0],\n    \"L\": [357.0, 85.0],\n    \"N\": [489.0, 157.0],\n    \"O\": [492.0, 51.0]\n}\n\n# Define the lines\nlines = [\n    (\"A\", \"H\"), (\"A\", \"I\"), (\"A\", \"L\"), (\"A\", \"O\"),\n    (\"C\", \"J\"), (\"C\", \"N\"),\n    (\"H\", \"L\"),\n    (\"I\", \"O\"),\n    (\"J\", \"G\"), (\"J\", \"N\"),\n    (\"L\", \"G\"), (\"L\", \"J\")\n]\n\n# Create the plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\nfor line in lines:\n    point1, point2 = line\n    x_values = [points[point1][0], points[point2][0]]\n    y_values = [points[point1][1], points[point2][1]]\n    ax.plot(x_values, y_values, 'k-')  # Black line\n\n# Plot points and labels\nfor point, coords in points.items():\n    ax.plot(coords[0], coords[1], 'ko')  # Black point\n    ax.text(coords[0] + 5, coords[1], point, fontsize=20, color='red', verticalalignment='center')\n\n# Set limits and aspect\nax.set_xlim(-50, 550)\nax.set_ylim(-50, 300)\nax.axis('off')\n\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/83809062a9584e648953fe2f48be5962.png"
+}

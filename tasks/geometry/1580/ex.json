@@ -1,0 +1,92 @@
+{
+    "problem_text": "Find x (Arc AC). Assume that segments that appear to be tangent are tangent.",
+    "choices": [
+        "35",
+        "70",
+        "145",
+        "155"
+    ],
+    "answer": "C",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Circle"
+    ],
+    "problem_type_goal": [
+        "Angle"
+    ],
+    "source": "textbook2_chapter10.pdf page 68",
+    "comment": "",
+    "id": 1580,
+    "annot_id": "Ran_2020-03-29_06_11_47",
+    "is_standard": false,
+    "compact_choices": [
+        "35",
+        "70",
+        "145",
+        "155"
+    ],
+    "precise_value": [
+        35.0,
+        70.0,
+        145.0,
+        155.0
+    ],
+    "rough_value": [
+        35,
+        70,
+        145,
+        155
+    ],
+    "compact_text": "Find x. Assume that segments that appear to be tangent are tangent.",
+    "annotat_text": "Find x. Assume that segments that appear to be tangent are tangent.",
+    "unit": "",
+    "img_width": 203,
+    "img_height": 157,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Tangent(Line($),Circle($))",
+            "Find(x)"
+        ],
+        "dissolved_text_logic_form": [
+            "Tangent(Line(B, C),Circle(D))",
+            "Tangent(Line(B, A),Circle(D))",
+            "Find(x)"
+        ],
+        "diagram_logic_form": [
+            "Equals(MeasureOf(Angle(A, B, C)), 35)",
+            "Equals(MeasureOf(Arc(A, C)), x)",
+            "PointLiesOnCircle(A, Circle(D, radius_3_0))",
+            "PointLiesOnCircle(C, Circle(D, radius_3_0))"
+        ],
+        "line_instances": [
+            "AB",
+            "BC"
+        ],
+        "point_positions": {
+            "A": [
+                70.0,
+                113.0
+            ],
+            "B": [
+                170.0,
+                1.0
+            ],
+            "C": [
+                43.0,
+                31.0
+            ],
+            "D": [
+                53.0,
+                74.0
+            ]
+        },
+        "circle_instances": [
+            "D"
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Coordinates of the points\npoints = {\"A\": [70.0, 113.0], \"B\": [170.0, 1.0], \"C\": [43.0, 31.0], \"D\": [53.0, 74.0]}\n\n# Lines to be drawn\nlines = [(\"A\", \"B\"), (\"B\", \"C\")]\n\n# Circle center and points on the circle\ncircle_center = \"D\"\ncircle_points = [\"A\", \"C\"]\n\n# Calculate the radius of the circle\ndef distance(p1, p2):\n    return np.sqrt((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)\n\nradius = (distance(points[circle_center], points[circle_points[0]]) + \n          distance(points[circle_center], points[circle_points[1]])) / 2\n\n# Setup the plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\nax.axis('off')\n\n# Draw the lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Draw the circle\ncircle = plt.Circle((points[circle_center][0], points[circle_center][1]), radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Set limits to ensure all elements are visible\nlimit = max(3 * radius, max([max(coord) for coord in points.values()]))\nax.set_xlim(points[circle_center][0] - limit, points[circle_center][0] + limit)\nax.set_ylim(points[circle_center][1] - limit, points[circle_center][1] + limit)\n\n# Label the points\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], point, fontsize=20, color='red', verticalalignment='bottom', horizontalalignment='right')\n\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/33edabd91f3343d087d09a4a70801414.png"
+}

@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . k . n r\np . p . . . p p\n. . p . . . . .\n. p N . b . . .\n. . . . P . b .\n. . P . . . . .\nP P . . . P P P\nR . B r K . . R",
+    "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. Bxc6 dxc6 5. Nc3 Bg4 6. Na4 Bb4 7. c3 Bd6 8. d4 f6 9. dxe5 fxe5 10. Qd3 b5 11. Nxe5 Bxe5 12. Qxd8+ Rxd8 13. Nc5 Rd1#",
+    "fen": "4k1nr/p1p3pp/2p5/1pN1b3/4P1b1/2P5/PP3PPP/R1BrK2R w KQk - 2 14",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/19vHvxug"
+}

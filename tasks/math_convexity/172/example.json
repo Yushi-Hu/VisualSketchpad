@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = - 0.38 x^{2} + 0.41 \\log{\\left(x \\right)} - 0.51 \\left|{x}\\right| + 16.27$$",
+    "code": "f(x) = -0.38*x**2 + 0.41*log(x) - 0.51*Abs(x) + 16.27",
+    "label": "concave",
+    "id": "isobench/math/convexity_195"
+}

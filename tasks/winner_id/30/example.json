@@ -1,0 +1,7 @@
+{
+    "anl": "r n b q k . n r\np p . p . p p p\n. . p . . . . .\n. . . . p . . .\n. . . . . . . .\nN P . . . . P .\nP B P P P P . P\nR . . Q K B N R",
+    "pgn": "1. b3 c6 2. Bb2 e5 3. g3 Ba3 4. Nxa3",
+    "fen": "rnbqk1nr/pp1p1ppp/2p5/4p3/8/NP4P1/PBPPPP1P/R2QKBNR b KQkq - 0 4",
+    "label": "White",
+    "id": "isobench/chess/winner_id/7D2gvdYn"
+}

@@ -1,0 +1,7 @@
+{
+    "anl": "r . b Q . . . .\n. . . n . R . .\np . p k R . . .\n. p . p . P . .\n. . . P . . p .\nP . N . . . . r\n. P P . . . K .\n. . . . . . . .",
+    "pgn": "1. d4 d5 2. e3 a6 3. Nc3 c6 4. a3 e6 5. Bd2 Nf6 6. Nf3 Ng4 7. h3 Nh6 8. Be2 Nf5 9. Ne5 Qf6 10. Bg4 Nh4 11. O-O Be7 12. e4 g6 13. g3 h5 14. gxh4 hxg4 15. Bg5 Qg7 16. Qxg4 f6 17. Nxg6 Qxg6 18. exd5 fxg5 19. f4 Rxh4 20. Qg3 exd5 21. Rae1 Rxh3 22. Qg2 g4 23. Qe2 Kf8 24. Qxe7+ Kg8 25. Qd8+ Kh7 26. Re7+ Kh6 27. Qh8+ Qh7 28. Rxh7+ Kg6 29. Qg8+ Kf6 30. Rf7+ Ke6 31. f5+ Kd6 32. Qd8+ Nd7 33. Re1 Rg3+ 34. Kf2 Rf3+ 35. Kg1 Rg3+ 36. Kh2 Rh3+ 37. Kg2 b5 38. Re6#",
+    "fen": "r1bQ4/3n1R2/p1pkR3/1p1p1P2/3P2p1/P1N4r/1PP3K1/8 b - - 1 38",
+    "label": "White",
+    "id": "isobench/chess/winner_id/TVJOsdyt"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/135/135.jpg'> How many cup(s) of drink are there in the image? Options: (a) 1 (b) 2",
+    "images": [
+        "../tasks/mmvp/processed/135/135.jpg"
+    ],
+    "answer": "(a)"
+}

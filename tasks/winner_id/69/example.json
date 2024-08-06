@@ -1,0 +1,7 @@
+{
+    "anl": "r . b q . r k Q\np p p n . . p .\n. . . . p n P .\n. . . p P . . .\n. . . . . . . .\nP . P . . . . .\n. . P . . P P .\nR . B . K B . R",
+    "pgn": "1. e4 e6 2. d4 Nf6 3. Nc3 Bb4 4. Qf3 O-O 5. a3 Bxc3+ 6. bxc3 d5 7. e5 Nfd7 8. Nh3 f6 9. Qd3 fxe5 10. Ng5 Nf6 11. dxe5 h6 12. h4 hxg5 13. hxg5 Ne4 14. g6 Nd7 15. Qh3 Nef6 16. Qh8#",
+    "fen": "r1bq1rkQ/pppn2p1/4pnP1/3pP3/8/P1P5/2P2PP1/R1B1KB1R b KQ - 4 16",
+    "label": "White",
+    "id": "isobench/chess/winner_id/F72iCWts"
+}

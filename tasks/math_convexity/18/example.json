@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = - 0.72 x^{3} + 0.71 \\log{\\left(x \\right)} + 8.55$$",
+    "code": "f(x) = -0.72*x**3 + 0.71*log(x) + 8.55",
+    "label": "concave",
+    "id": "isobench/math/convexity_190"
+}

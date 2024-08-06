@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/198/198.jpg'> Is the person weighing themselves barefoot? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/198/198.jpg"
+    ],
+    "answer": "(b)"
+}

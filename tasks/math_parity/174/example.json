@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{10 x^{8} - 6 x^{6} + 34.3}{6 x^{8} + 8 x^{6} + 7.46}$$",
+    "code": "f(x) = (10*x**8 - 6*x**6 + 34.3)/(6*x**8 + 8*x**6 + 7.46)",
+    "label": "even",
+    "id": "isobench/math/parity_46"
+}

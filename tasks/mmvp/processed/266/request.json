@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/266/266.jpg'> Is the shoe in the image tied or untied? Options: (a) Tied (b) Untied",
+    "images": [
+        "../tasks/mmvp/processed/266/266.jpg"
+    ],
+    "answer": "(b)"
+}

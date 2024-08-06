@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/293/293.jpg'> Is the sports car in the picture facing left or right? Options: (a) Left (b) Right",
+    "images": [
+        "../tasks/mmvp/processed/293/293.jpg"
+    ],
+    "answer": "(a)"
+}

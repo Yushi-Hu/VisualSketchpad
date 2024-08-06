@@ -1,0 +1,7 @@
+{
+    "anl": ". R . . . . . .\np p . . . . k p\n. . . . p . . .\n. . . p . . p .\n. . . . . b P .\n. . . n . . . P\nP . . . R . B .\n. r . . . . . K",
+    "pgn": "1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 e5 6. dxe5 Ng4 7. f4 d6 8. h3 Nh6 9. exd6 Qxd6 10. Qxd6 cxd6 11. Nd5 Nc6 12. Nf3 Nf5 13. Kf2 Be6 14. g4 Nfd4 15. Nxd4 Bxd4+ 16. e3 Bc5 17. Nc7 Rac8 18. Nxe6 fxe6 19. Bd2 Rxf4+ 20. Kg3 Rxc4 21. Rhf1 Rc2 22. Bc3 Bxe3 23. Be4 Rxc3 24. bxc3 d5 25. Bg2 Ne5 26. Rf6 Rxc3 27. Kh2 Rc6 28. Raf1 Kg7 29. Rf8 g5 30. Rb8 Bf4+ 31. Kh1 Rb6 32. Re1 Nd3 33. Re2 Rb1+",
+    "fen": "1R6/pp4kp/4p3/3p2p1/5bP1/3n3P/P3R1B1/1r5K w - - 8 34",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/UV0325pL"
+}

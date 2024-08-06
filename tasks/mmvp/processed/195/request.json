@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/195/195.jpg'> Are juice and all carrots on the same surface? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/195/195.jpg"
+    ],
+    "answer": "(a)"
+}

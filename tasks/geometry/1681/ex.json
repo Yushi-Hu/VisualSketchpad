@@ -1,0 +1,127 @@
+{
+    "problem_text": "Polygon A B C D \\sim polygon A E F G, m \\angle A G F = 108, G F = 14, A D = 12, D G = 4.5, E F = 8, and A B = 26. Find scale factor of trapezoid A B C D to trapezoid A E F G.",
+    "choices": [
+        "1.6",
+        "4.5",
+        "12",
+        "26"
+    ],
+    "answer": "A",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Other"
+    ],
+    "problem_type_goal": [
+        "Ratio"
+    ],
+    "source": "textbook2_chapter6.pdf page 16",
+    "comment": "",
+    "id": 1681,
+    "annot_id": "Ran_2020-03-20_05_48_31",
+    "is_standard": false,
+    "compact_choices": [
+        "1.6",
+        "4.5",
+        "12",
+        "26"
+    ],
+    "precise_value": [
+        1.6,
+        4.5,
+        12.0,
+        26.0
+    ],
+    "rough_value": [
+        1.6,
+        4.5,
+        12,
+        26
+    ],
+    "compact_text": "Polygon ABCD \\sim polygon AEFG, m \\angle AGF = 108, GF = 14, AD = 12, DG = 4.5, EF = 8, and AB = 26. Find scale factor of trapezoid ABCD to trapezoid AEFG.",
+    "annotat_text": "Polygon ABCD ~ polygon AEFG, $m\\angle AGF = 108$, GF = 14, AD = 12, DG = 4.5, EF = 8, and AB = 26.\r\nFind scale factor of trapezoid ABCD to trapezoid AEFG",
+    "unit": "",
+    "img_width": 411,
+    "img_height": 256,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Similar(Quadrilateral(A,B,C,D),Quadrilateral(A,E,F,G))",
+            "Equals(MeasureOf(Angle(A,G,F)),108)",
+            "Equals(LengthOf(Line(G,F)),14)",
+            "Equals(LengthOf(Line(A,D)),12)",
+            "Equals(LengthOf(Line(D,G)),4.5)",
+            "Equals(LengthOf(Line(E,F)),8)",
+            "Equals(LengthOf(Line(A,B)),26)",
+            "Find(ScaleFactorOf(Trapezoid(A,B,C,D),Trapezoid(A,E,F,G)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Similar(Quadrilateral(A,B,C,D),Quadrilateral(A,E,F,G))",
+            "Equals(MeasureOf(Angle(A,G,F)),108)",
+            "Equals(LengthOf(Line(G,F)),14)",
+            "Equals(LengthOf(Line(A,D)),12)",
+            "Equals(LengthOf(Line(D,G)),4.5)",
+            "Equals(LengthOf(Line(E,F)),8)",
+            "Equals(LengthOf(Line(A,B)),26)",
+            "Find(ScaleFactorOf(Trapezoid(A,B,C,D),Trapezoid(A,E,F,G)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(A, B)), 26)",
+            "Equals(LengthOf(Line(E, F)), 8)",
+            "Equals(LengthOf(Line(A, D)), 12)",
+            "Equals(LengthOf(Line(G, F)), 14)",
+            "Equals(LengthOf(Line(G, D)), 4.5)",
+            "Equals(MeasureOf(Angle(A, G, F)), 108)",
+            "PointLiesOnLine(E, Line(A, B))",
+            "PointLiesOnLine(G, Line(A, D))"
+        ],
+        "line_instances": [
+            "AE",
+            "EB",
+            "AB",
+            "GF",
+            "CD",
+            "AG",
+            "GD",
+            "AD",
+            "EF",
+            "BC"
+        ],
+        "point_positions": {
+            "B": [
+                250.0,
+                1.0
+            ],
+            "G": [
+                22.0,
+                89.0
+            ],
+            "C": [
+                249.0,
+                133.0
+            ],
+            "D": [
+                37.0,
+                132.0
+            ],
+            "E": [
+                156.0,
+                9.0
+            ],
+            "F": [
+                159.0,
+                87.0
+            ],
+            "A": [
+                1.0,
+                27.0
+            ]
+        },
+        "circle_instances": [
+            ""
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Coordinates of points\npoints = {\n    \"B\": [250.0, 1.0],\n    \"G\": [22.0, 89.0],\n    \"C\": [249.0, 133.0],\n    \"D\": [37.0, 132.0],\n    \"E\": [156.0, 9.0],\n    \"F\": [159.0, 87.0],\n    \"A\": [1.0, 27.0]\n}\n\n# Line instances\nlines = [\n    (\"A\", \"E\"),\n    (\"E\", \"B\"),\n    (\"A\", \"B\"),\n    (\"G\", \"F\"),\n    (\"C\", \"D\"),\n    (\"A\", \"G\"),\n    (\"G\", \"D\"),\n    (\"A\", \"D\"),\n    (\"E\", \"F\"),\n    (\"B\", \"C\")\n]\n\n# Create a larger figure\nfig, ax = plt.subplots(figsize=(10, 10))\n\n# Plotting each line\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k')  # 'k' is the color black\n\n# Labeling points\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], f' {point}', color='red', fontsize=20, verticalalignment='bottom', horizontalalignment='right')\n\n# Setting aspect of the plot as equal\nax.set_aspect('equal')\n\n# Removing axes for clear visibility of diagram\nax.axis('off')\n\n# Show the plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/6c17b216cc594b15b9c423cb06186916.png"
+}

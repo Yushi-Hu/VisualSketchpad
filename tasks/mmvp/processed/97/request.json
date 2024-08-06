@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/97/97.jpg'> Does the keyboard have a backlight? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/97/97.jpg"
+    ],
+    "answer": "(a)"
+}

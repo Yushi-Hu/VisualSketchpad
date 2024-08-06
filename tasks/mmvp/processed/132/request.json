@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/132/132.jpg'> Where is the yellow animal's head lying in this image? Options: (a) Floor (b) Carpet",
+    "images": [
+        "../tasks/mmvp/processed/132/132.jpg"
+    ],
+    "answer": "(b)"
+}

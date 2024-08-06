@@ -1,0 +1,9 @@
+{
+    "query": "<img src='../tasks/blink_jigsaw/processed/val_Jigsaw_66/image1.jpg'> <img src='../tasks/blink_jigsaw/processed/val_Jigsaw_66/image2.jpg'> <img src='../tasks/blink_jigsaw/processed/val_Jigsaw_66/image3.jpg'> Given the first image with the lower right corner missing, can you tell which one of the second image or the third image is the missing part? Imagine which image would be more appropriate to place in the missing spot. You can also carefully observe and compare the edges of the images.\nSelect from the following choices.\n\n(A) the second image\n(B) the third image\n",
+    "images": [
+        "../tasks/blink_jigsaw/processed/val_Jigsaw_66/image1.jpg",
+        "../tasks/blink_jigsaw/processed/val_Jigsaw_66/image2.jpg",
+        "../tasks/blink_jigsaw/processed/val_Jigsaw_66/image3.jpg"
+    ],
+    "answer": "(A)"
+}

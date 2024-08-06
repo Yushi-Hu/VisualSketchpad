@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = e^{0.66 x} + e^{1.25 x} - 0.76 \\log{\\left(x \\right)} + 0.2 \\left|{x}\\right| + 10.13$$",
+    "code": "f(x) = exp(0.66*x) + exp(1.25*x) - 0.76*log(x) + 0.2*Abs(x) + 10.13",
+    "label": "convex",
+    "id": "isobench/math/convexity_99"
+}

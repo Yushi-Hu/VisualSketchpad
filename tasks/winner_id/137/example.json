@@ -1,0 +1,7 @@
+{
+    "anl": "r . b . q r . .\np p p . . p . .\n. . n . p B p .\n. . . n P . N .\n. . . P . . . k\n. . P . . . P .\nP . . Q B P . P\nR . . . . R K .",
+    "pgn": "1. d4 d5 2. c4 Nf6 3. cxd5 Qxd5 4. Nf3 Qd8 5. Nc3 e6 6. e4 Bb4 7. Bd3 Bxc3+ 8. bxc3 O-O 9. e5 Nd5 10. Qc2 Nc6 11. Bxh7+ Kh8 12. Bd3 g6 13. O-O Kg7 14. Bg5 Qe8 15. Bf6+ Kh7 16. Ng5+ Kh6 17. Qd2 Kh5 18. Be2+ Kh4 19. g3#",
+    "fen": "r1b1qr2/ppp2p2/2n1pBp1/3nP1N1/3P3k/2P3P1/P2QBP1P/R4RK1 b - - 0 19",
+    "label": "White",
+    "id": "isobench/chess/winner_id/VHTp2IHP"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/277/277.jpg'> What are all the letter in the image? Options: (a) SUGAR (b) UGA",
+    "images": [
+        "../tasks/mmvp/processed/277/277.jpg"
+    ],
+    "answer": "(a)"
+}

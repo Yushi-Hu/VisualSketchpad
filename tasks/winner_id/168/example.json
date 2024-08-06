@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . K . . .\n. . . . . . . .\n. . . . k q . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .",
+    "pgn": "1. d4 d5 2. Bf4 c5 3. e3 Nc6 4. c3 g6 5. Nf3 c4 6. Be2 Bg7 7. Qc2 Nf6 8. Ne5 O-O 9. f3 Bf5 10. Qd2 Nxe5 11. dxe5 Nh5 12. Bg3 Nxg3 13. hxg3 Bxe5 14. f4 Bg7 15. Na3 a6 16. O-O-O e6 17. Bf3 Rb8 18. Qe2 Qe7 19. e4 dxe4 20. Bxe4 Bxc3 21. Bxf5 gxf5 22. bxc3 Qxa3+ 23. Kb1 Qxc3 24. Rc1 Qb4+ 25. Ka1 b5 26. Rb1 Qc3+ 27. Rb2 Qxg3 28. Rh3 Qxf4 29. Qh5 h6 30. g3 Qg5 31. Qxh6 Qxh6 32. Rxh6 Kg7 33. Rbh2 Rh8 34. Rxh8 Rxh8 35. Rf2 Rh1+ 36. Kb2 Kf6 37. Kc3 Rc1+ 38. Kb2 Rg1 39. Rf3 e5 40. Kc3 Rc1+ 41. Kb4 c3 42. Kb3 a5 43. g4 f4 44. a4 bxa4+ 45. Kxa4 c2 46. Kb3 a4+ 47. Kb2 Rb1+ 48. Kxc2 Rb4 49. Ra3 e4 50. Kc3 Rb3+ 51. Rxb3 axb3 52. Kxb3 Ke5 53. Kc3 Kd5 54. Kd2 Kd4 55. Ke2 Kc3 56. g5 Kc2 57. Kf2 Kd2 58. Kf1 e3 59. Kg2 e2 60. Kf3 e1=Q 61. Kxf4 Qf1+ 62. Kg4 Qg1+ 63. Kh5 Ke3 64. Kh6 Kf4 65. Kg7 Qxg5+ 66. Kxf7 Ke5 67. Kf8 Qf6+ 68. Ke8 Ke6",
+    "fen": "4K3/8/4kq2/8/8/8/8/8 w - - 5 69",
+    "label": "Draw",
+    "id": "isobench/chess/winner_id/auEernoF"
+}

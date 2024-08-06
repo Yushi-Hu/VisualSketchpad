@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/193/193.jpg'> Are these vegetables placed on the floor or on the soil? Options: (a) Floor (b) Soil",
+    "images": [
+        "../tasks/mmvp/processed/193/193.jpg"
+    ],
+    "answer": "(a)"
+}

@@ -1,0 +1,84 @@
+{
+    "problem_text": "Find Y Z.",
+    "choices": [
+        "2",
+        "4",
+        "6",
+        "8"
+    ],
+    "answer": "B",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Triangle"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "textbook1_chapter_4.pdf",
+    "comment": "",
+    "id": 2009,
+    "annot_id": "Shibiao_2020-03-21_15_42_08",
+    "is_standard": false,
+    "compact_choices": [
+        "2",
+        "4",
+        "6",
+        "8"
+    ],
+    "precise_value": [
+        2.0,
+        4.0,
+        6.0,
+        8.0
+    ],
+    "rough_value": [
+        2,
+        4,
+        6,
+        8
+    ],
+    "compact_text": "Find YZ.",
+    "annotat_text": "Find $YZ$.",
+    "unit": "",
+    "img_width": 432,
+    "img_height": 384,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Find(LengthOf(Line(Y,Z)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Find(LengthOf(Line(Y,Z)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(Y, X)), 4)",
+            "Equals(LengthOf(Line(Z, X)), 4)",
+            "Equals(MeasureOf(Angle(X, Y, Z)), 60)",
+            "Equals(MeasureOf(Angle(Y, Z, X)), 60)"
+        ],
+        "line_instances": [
+            "YZ",
+            "YX",
+            "ZX"
+        ],
+        "circle_instances": [],
+        "point_positions": {
+            "Y": [
+                -1.4210854715202004e-14,
+                214.0
+            ],
+            "Z": [
+                245.0935876310789,
+                212.00293566166027
+            ],
+            "X": [
+                123.59534148731076,
+                0.7891849183021975
+            ]
+        }
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Define coordinates\npoints = {\n    \"Y\": [-1.4210854715202004e-14, 214.0],\n    \"Z\": [245.0935876310789, 212.00293566166027],\n    \"X\": [123.59534148731076, 0.7891849183021975]\n}\n\n# Create the plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\nax.axis('off')\n\n# Plot lines\nlines = [(\"Y\", \"Z\"), (\"Y\", \"X\"), (\"Z\", \"X\")]\nfor line in lines:\n    point1, point2 = line\n    x_values = [points[point1][0], points[point2][0]]\n    y_values = [points[point1][1], points[point2][1]]\n    ax.plot(x_values, y_values, 'k')  # 'k' for black line\n\n# Plot points and labels\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' for black dot\n    ax.text(coord[0], coord[1], f' {point}', fontsize=20, color='red', verticalalignment='bottom')\n\n# Set limits and show plot\nax.set_xlim(min(p[0] for p in points.values()) - 10, max(p[0] for p in points.values()) + 10)\nax.set_ylim(min(p[1] for p in points.values()) - 10, max(p[1] for p in points.values()) + 10)\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/d7c2f01f8e604f85b7c827ab73e10ff9.png"
+}

@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{x^{10} + x^{5} - x^{2} - 1.05}{8 x^{8} + 2 x^{6} + 8.0}$$",
+    "code": "f(x) = (x**10 + x**5 - x**2 - 1.05)/(8*x**8 + 2*x**6 + 8.0)",
+    "label": "neither",
+    "id": "isobench/math/parity_201"
+}

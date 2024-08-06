@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/blink_spatial/processed/val_Spatial_Relation_121/image.jpg'> Is the dining table away from the potted plant?\nSelect from the following choices.\n(A) yes\n(B) no",
+    "images": [
+        "../tasks/blink_spatial/processed/val_Spatial_Relation_121/image.jpg"
+    ],
+    "answer": "(B)"
+}

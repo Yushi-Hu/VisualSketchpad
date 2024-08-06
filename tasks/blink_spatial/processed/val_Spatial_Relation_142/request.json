@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/blink_spatial/processed/val_Spatial_Relation_142/image.jpg'> Is the cat on top of the laptop?\nSelect from the following choices.\n(A) yes\n(B) no",
+    "images": [
+        "../tasks/blink_spatial/processed/val_Spatial_Relation_142/image.jpg"
+    ],
+    "answer": "(B)"
+}

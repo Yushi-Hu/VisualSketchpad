@@ -1,0 +1,7 @@
+{
+    "anl": ". q . . . . . k\np . . . . . p .\nK . . . . b . p\n. . . . . . . .\n. . . . . . . .\n. . . . . P . .\nr . . . . . . P\n. . . . . . . .",
+    "pgn": "1. e4 e5 2. d4 exd4 3. c3 d6 4. Bc4 Nf6 5. Bxf7+ Kxf7 6. Nf3 Nxe4 7. Nbd2 Nxd2 8. Bxd2 Be7 9. O-O Rf8 10. Nxd4 Kg8 11. Qb3+ Kh8 12. f4 Rf6 13. f5 h6 14. Ne6 Bxe6 15. fxe6 b6 16. Rxf6 Bxf6 17. Rf1 Qe7 18. Re1 Nc6 19. Qb5 Ne5 20. Qa6 c5 21. b4 Qxe6 22. bxc5 dxc5 23. Bf4 Nf3+ 24. gxf3 Qxe1+ 25. Qf1 Qxf1+ 26. Kxf1 Bxc3 27. Bc7 Re8 28. Kg2 Re2+ 29. Kg3 Rxa2 30. Bb8 b5 31. Kf4 b4 32. Ke4 b3 33. Kd3 Bf6 34. Kc4 b2 35. Kb3 b1=Q+ 36. Kc4 Qxb8 37. Kxc5 Qd8 38. Kc6 Rc2+ 39. Kb5 Qb8+ 40. Ka6 Ra2#",
+    "fen": "1q5k/p5p1/K4b1p/8/8/5P2/r6P/8 w - - 7 41",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/FLax7mqh"
+}

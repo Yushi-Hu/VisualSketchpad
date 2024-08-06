@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/69/69.jpg'> Did the snake stick out its tongue and touch its skin? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/69/69.jpg"
+    ],
+    "answer": "(a)"
+}

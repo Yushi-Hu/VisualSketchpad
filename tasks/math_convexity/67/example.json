@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = - 0.39 x^{3} - 1.5 \\left|{x}\\right| + 3.98$$",
+    "code": "f(x) = -0.39*x**3 - 1.5*Abs(x) + 3.98",
+    "label": "concave",
+    "id": "isobench/math/convexity_147"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/248/248.jpg'> Are there any fruits or vegetables in the heart-shaped part of the picture? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/248/248.jpg"
+    ],
+    "answer": "(b)"
+}

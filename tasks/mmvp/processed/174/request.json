@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/174/174.jpg'> Is the decoration on the Easter egg flat or raised? Options: (a) Flat (b) Raised",
+    "images": [
+        "../tasks/mmvp/processed/174/174.jpg"
+    ],
+    "answer": "(b)"
+}

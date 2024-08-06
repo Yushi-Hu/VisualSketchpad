@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/41/41.jpg'> Based on the image, is the following statement correct: The spider has 8 legs? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/41/41.jpg"
+    ],
+    "answer": "(a)"
+}

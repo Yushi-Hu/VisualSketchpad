@@ -1,0 +1,7 @@
+{
+    "anl": ". k . . . . N .\np p . . . Q . p\n. . . b . B . .\n. . p . . b P .\n. . . p . . . .\nP P . P . . . P\n. . P . . . B .\n. . . . q . K R",
+    "pgn": "1. e3 e6 2. h3 d5 3. g4 c5 4. Bg2 Nc6 5. d3 Qb6 6. a3 Bd6 7. b3 Bd7 8. Bb2 Nf6 9. g5 Nh5 10. Qxh5 O-O-O 11. Bxg7 Rhg8 12. Bf6 Rde8 13. Nf3 e5 14. Nc3 d4 15. Nd5 Qa5+ 16. Ke2 dxe3 17. fxe3 Bf5 18. Qxf7 Nd4+ 19. Nxd4 exd4 20. Ne7+ Kb8 21. Nxg8 Rxe3+ 22. Kf2 Qd2+ 23. Kg1 Re1+ 24. Rxe1 Qxe1+ 25. Bf1 Qg3+ 26. Bg2 Qe1+ 27. Bf1 Qg3+ 28. Bg2 Qe1+",
+    "fen": "1k4N1/pp3Q1p/3b1B2/2p2bP1/3p4/PP1P3P/2P3B1/4q1KR w - - 8 29",
+    "label": "Draw",
+    "id": "isobench/chess/winner_id/D3AwGDs9"
+}

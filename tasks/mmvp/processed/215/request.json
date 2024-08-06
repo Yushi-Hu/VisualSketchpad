@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/215/215.jpg'> Are there black stripes on the roof of the car? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/215/215.jpg"
+    ],
+    "answer": "(a)"
+}

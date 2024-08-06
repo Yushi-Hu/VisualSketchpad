@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . . .\n. q . . . . . .\n. . . . . . . .\nK . . . . . . .\nP . . . k . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .",
+    "pgn": "1. e4 e5 2. Nf3 Bc5 3. Bc4 Nf6 4. Nc3 Nc6 5. O-O d6 6. h3 Nd4 7. Nxd4 Bxd4 8. Re1 O-O 9. d3 b6 10. Bd2 Bb7 11. Rb1 d5 12. exd5 Nxd5 13. Nxd5 Bxd5 14. Bxd5 Qxd5 15. Be3 Bxe3 16. Rxe3 f6 17. a3 Rfd8 18. Rg3 Qd4 19. Qh5 Qf4 20. Rf3 Qg5 21. Qxg5 fxg5 22. Rf5 e4 23. dxe4 h6 24. Rd5 Rd6 25. Rbd1 Rad8 26. c4 Kf7 27. b3 Ke6 28. f3 Rxd5 29. Rxd5 Rxd5 30. exd5+ Ke5 31. Kf2 Kd4 32. Ke2 Kc3 33. b4 Kxc4 34. Ke3 Kxd5 35. Kd3 c5 36. bxc5 bxc5 37. Kc3 a5 38. a4 c4 39. g3 g6 40. h4 gxh4 41. gxh4 g5 42. hxg5 hxg5 43. Kd2 Kd4 44. Kc2 Ke3 45. Kc3 Kxf3 46. Kxc4 g4 47. Kb5 g3 48. Kxa5 g2 49. Kb6 g1=Q+ 50. Kb5 Qg5+ 51. Kb4 Qe7+ 52. Kb5 Qb7+ 53. Ka5 Ke4",
+    "fen": "8/1q6/8/K7/P3k3/8/8/8 w - - 8 54",
+    "label": "Draw",
+    "id": "isobench/chess/winner_id/CVqF9NoO"
+}

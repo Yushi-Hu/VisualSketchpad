@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/240/240.jpg'> Are the leather shoes placed side by side or is one on top of the other? Options: (a) Side by side (b) One on top of the other",
+    "images": [
+        "../tasks/mmvp/processed/240/240.jpg"
+    ],
+    "answer": "(b)"
+}

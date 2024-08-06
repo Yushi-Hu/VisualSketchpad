@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/112/112.jpg'> Is the end of the elephant's trunk pointing inward or outward? Options: (a) Inward (b) Outward",
+    "images": [
+        "../tasks/mmvp/processed/112/112.jpg"
+    ],
+    "answer": "(b)"
+}

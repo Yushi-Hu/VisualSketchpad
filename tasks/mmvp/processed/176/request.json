@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/176/176.jpg'> In the image, is the nail polish on the toes dark or light in color? Options: (a) Dark (b) Light",
+    "images": [
+        "../tasks/mmvp/processed/176/176.jpg"
+    ],
+    "answer": "(b)"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/163/163.jpg'> Is the Christmas tree positioned in front of a large window or in front of a wall situated between two windows? Options: (a) In front of a large window (b) In front of a wall between two windows",
+    "images": [
+        "../tasks/mmvp/processed/163/163.jpg"
+    ],
+    "answer": "(a)"
+}

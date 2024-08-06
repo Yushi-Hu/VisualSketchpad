@@ -1,0 +1,83 @@
+{
+    "problem_text": "Find the area of the regular polygon. Round to the nearest tenth.",
+    "choices": [
+        "3.5",
+        "6.9",
+        "13.8",
+        "27.6"
+    ],
+    "answer": "B",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Triangle"
+    ],
+    "problem_type_goal": [
+        "Area"
+    ],
+    "source": "textbook1_chapter_11.pdf",
+    "comment": "",
+    "id": 2298,
+    "annot_id": "pan_2020-03-23_04_40_08",
+    "is_standard": false,
+    "unit": "ft^2",
+    "compact_choices": [
+        "3.5",
+        "6.9",
+        "13.8",
+        "27.6"
+    ],
+    "precise_value": [
+        3.5,
+        6.9,
+        13.8,
+        27.6
+    ],
+    "rough_value": [
+        3.5,
+        6.9,
+        13.8,
+        27.6
+    ],
+    "compact_text": "Find the area of the regular polygon. Round to the nearest tenth.",
+    "annotat_text": "Find the area of the regular polygon. Round to the nearest tenth.",
+    "img_width": 283,
+    "img_height": 258,
+    "data_type": "val",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Find(AreaOf(Regular(Polygon($))))"
+        ],
+        "dissolved_text_logic_form": [
+            "Find(AreaOf(Regular(Triangle(A,B,C))))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(B, C)), 4)"
+        ],
+        "line_instances": [
+            "AB",
+            "AC",
+            "BC"
+        ],
+        "point_positions": {
+            "A": [
+                1.0,
+                214.0
+            ],
+            "B": [
+                244.0,
+                212.0
+            ],
+            "C": [
+                121.0,
+                1.0
+            ]
+        },
+        "circle_instances": [
+            ""
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Coordinates of the points\npoints = {\n    \"A\": [1.0, 214.0],\n    \"B\": [244.0, 212.0],\n    \"C\": [121.0, 1.0]\n}\n\n# Set up the plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\nfig.set_size_inches(12, 8)\nax.axis('off')\n\n# Draw lines between points\nlines = [(\"A\", \"B\"), (\"A\", \"C\"), (\"B\", \"C\")]\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' denotes black line\n\n# Label points\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], point, color='red', fontsize=20, ha='right' if point == \"C\" else 'left', va='bottom' if point == \"A\" else 'top')\n\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/99b24f069a2b4615928f67ff943af858.png"
+}

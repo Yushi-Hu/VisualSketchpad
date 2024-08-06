@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/296/296.jpg'> Is the edge of the heart in the picture white or dark-colored? Options: (a) White (b) Dark-colored",
+    "images": [
+        "../tasks/mmvp/processed/296/296.jpg"
+    ],
+    "answer": "(b)"
+}

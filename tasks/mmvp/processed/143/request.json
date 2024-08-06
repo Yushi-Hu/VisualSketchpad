@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/143/143.jpg'> Is the ladybug positioned upright or upside down? Options: (a) Upright (b) Upside down",
+    "images": [
+        "../tasks/mmvp/processed/143/143.jpg"
+    ],
+    "answer": "(a)"
+}

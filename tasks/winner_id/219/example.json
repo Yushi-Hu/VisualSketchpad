@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . . Q\n. . . . . . . .\np . . . . P . .\n. . . . . . . .\n. . . n . . . .\n. . k . . . . .\n. . . . . . . .\n. q . K . . . .",
+    "pgn": "1. e4 e5 2. Nf3 Nf6 3. d4 Nc6 4. Bg5 exd4 5. Nxd4 Nxd4 6. Qxd4 Be7 7. e5 Nd5 8. Bxe7 Nxe7 9. e6 fxe6 10. Qxg7 Rg8 11. Qxh7 d5 12. Nc3 a6 13. O-O-O Qd6 14. Qh5+ Kd8 15. g3 c5 16. Ne4 Qc6 17. Nf6 Rf8 18. Qh6 Rf7 19. Be2 e5 20. Bh5 Qxf6 21. Qh8+ Qxh8 22. Bxf7 d4 23. h4 Bg4 24. Rd2 Kc7 25. Bc4 Rf8 26. Re1 b5 27. Be2 Bxe2 28. Rexe2 Nc6 29. a3 Qh6 30. Kb1 Kd6 31. c3 Kd5 32. cxd4 exd4 33. f4 Rg8 34. Rg2 Qh7+ 35. Kc1 c4 36. Rd1 Re8 37. Rgd2 Qg7 38. b3 Qxg3 39. f5 Qc3+ 40. Rc2 Qxb3 41. f6 d3 42. Rf2 Qxa3+ 43. Kb1 Re2 44. Rxe2 Qb3+ 45. Kc1 c3 46. Rxd3+ Kc4 47. Ree3 Qb2+ 48. Kd1 Nd4 49. Rxc3+ Qxc3 50. Rxc3+ Kxc3 51. h5 b4 52. h6 b3 53. h7 b2 54. h8=Q b1=Q#",
+    "fen": "7Q/8/p4P2/8/3n4/2k5/8/1q1K4 w - - 0 55",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/qF30vrZ7"
+}

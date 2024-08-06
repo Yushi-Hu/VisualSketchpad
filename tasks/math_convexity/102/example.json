@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = 0.88 \\log{\\left(x \\right)} + 0.74$$",
+    "code": "f(x) = 0.88*log(x) + 0.74",
+    "label": "concave",
+    "id": "isobench/math/convexity_142"
+}

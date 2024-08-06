@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/30/30.jpg'> Based on the image, is the following statement correct: We cannot see the window on the school bus? Options: (a) Correct (b) Incorrect",
+    "images": [
+        "../tasks/mmvp/processed/30/30.jpg"
+    ],
+    "answer": "(b)"
+}

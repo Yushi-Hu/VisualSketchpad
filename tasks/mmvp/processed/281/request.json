@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/281/281.jpg'> Are there drinks on the table? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/281/281.jpg"
+    ],
+    "answer": "(a)"
+}

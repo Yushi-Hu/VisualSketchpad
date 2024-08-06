@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . r k . .\n. . . Q . . . .\n. . p . . q . .\np . . . . p . .\nP . . . . . . .\n. B P . . . . .\n. K P . . . . .\nR . . . . . . .",
+    "pgn": "1. g3 e5 2. Bg2 Nc6 3. d3 g6 4. Nc3 Bg7 5. Bd2 d6 6. e4 Nge7 7. h3 O-O 8. f4 h6 9. Nf3 Bd7 10. g4 f5 11. exf5 gxf5 12. g5 Ng6 13. h4 Nxf4 14. Bxf4 exf4 15. Qd2 Re8+ 16. Kd1 Qe7 17. Re1 Qf7 18. Rxe8+ Rxe8 19. a3 Ne5 20. Nxe5 dxe5 21. Bxb7 c6 22. Ba6 e4 23. Qxf4 Qh5+ 24. Kc1 Be5 25. Qf1 Qxh4 26. gxh6 Qxh6+ 27. Kb1 Bxc3 28. Bc4+ Kf8 29. bxc3 Qf6 30. Kb2 Rb8+ 31. Bb3 a5 32. a4 exd3 33. Qxd3 Re8 34. Qxd7",
+    "fen": "4rk2/3Q4/2p2q2/p4p2/P7/1BP5/1KP5/R7 b - - 0 34",
+    "label": "White",
+    "id": "isobench/chess/winner_id/3IqsqY4H"
+}

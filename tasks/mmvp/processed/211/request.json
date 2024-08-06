@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/211/211.jpg'> Is the heart-shaped object resting on the palm or being held by the fingers? Options: (a) Palm (b) Fingers",
+    "images": [
+        "../tasks/mmvp/processed/211/211.jpg"
+    ],
+    "answer": "(a)"
+}

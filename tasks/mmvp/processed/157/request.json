@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/157/157.jpg'> Is the frame at the front of the motorcycle primarily silver or black in color? Options: (a) Silver (b) Black",
+    "images": [
+        "../tasks/mmvp/processed/157/157.jpg"
+    ],
+    "answer": "(a)"
+}

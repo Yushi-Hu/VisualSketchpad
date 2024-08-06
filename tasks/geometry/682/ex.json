@@ -1,0 +1,92 @@
+{
+    "problem_text": "Find m \\widehat V X.",
+    "choices": [
+        "28",
+        "71",
+        "152",
+        "166"
+    ],
+    "answer": "C",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Circle"
+    ],
+    "problem_type_goal": [
+        "Angle"
+    ],
+    "source": "textbook1_chapter_10.pdf",
+    "comment": "",
+    "id": 682,
+    "annot_id": "Shibiao_2020-03-28_11_46_53",
+    "is_standard": false,
+    "compact_choices": [
+        "28",
+        "71",
+        "152",
+        "166"
+    ],
+    "precise_value": [
+        28.0,
+        71.0,
+        152.0,
+        166.0
+    ],
+    "rough_value": [
+        28,
+        71,
+        152,
+        166
+    ],
+    "compact_text": "Find m \\widehat VX.",
+    "annotat_text": "Find $m \\widehat {VX}$.",
+    "unit": "",
+    "img_width": 414,
+    "img_height": 407,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Find(MeasureOf(Arc(V,X)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Find(MeasureOf(Arc(V,X)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(MeasureOf(Angle(V, X, V)), 14)",
+            "PointLiesOnLine(F, Line(X, W))",
+            "PointLiesOnCircle(X, Circle(F, radius_8_0))",
+            "PointLiesOnCircle(V, Circle(F, radius_8_0))",
+            "PointLiesOnCircle(W, Circle(F, radius_8_0))"
+        ],
+        "line_instances": [
+            "FX",
+            "VX",
+            "WF",
+            "WX"
+        ],
+        "point_positions": {
+            "F": [
+                127.0,
+                127.0
+            ],
+            "V": [
+                112.0,
+                2.0
+            ],
+            "W": [
+                56.0,
+                24.0
+            ],
+            "X": [
+                203.0,
+                232.0
+            ]
+        },
+        "circle_instances": [
+            "F"
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Define points\npoints = {\"F\": [127.0, 127.0], \"V\": [112.0, 2.0], \"W\": [56.0, 24.0], \"X\": [203.0, 232.0]}\n\n# Define lines\nlines = [(\"F\", \"X\"), (\"V\", \"X\"), (\"W\", \"F\"), (\"W\", \"X\")]\n\n# Define circle center and points on the circle\ncenter = points[\"F\"]\nradius = np.sqrt((points[\"X\"][0] - center[0])**2 + (points[\"X\"][1] - center[1])**2)\n\n# Create the plot\nfig, ax = plt.subplots()\n\n# Plot lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Plot circle\ncircle = plt.Circle(center, radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Plot points\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' for black circle at points\n    ax.text(coord[0], coord[1], f' {point}', color='red', fontsize=20, verticalalignment='bottom', horizontalalignment='right')\n\n# Set equal aspect and limits\nax.set_aspect('equal')\nplt.axis('off')\nax.set_xlim(center[0] - 3*radius, center[0] + 3*radius)\nax.set_ylim(center[1] - 3*radius, center[1] + 3*radius)\n\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/0892149dc8e34311a8c40f274e04e437.png"
+}

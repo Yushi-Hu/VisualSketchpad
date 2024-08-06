@@ -1,0 +1,7 @@
+{
+    "anl": "r . b q k . n r\np p p p . Q p p\n. . n . . . . .\n. . b . p . . .\n. . B . P . . .\n. . . . . . . .\nP P P P . P P P\nR N B . K . N R",
+    "pgn": "1. e4 e5 2. Bc4 Bc5 3. Qh5 Nc6 4. Qxf7#",
+    "fen": "r1bqk1nr/pppp1Qpp/2n5/2b1p3/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 0 4",
+    "label": "White",
+    "id": "isobench/chess/winner_id/aPiTTUIB"
+}

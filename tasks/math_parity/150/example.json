@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{8 x^{5} \\left(x^{4} - 1\\right)}{2 x^{8} + 27.6}$$",
+    "code": "f(x) = 8*x**5*(x**4 - 1)/(2*x**8 + 27.6)",
+    "label": "odd",
+    "id": "isobench/math/parity_343"
+}

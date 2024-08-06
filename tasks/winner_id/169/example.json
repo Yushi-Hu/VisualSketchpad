@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . k . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\nK . . . . . . .\n. . . . . . . .\n. q . . . . . .\n. . q . . . . .",
+    "pgn": "1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Nxd4 Bg7 5. Nc3 Nc6 6. Be3 Nf6 7. f3 d5 8. Nxc6 bxc6 9. exd5 cxd5 10. Qd4 O-O 11. O-O-O e6 12. Bg5 h6 13. Bh4 g5 14. Bg3 a5 15. Be5 a4 16. a3 Ba6 17. Nxa4 Bxf1 18. Rhxf1 Ne8 19. Bxg7 Nxg7 20. f4 g4 21. h3 h5 22. hxg4 hxg4 23. Rh1 Qa5 24. Nc3 Qa7 25. Qe5 f6 26. Qe3 Qxe3+ 27. Kb1 Qxf4 28. Rdf1 Qxf1+ 29. Rxf1 d4 30. Ne4 Nf5 31. Nc5 Kf7 32. Nd7 Rfd8 33. Nb6 Rab8 34. Nc4 d3 35. cxd3 Rxd3 36. Rf2 Rdb3 37. Na5 Rxb2+ 38. Rxb2 Rxb2+ 39. Kxb2 Ne3 40. g3 Nf5 41. Nc4 Nxg3 42. a4 Ne4 43. a5 Nc5 44. Kc3 g3 45. Kd2 g2 46. Nd6+ Kf8 47. Ne4 g1=Q 48. Nxf6 Qd4+ 49. Kc2 Qxf6 50. Kd2 Qd8+ 51. Kc3 Qxa5+ 52. Kc4 Qd2 53. Kxc5 e5 54. Kc4 e4 55. Kc5 e3 56. Kc4 e2 57. Kc5 e1=Q 58. Kc4 Qec1+ 59. Kb3 Qdb2+ 60. Ka4",
+    "fen": "5k2/8/8/8/K7/8/1q6/2q5 b - - 5 60",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/azPZGlwc"
+}

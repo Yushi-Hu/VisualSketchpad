@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/25/25.jpg'> What color is the chicken's body? Options: (a) Black (b) Red",
+    "images": [
+        "../tasks/mmvp/processed/25/25.jpg"
+    ],
+    "answer": "(a)"
+}

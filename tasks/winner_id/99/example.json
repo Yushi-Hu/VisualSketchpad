@@ -1,0 +1,7 @@
+{
+    "anl": ". r . . k . . r\n. b . p . p p p\n. N . . p . . q\n. . . . . . . .\n. P . . . . . .\n. . P . P B P .\n. . . B Q . K .\nR . . . . R . .",
+    "pgn": "1. d4 c5 2. dxc5 e6 3. Nf3 Bxc5 4. e3 Nf6 5. Be2 Bb4+ 6. Bd2 Qb6 7. c3 Bd6 8. b4 Nc6 9. O-O Ne5 10. a4 Nxf3+ 11. Bxf3 Qc7 12. a5 Bxh2+ 13. Kh1 Qe5 14. g3 Nh5 15. Kxh2 Nxg3 16. fxg3 b6 17. Qe2 Rb8 18. axb6 axb6 19. Na3 Bb7 20. Nc4 Qf6 21. Nxb6 Qh6+ 22. Kg2",
+    "fen": "1r2k2r/1b1p1ppp/1N2p2q/8/1P6/2P1PBP1/3BQ1K1/R4R2 b k - 2 22",
+    "label": "White",
+    "id": "isobench/chess/winner_id/NQOiHF5L"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/207/207.jpg'> Is the bell pepper in the picture red or yellow? Options: (a) Red (b) Yellow",
+    "images": [
+        "../tasks/mmvp/processed/207/207.jpg"
+    ],
+    "answer": "(a)"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/206/206.jpg'> Is the coffee cup made of glass? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/206/206.jpg"
+    ],
+    "answer": "(b)"
+}

@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = 0.99 x^{3} + e^{0.73 x} + 0.57 \\left|{x}\\right| - 7.93$$",
+    "code": "f(x) = 0.99*x**3 + exp(0.73*x) + 0.57*Abs(x) - 7.93",
+    "label": "convex",
+    "id": "isobench/math/convexity_74"
+}

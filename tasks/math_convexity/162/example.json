@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = 1.28 x^{3} + e^{0.12 x} + e^{2.07 x} + 10.18$$",
+    "code": "f(x) = 1.28*x**3 + exp(0.12*x) + exp(2.07*x) + 10.18",
+    "label": "convex",
+    "id": "isobench/math/convexity_37"
+}

@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{1.46 - 4 x^{2}}{8 x^{10} - 8 x^{6} + 10 x^{2} + 12.14}$$",
+    "code": "f(x) = (1.46 - 4*x**2)/(8*x**10 - 8*x**6 + 10*x**2 + 12.14)",
+    "label": "even",
+    "id": "isobench/math/parity_76"
+}

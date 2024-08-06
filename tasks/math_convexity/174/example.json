@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = 0.7 x^{4} - 0.42 \\log{\\left(x \\right)} + 0.34 \\left|{x}\\right| + 1.9$$",
+    "code": "f(x) = 0.7*x**4 - 0.42*log(x) + 0.34*Abs(x) + 1.9",
+    "label": "convex",
+    "id": "isobench/math/convexity_13"
+}

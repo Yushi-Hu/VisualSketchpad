@@ -1,0 +1,90 @@
+{
+    "problem_text": "Find the area of the parallelogram. Round to the nearest tenth if necessary.",
+    "choices": [
+        "150",
+        "259.9",
+        "300",
+        "519.6"
+    ],
+    "answer": "B",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Parallelogram"
+    ],
+    "problem_type_goal": [
+        "Area"
+    ],
+    "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+    "comment": "",
+    "id": 871,
+    "annot_id": "pan_2020-03-21_20_28_56",
+    "is_standard": false,
+    "unit": "in^2",
+    "compact_choices": [
+        "150",
+        "259.9",
+        "300",
+        "519.6"
+    ],
+    "precise_value": [
+        150.0,
+        259.9,
+        300.0,
+        519.6
+    ],
+    "rough_value": [
+        150,
+        259.9,
+        300,
+        519.6
+    ],
+    "compact_text": "Find the area of the parallelogram. Round to the nearest tenth if necessary.",
+    "annotat_text": "Find the area of the parallelogram. Round to the nearest tenth if necessary.",
+    "img_width": 442,
+    "img_height": 164,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Find(AreaOf(Parallelogram($)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Find(AreaOf(Parallelogram(D,C,B,E)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(E, D)), 10)",
+            "Equals(LengthOf(Line(C, D)), 30)",
+            "Equals(MeasureOf(Angle(C, E, D)), 60)"
+        ],
+        "line_instances": [
+            "BC",
+            "BE",
+            "CD",
+            "ED"
+        ],
+        "point_positions": {
+            "B": [
+                310.0,
+                91.0
+            ],
+            "C": [
+                360.0,
+                4.0
+            ],
+            "D": [
+                54.0,
+                1.0
+            ],
+            "E": [
+                0.0,
+                91.0
+            ]
+        },
+        "circle_instances": [
+            ""
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Coordinates of points\npoints = {\n    \"B\": [310.0, 91.0],\n    \"C\": [360.0, 4.0],\n    \"D\": [54.0, 1.0],\n    \"E\": [0.0, 91.0]\n}\n\n# Create a figure and an axes.\nfig, ax = plt.subplots()\n\n# Set the aspect of the plot to be equal\nax.set_aspect('equal')\n\n# Hide the axes\nax.axis('off')\n\n# Set the size of the figure\nfig.set_size_inches(12, 8)\n\n# Draw lines between points\nlines = [(\"B\", \"C\"), (\"B\", \"E\"), (\"C\", \"D\"), (\"E\", \"D\")]\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' denotes black color line\n\n# Label points\nfor point, coord in points.items():\n    ax.text(coord[0] + 5, coord[1] + 5, point, color='red', fontsize=20)\n\n# Show the plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/941cf6c32e6e45c8b56ba0880fd14dbd.png"
+}

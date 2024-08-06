@@ -1,0 +1,7 @@
+{
+    "anl": "r n b . k b n r\np p p p . p p p\n. . . . . . . .\n. . . . q . . .\n. . . p P . . .\n. . . . . N . .\nP P P . . P P P\nR N B . K B . R",
+    "pgn": "1. e4 e5 2. d4 exd4 3. Qh5 Qe7 4. Qe5 Qxe5 5. Nf3",
+    "fen": "rnb1kbnr/pppp1ppp/8/4q3/3pP3/5N2/PPP2PPP/RNB1KB1R b KQkq - 1 5",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/e47N1QT4"
+}

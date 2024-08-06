@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/2/2.jpg'> Are the butterfly's wings closer to being open or closed? Options: (a) Open (b) Closed",
+    "images": [
+        "../tasks/mmvp/processed/2/2.jpg"
+    ],
+    "answer": "(b)"
+}

@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{- 5 x^{4} - 3 x^{2} - 13.44}{x^{10} - 3 x^{6} + 8.85}$$",
+    "code": "f(x) = (-5*x**4 - 3*x**2 - 13.44)/(x**10 - 3*x**6 + 8.85)",
+    "label": "even",
+    "id": "isobench/math/parity_120"
+}

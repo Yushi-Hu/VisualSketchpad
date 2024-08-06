@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = 0.45 x^{7} + e^{0.57 x} + 10.92$$",
+    "code": "f(x) = 0.45*x**7 + exp(0.57*x) + 10.92",
+    "label": "convex",
+    "id": "isobench/math/convexity_20"
+}

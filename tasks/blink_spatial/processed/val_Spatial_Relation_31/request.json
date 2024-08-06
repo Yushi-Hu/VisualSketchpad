@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/blink_spatial/processed/val_Spatial_Relation_31/image.jpg'> Is the airplane far away from the bicycle?\nSelect from the following choices.\n(A) yes\n(B) no",
+    "images": [
+        "../tasks/blink_spatial/processed/val_Spatial_Relation_31/image.jpg"
+    ],
+    "answer": "(A)"
+}

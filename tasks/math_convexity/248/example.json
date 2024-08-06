@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = e^{1.0 x} - 0.79 \\log{\\left(x \\right)} + 0.58 \\left|{x}\\right| - 14.96$$",
+    "code": "f(x) = exp(1.0*x) - 0.79*log(x) + 0.58*Abs(x) - 14.96",
+    "label": "convex",
+    "id": "isobench/math/convexity_12"
+}

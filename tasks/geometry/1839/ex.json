@@ -1,0 +1,90 @@
+{
+    "problem_text": "Find the perimeter of the parallelogram. Round to the nearest tenth if necessary.",
+    "choices": [
+        "10",
+        "13.7",
+        "14.9",
+        "16"
+    ],
+    "answer": "B",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Parallelogram"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+    "comment": "",
+    "id": 1839,
+    "annot_id": "pan_2020-03-21_20_31_42",
+    "is_standard": false,
+    "unit": "m",
+    "compact_choices": [
+        "10",
+        "13.7",
+        "14.9",
+        "16"
+    ],
+    "precise_value": [
+        10.0,
+        13.7,
+        14.9,
+        16.0
+    ],
+    "rough_value": [
+        10,
+        13.7,
+        14.9,
+        16
+    ],
+    "compact_text": "Find the perimeter of the parallelogram. Round to the nearest tenth if necessary.",
+    "annotat_text": "Find the perimeter of the parallelogram. Round to the nearest tenth if necessary.",
+    "img_width": 408,
+    "img_height": 220,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Find(PerimeterOf(Parallelogram($)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Find(PerimeterOf(Parallelogram(A,C,B,O)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(C, B)), 4)",
+            "Equals(MeasureOf(Angle(C, B, O)), 45)",
+            "Perpendicular(Line(C,O), Line(B,O))"
+        ],
+        "line_instances": [
+            "AC",
+            "AO",
+            "CB",
+            "OB"
+        ],
+        "point_positions": {
+            "A": [
+                362.0,
+                2.0
+            ],
+            "B": [
+                0.0,
+                183.0
+            ],
+            "C": [
+                182.0,
+                1.0
+            ],
+            "O": [
+                183.0,
+                183.0
+            ]
+        },
+        "circle_instances": [
+            ""
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Define the coordinates\ncoordinates = {\n    \"A\": [362.0, 2.0],\n    \"B\": [0.0, 183.0],\n    \"C\": [182.0, 1.0],\n    \"O\": [183.0, 183.0]\n}\n\n# Define the lines between points\nlines = {\n    \"AC\": (\"A\", \"C\"),\n    \"AO\": (\"A\", \"O\"),\n    \"CB\": (\"C\", \"B\"),\n    \"OB\": (\"O\", \"B\")\n}\n\n# Create a new figure with specified figure size\nfig, ax = plt.subplots(figsize=(10, 10))\n\n# Draw each line\nfor line in lines.values():\n    x_values = [coordinates[line[0]][0], coordinates[line[1]][0]]\n    y_values = [coordinates[line[0]][1], coordinates[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' specifies a black line\n\n# Plot each point and label them\nfor point, coord in coordinates.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' specifies black color for points\n    ax.text(coord[0], coord[1], f' {point}', fontsize=20, color='red', verticalalignment='bottom', horizontalalignment='right')\n\n# Set the aspect of the plot to be equal\nax.set_aspect('equal')\n\n# Remove axes\nax.axis('off')\n\n# Show the plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/e7450043430f423d8cf0be4f6fad875b.png"
+}

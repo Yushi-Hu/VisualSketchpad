@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = - \\frac{2 x^{5}}{2 x^{8} - 4 x^{6} + 12 x^{4} + 4 x^{2} + 11.16}$$",
+    "code": "f(x) = -2*x**5/(2*x**8 - 4*x**6 + 12*x**4 + 4*x**2 + 11.16)",
+    "label": "odd",
+    "id": "isobench/math/parity_284"
+}

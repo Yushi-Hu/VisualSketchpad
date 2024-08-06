@@ -1,0 +1,7 @@
+{
+    "anl": "Q . . . . . . .\n. . . . . . . .\n. . p . . . . .\n. . . . . . . r\n. . . . . . . .\nR . P k . . . p\n. . . . . . . K\n. . . . . n . .",
+    "pgn": "1. d4 d5 2. c4 dxc4 3. Nc3 c5 4. Nf3 cxd4 5. Nxd4 Nf6 6. Bg5 e5 7. Nf3 Qxd1+ 8. Rxd1 Nc6 9. e3 Bg4 10. Bxc4 e4 11. Bxf6 exf3 12. g3 gxf6 13. h3 Be6 14. Bb5 Bb4 15. a3 Bxc3+ 16. bxc3 Ke7 17. Bxc6 bxc6 18. O-O Bxh3 19. Rfe1 Bg2 20. Rd4 Rad8 21. Ra4 Rd5 22. Rxa7+ Ke6 23. g4 Rg8 24. Ra4 Rxg4 25. Rxg4 Rh5 26. Rxg2 fxg2 27. Kxg2 Kd5 28. Ra1 Kc4 29. a4 Ra5 30. Ra3 h5 31. f4 Kd3 32. Kf3 h4 33. e4 h3 34. e5 fxe5 35. fxe5 Rxe5 36. Kg3 Rh5 37. Kh2 f5 38. a5 f4 39. a6 f3 40. a7 f2 41. a8=Q f1=N+ 42. Kh1 Ng3+ 43. Kh2 Nf1+ 44. Kh1 Ng3+ 45. Kh2 Nf1+",
+    "fen": "Q7/8/2p5/7r/8/R1Pk3p/7K/5n2 w - - 8 46",
+    "label": "Draw",
+    "id": "isobench/chess/winner_id/cSN9nNhO"
+}

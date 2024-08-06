@@ -1,0 +1,95 @@
+{
+    "problem_text": "Find the area of the parallelogram.",
+    "choices": [
+        "396",
+        "560.0",
+        "685.9",
+        "792"
+    ],
+    "answer": "A",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Parallelogram"
+    ],
+    "problem_type_goal": [
+        "Area"
+    ],
+    "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+    "comment": "",
+    "id": 1855,
+    "annot_id": "pan_2020-03-22_07_16_26",
+    "is_standard": false,
+    "unit": "mm^2",
+    "compact_choices": [
+        "396",
+        "560.0",
+        "685.9",
+        "792"
+    ],
+    "precise_value": [
+        396.0,
+        560.0,
+        685.9,
+        792.0
+    ],
+    "rough_value": [
+        396,
+        560,
+        685.9,
+        792
+    ],
+    "compact_text": "Find the area of the parallelogram.",
+    "annotat_text": "Find the area of the parallelogram.",
+    "img_width": 418,
+    "img_height": 139,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Find(AreaOf(Parallelogram($)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Find(AreaOf(Parallelogram(A,B,C,D)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(A, B)), 36)",
+            "Equals(LengthOf(Line(A, D)), 22)",
+            "Equals(MeasureOf(Angle(B, C, E)), 30)",
+            "Perpendicular(Line(B, E), Line(C, E))",
+            "PointLiesOnLine(E, Line(C, D))"
+        ],
+        "line_instances": [
+            "AB",
+            "AD",
+            "BC",
+            "BE",
+            "CE",
+            "DC",
+            "DE"
+        ],
+        "point_positions": {
+            "A": [
+                339.0,
+                1.0
+            ],
+            "B": [
+                131.0,
+                2.0
+            ],
+            "C": [
+                2.0,
+                74.0
+            ],
+            "D": [
+                215.0,
+                74.0
+            ]
+        },
+        "circle_instances": [
+            ""
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Define the coordinates\npoints = {\"A\": [339.0, 1.0], \"B\": [131.0, 2.0], \"C\": [2.0, 74.0], \"D\": [215.0, 74.0]}\n\n# Create the figure and axis\nfig, ax = plt.subplots()\nax.set_aspect('equal')\n\n# Draw lines based on line instances provided\nlines = {\n    \"AB\": (\"A\", \"B\"),\n    \"AD\": (\"A\", \"D\"),\n    \"BC\": (\"B\", \"C\"),\n    \"DC\": (\"D\", \"C\"),\n}\n\nfor line, (start, end) in lines.items():\n    x_values = [points[start][0], points[end][0]]\n    y_values = [points[start][1], points[end][1]]\n    ax.plot(x_values, y_values, marker='o', color='black')\n\n# Label points\nfor point, coord in points.items():\n    ax.text(coord[0] + 2, coord[1] + 2, point, fontsize=20, color='red', verticalalignment='bottom', horizontalalignment='left')\n\n# Set limits and hide axes\nax.set_xlim(0, 350)\nax.set_ylim(0, 100)\nax.axis('off')\n\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/64eb9819a77649be98df319e8eb6b3d0.png"
+}

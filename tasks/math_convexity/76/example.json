@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = 0.25 x^{3} - 1.28 \\log{\\left(x \\right)} + 2.29 \\left|{x}\\right| - 10.5$$",
+    "code": "f(x) = 0.25*x**3 - 1.28*log(x) + 2.29*Abs(x) - 10.5",
+    "label": "convex",
+    "id": "isobench/math/convexity_15"
+}

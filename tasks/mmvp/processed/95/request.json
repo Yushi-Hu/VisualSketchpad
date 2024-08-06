@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/95/95.jpg'> From the camera's perspective, is the spider web very dense or relatively sparse? Options: (a) Very dense (b) Relatively sparse",
+    "images": [
+        "../tasks/mmvp/processed/95/95.jpg"
+    ],
+    "answer": "(a)"
+}

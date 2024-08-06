@@ -1,0 +1,111 @@
+{
+    "problem_text": "Find the area of the shaded region (Calculate the area of the shaded region by subtracting the area of pentagon AFHEC from the area of circle G). Assume that the polygon is regular unless otherwise stated. Round to the nearest tenth.",
+    "choices": [
+        "139.1",
+        "516.2",
+        "721.1",
+        "762.7"
+    ],
+    "answer": "A",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Circle",
+        "Triangle"
+    ],
+    "problem_type_goal": [
+        "Area"
+    ],
+    "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+    "comment": "",
+    "id": 708,
+    "annot_id": "pan_2020-03-22_06_44_11",
+    "is_standard": false,
+    "unit": "units^2",
+    "compact_choices": [
+        "139.1",
+        "516.2",
+        "721.1",
+        "762.7"
+    ],
+    "precise_value": [
+        139.1,
+        516.2,
+        721.1,
+        762.7
+    ],
+    "rough_value": [
+        139.1,
+        516.2,
+        721.1,
+        762.7
+    ],
+    "compact_text": "Find the area of the shaded region. Assume that the polygon is regular unless otherwise stated. Round to the nearest tenth.",
+    "annotat_text": "Find the area of the shaded region. Assume that the polygon is regular unless otherwise stated. Round to the nearest tenth.",
+    "img_width": 237,
+    "img_height": 241,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Regular(Polygon($))",
+            "Find(AreaOf(Shaded(Shape($))))"
+        ],
+        "dissolved_text_logic_form": [
+            "Regular(Hexagon(A,F,H,E,C,D))",
+            "Find(AreaOf(Shaded(Shape($))))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(H, G)), 16)",
+            "PointLiesOnCircle(A, Circle(G, radius_6_0))",
+            "PointLiesOnCircle(C, Circle(G, radius_6_0))",
+            "PointLiesOnCircle(D, Circle(G, radius_6_0))",
+            "PointLiesOnCircle(E, Circle(G, radius_6_0))",
+            "PointLiesOnCircle(F, Circle(G, radius_6_0))",
+            "PointLiesOnCircle(H, Circle(G, radius_6_0))"
+        ],
+        "line_instances": [
+            "AD",
+            "AF",
+            "CE",
+            "DC",
+            "EH",
+            "FH"
+        ],
+        "point_positions": {
+            "A": [
+                3.0,
+                94.0
+            ],
+            "C": [
+                139.0,
+                13.0
+            ],
+            "D": [
+                46.0,
+                17.0
+            ],
+            "E": [
+                191.0,
+                100.0
+            ],
+            "F": [
+                52.0,
+                178.0
+            ],
+            "G": [
+                94.0,
+                95.0
+            ],
+            "H": [
+                142.0,
+                179.0
+            ]
+        },
+        "circle_instances": [
+            "G"
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Define coordinates\npoints = {\n    \"A\": [3.0, 94.0],\n    \"C\": [139.0, 13.0],\n    \"D\": [46.0, 17.0],\n    \"E\": [191.0, 100.0],\n    \"F\": [52.0, 178.0],\n    \"G\": [94.0, 95.0],\n    \"H\": [142.0, 179.0]\n}\n\n# Define lines\nlines = [\n    (\"A\", \"D\"),\n    (\"A\", \"F\"),\n    (\"C\", \"E\"),\n    (\"D\", \"C\"),\n    (\"E\", \"H\"),\n    (\"F\", \"H\")\n]\n\n# Define the circle with center G and radius 6\ncircle_center = points[\"G\"]\ncircle_radius = 6.0\n\n# Create the plot\nfig, ax = plt.subplots()\n\n# Plot lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Plot circle\ncircle = plt.Circle(circle_center, circle_radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Plot points and labels\nfor point, coord in points.items():\n    ax.plot(*coord, 'ko')  # 'ko' for black circle at point\n    ax.text(coord[0], coord[1], f' {point}', color='red', fontsize=20, va='center', ha='center')\n\n# Set plot limits\nmax_radius = max(2 * circle_radius, max(max(coord) for coord in points.values()))\nax.set_xlim(circle_center[0] - max_radius, circle_center[0] + max_radius)\nax.set_ylim(circle_center[1] - max_radius, circle_center[1] + max_radius)\n\n# Set aspect of plot\nax.set_aspect('equal')\n\n# Hide background\nax.set_axis_off()\n\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/4c524a58d895448faac95b72a41e7670.png"
+}

@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = 0.15 x^{4} + e^{0.41 x} - 2.31 \\log{\\left(x \\right)} + 1.98$$",
+    "code": "f(x) = 0.15*x**4 + exp(0.41*x) - 2.31*log(x) + 1.98",
+    "label": "convex",
+    "id": "isobench/math/convexity_2"
+}

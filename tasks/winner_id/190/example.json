@@ -1,0 +1,7 @@
+{
+    "anl": "r n . . . . . .\np . . . k . . p\n. p p . B p . .\n. . . . . . . .\n. . . . P . . .\n. Q . . . . . .\nP P P . . P P P\n. K . r . . . .",
+    "pgn": "1. e4 e5 2. Nf3 d6 3. d4 f6 4. dxe5 fxe5 5. Nxe5 dxe5 6. Qh5+ Ke7 7. Qxe5+ Be6 8. Bc4 Qd6 9. Bg5+ Nf6 10. Bxf6+ gxf6 11. Qb5 b6 12. Nd2 c6 13. Qb3 Bh6 14. O-O-O Rd8 15. Bxe6 Bxd2+ 16. Rxd2 Qxd2+ 17. Kb1 Qd1+ 18. Rxd1 Rxd1#",
+    "fen": "rn6/p3k2p/1pp1Bp2/8/4P3/1Q6/PPP2PPP/1K1r4 w - - 0 19",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/hqGuUvW2"
+}

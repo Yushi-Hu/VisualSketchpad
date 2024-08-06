@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = - \\frac{x \\left(10.0 x^{6} + 6.0 x^{2} + 4.0\\right)}{4.0 x^{10} + 23.26}$$",
+    "code": "f(x) = -x*(10.0*x**6 + 6.0*x**2 + 4.0)/(4.0*x**10 + 23.26)",
+    "label": "odd",
+    "id": "isobench/math/parity_339"
+}

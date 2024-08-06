@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/186/186.jpg'> Is the person in the picture already standing on the weighing scale? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/186/186.jpg"
+    ],
+    "answer": "(b)"
+}

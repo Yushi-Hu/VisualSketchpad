@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/213/213.jpg'> Does the snowman have arms made of branches? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/213/213.jpg"
+    ],
+    "answer": "(a)"
+}

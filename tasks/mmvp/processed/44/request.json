@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/44/44.jpg'> Are the wheels of the school bus visible in the image? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/44/44.jpg"
+    ],
+    "answer": "(b)"
+}

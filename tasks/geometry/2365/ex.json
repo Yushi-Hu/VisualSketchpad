@@ -1,0 +1,90 @@
+{
+    "problem_text": "Find the perimeter of parallelogram A B C D to the nearest tenth.",
+    "choices": [
+        "23.1",
+        "23.9",
+        "34.6",
+        "43.1"
+    ],
+    "answer": "C",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Triangle",
+        "Parallelogram"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "textbook2_chapter7.pdf page 41",
+    "comment": "",
+    "id": 2365,
+    "annot_id": "Ran_2020-03-24_03_37_17",
+    "is_standard": false,
+    "compact_choices": [
+        "23.1",
+        "23.9",
+        "34.6",
+        "43.1"
+    ],
+    "precise_value": [
+        23.1,
+        23.9,
+        34.6,
+        43.1
+    ],
+    "rough_value": [
+        23.1,
+        23.9,
+        34.6,
+        43.1
+    ],
+    "compact_text": "Find the perimeter of parallelogram ABCD to the nearest tenth.",
+    "annotat_text": "Find the perimeter of parallelogram ABCD to the nearest tenth.",
+    "unit": "",
+    "img_width": 559,
+    "img_height": 239,
+    "data_type": "val",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Find(PerimeterOf(Parallelogram(A,B,C,D)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Find(PerimeterOf(Parallelogram(A,B,C,D)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(A, D)), 6)",
+            "Equals(MeasureOf(Angle(A, C, B)), 58)",
+            "Equals(MeasureOf(Angle(D, C, A)), 32)"
+        ],
+        "line_instances": [
+            "CA",
+            "CB",
+            "CD",
+            "AB",
+            "AD"
+        ],
+        "circle_instances": [],
+        "point_positions": {
+            "C": [
+                373.8941668262578,
+                168.85330059380584
+            ],
+            "A": [
+                95.64785517021016,
+                2.07035243779238
+            ],
+            "B": [
+                470.0,
+                1.0
+            ],
+            "D": [
+                0.18963560711131322,
+                169.3328289833144
+            ]
+        }
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Define the coordinates\npoints = {\n    \"C\": [373.8941668262578, 168.85330059380584],\n    \"A\": [95.64785517021016, 2.07035243779238],\n    \"B\": [470.0, 1.0],\n    \"D\": [0.18963560711131322, 169.3328289833144]\n}\n\n# Define the line instances\nlines = [\n    (\"C\", \"A\"),\n    (\"C\", \"B\"),\n    (\"C\", \"D\"),\n    (\"A\", \"B\"),\n    (\"A\", \"D\")\n]\n\n# Setup the plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\nax.axis('off')\n\n# Plot the lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Plot the points and labels\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' for black dot\n    ax.text(coord[0], coord[1], f' {point}', color='red', fontsize=20, verticalalignment='bottom', horizontalalignment='right')\n\n# Set figure size and layout\nfig.set_size_inches(12, 8)\nplt.tight_layout()\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/eee556f6e63d4cef8adc8b3a11da7bec.png"
+}

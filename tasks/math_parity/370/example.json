@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = - \\frac{x \\left(4.0 x^{6} + 6.0\\right)}{2.0 x^{8} + 8.0 x^{6} + 12.0 x^{4} + 17.34}$$",
+    "code": "f(x) = -x*(4.0*x**6 + 6.0)/(2.0*x**8 + 8.0*x**6 + 12.0*x**4 + 17.34)",
+    "label": "odd",
+    "id": "isobench/math/parity_302"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/100/100.jpg'> Does the elephant have long or short tusks? Options: (a) Long (b) Short",
+    "images": [
+        "../tasks/mmvp/processed/100/100.jpg"
+    ],
+    "answer": "(b)"
+}

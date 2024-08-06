@@ -1,0 +1,93 @@
+{
+    "problem_text": "The lengths of the bases of an isosceles trapezoid are shown below. If the perimeter is 74 meters, what is its area?",
+    "choices": [
+        "162",
+        "270",
+        "332.5",
+        "342.25"
+    ],
+    "answer": "A",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Trapezoid"
+    ],
+    "problem_type_goal": [
+        "Area"
+    ],
+    "source": "textbook1_chapter_11.pdf",
+    "comment": "Standardized Test Practice",
+    "id": 472,
+    "annot_id": "pan_2020-03-23_02_42_38",
+    "is_standard": true,
+    "unit": "m^2",
+    "compact_choices": [
+        "162",
+        "270",
+        "332.5",
+        "342.25"
+    ],
+    "precise_value": [
+        162.0,
+        270.0,
+        332.5,
+        342.25
+    ],
+    "rough_value": [
+        162,
+        270,
+        332.5,
+        342.25
+    ],
+    "compact_text": "The lengths of the bases of an isosceles trapezoid are shown below. If the perimeter is 74 meters, what is its area?",
+    "annotat_text": "The lengths of the bases of an isosceles trapezoid are shown below. If the perimeter is 74 meters, what is its area?",
+    "img_width": 331,
+    "img_height": 216,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Isosceles(Trapezoid($))",
+            "Equals(PerimeterOf(Polygon($)),74)",
+            "Find(AreaOf(Polygon($)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Isosceles(Trapezoid(A,B,C,D))",
+            "Equals(PerimeterOf(Trapezoid(A,B,C,D)),74)",
+            "Find(AreaOf(Trapezoid(A,B,C,D)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(C, D)), 19)",
+            "Equals(LengthOf(Line(A, B)), 35)"
+        ],
+        "line_instances": [
+            "AB",
+            "AC",
+            "BD",
+            "CD"
+        ],
+        "point_positions": {
+            "A": [
+                240.0,
+                130.0
+            ],
+            "B": [
+                1.0,
+                130.0
+            ],
+            "C": [
+                186.0,
+                1.0
+            ],
+            "D": [
+                57.0,
+                0.0
+            ]
+        },
+        "circle_instances": [
+            ""
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Define coordinates\npoints = {\"A\": [240.0, 130.0], \"B\": [1.0, 130.0], \"C\": [186.0, 1.0], \"D\": [57.0, 0.0]}\n\n# Create the figure and axis\nfig, ax = plt.subplots()\nax.set_aspect('equal')\n\n# Draw lines between points\nlines = [(\"A\", \"B\"), (\"A\", \"C\"), (\"B\", \"D\"), (\"C\", \"D\")]\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Annotate points\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], point, fontsize=20, color='red', ha='right', va='bottom')\n\n# Set limits and hide axes\nax.set_xlim(0, 250)\nax.set_ylim(0, 140)\nax.axis('off')\n\n# Display the plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/1fffb20e56de4ffa8c7f4e4f2a19cd50.png"
+}

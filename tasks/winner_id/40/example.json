@@ -1,0 +1,7 @@
+{
+    "anl": "Q . . . k b n r\n. . . . . p p p\n. . p . p . . .\n. n P p . . . .\n. . . P . P . .\np . . . P . . .\n. . . . . . P P\nR . . . K B N R",
+    "pgn": "1. d4 c6 2. e3 d5 3. c4 Bf5 4. c5 e6 5. f4 Bxb1 6. Rxb1 Qa5+ 7. b4 Qxa2 8. Rb2 Qa3 9. Qc2 a5 10. Rb1 axb4 11. Bxa3 bxa3 12. Ra1 Na6 13. Qb1 Nc7 14. Qxb7 Nb5 15. Qxa8+",
+    "fen": "Q3kbnr/5ppp/2p1p3/1nPp4/3P1P2/p3P3/6PP/R3KBNR b Kk - 0 15",
+    "label": "White",
+    "id": "isobench/chess/winner_id/9NUJRoLs"
+}

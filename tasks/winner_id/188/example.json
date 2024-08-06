@@ -1,0 +1,7 @@
+{
+    "anl": ". . k . . b n r\np b p . q p p p\n. p p . p . . .\n. . . . . . . .\n. . P . P . . .\n. . N . . N . .\nP P . . . P P P\nR . B B K . . R",
+    "pgn": "1. Nf3 e6 2. d4 Qe7 3. c4 b6 4. Nc3 Bb7 5. e4 Nc6 6. d5 O-O-O 7. dxc6 dxc6 8. Be2 Rxd1+ 9. Bxd1",
+    "fen": "2k2bnr/pbp1qppp/1pp1p3/8/2P1P3/2N2N2/PP3PPP/R1BBK2R b KQ - 0 9",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/guaCOzcd"
+}

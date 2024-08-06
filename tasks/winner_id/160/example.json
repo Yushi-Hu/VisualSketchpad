@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . k . .\n. . . . . . . R\n. . . . K . . .\np . . . B P . .\nr . . . . . . .\nP . . . . . . .\n. . . . . . . .\n. . . . . . . .",
+    "pgn": "1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nc3 e6 5. g4 Bg6 6. Nge2 c5 7. h4 h5 8. Nf4 Ne7 9. Nxg6 Nxg6 10. Bd3 Nxh4 11. gxh5 cxd4 12. Nb5 Bb4+ 13. Kf1 Nf5 14. Bxf5 exf5 15. Nxd4 Qd7 16. Qf3 Nc6 17. Nxf5 Nxe5 18. Nxg7+ Kf8 19. Qg3 Ng6 20. h6 Qb5+ 21. Kg2 Qc6 22. c3 d4+ 23. Qf3 Qxf3+ 24. Kxf3 dxc3 25. bxc3 Bxc3 26. Ba3+ Kg8 27. Rac1 Bxg7 28. hxg7 Kxg7 29. Bb2+ f6 30. Rc7+ Kg8 31. Rxh8+ Kxh8 32. Bxf6+ Kg8 33. Kg4 Nf8 34. Rxb7 Nh7 35. Be5 Rc8 36. Rg7+ Kf8 37. Rxh7 Rc4+ 38. f4 Rc1 39. Kf5 a5 40. Ke6 Rc6+ 41. Bd6+ Kg8 42. Ra7 Rc4 43. f5 Ra4 44. a3 Re4+ 45. Be5 Ra4 46. Rg7+ Kf8 47. Rh7",
+    "fen": "5k2/7R/4K3/p3BP2/r7/P7/8/8 b - - 6 47",
+    "label": "White",
+    "id": "isobench/chess/winner_id/aCkql2aH"
+}

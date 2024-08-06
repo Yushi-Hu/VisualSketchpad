@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/40/40.jpg'> Is the duck floating? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/40/40.jpg"
+    ],
+    "answer": "(b)"
+}

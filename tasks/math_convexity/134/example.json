@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = - 1.55 x^{3} - e^{0.84 x} - 2.24 \\left|{x}\\right| - 11.33$$",
+    "code": "f(x) = -1.55*x**3 - exp(0.84*x) - 2.24*Abs(x) - 11.33",
+    "label": "concave",
+    "id": "isobench/math/convexity_221"
+}

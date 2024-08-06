@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/76/76.jpg'> Do you see this flower from the top or the side? Options: (a) Top (b) Side",
+    "images": [
+        "../tasks/mmvp/processed/76/76.jpg"
+    ],
+    "answer": "(b)"
+}

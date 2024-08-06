@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/152/152.jpg'> The image captures a woman running from: Options: (a) Back view (b) Side view",
+    "images": [
+        "../tasks/mmvp/processed/152/152.jpg"
+    ],
+    "answer": "(b)"
+}

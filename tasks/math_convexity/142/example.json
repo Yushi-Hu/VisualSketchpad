@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = - 0.72 x^{6} + 0.98 \\log{\\left(x \\right)} - 0.42 \\left|{x}\\right| + 0.38$$",
+    "code": "f(x) = -0.72*x**6 + 0.98*log(x) - 0.42*Abs(x) + 0.38",
+    "label": "concave",
+    "id": "isobench/math/convexity_248"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/109/109.jpg'> Are the bird's wings flapping upward or downward? Options: (a) Upward (b) Downward",
+    "images": [
+        "../tasks/mmvp/processed/109/109.jpg"
+    ],
+    "answer": "(a)"
+}

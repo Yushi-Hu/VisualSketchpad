@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/192/192.jpg'> Is there a flower next to the Easter egg in the picture? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/192/192.jpg"
+    ],
+    "answer": "(b)"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/138/138.jpg'> In the picture, how is the snake primarily positioned? Options: (a) Coiled (b) Head extended",
+    "images": [
+        "../tasks/mmvp/processed/138/138.jpg"
+    ],
+    "answer": "(b)"
+}

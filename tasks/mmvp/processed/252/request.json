@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/252/252.jpg'> Is the beverage in the picture contained in a mug or a glass? Options: (a) Mug (b) Glass",
+    "images": [
+        "../tasks/mmvp/processed/252/252.jpg"
+    ],
+    "answer": "(b)"
+}

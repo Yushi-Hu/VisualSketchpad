@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/283/283.jpg'> In the image, is it a salmon fillet or a salmon steak? Options: (a) Salmon fillet (b) Salmon steak",
+    "images": [
+        "../tasks/mmvp/processed/283/283.jpg"
+    ],
+    "answer": "(a)"
+}

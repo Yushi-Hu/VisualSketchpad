@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{- 5 x^{8} + x^{5} - 5 x^{3} - 15.29}{5 x^{10} - x^{4} + 1.58}$$",
+    "code": "f(x) = (-5*x**8 + x**5 - 5*x**3 - 15.29)/(5*x**10 - x**4 + 1.58)",
+    "label": "neither",
+    "id": "isobench/math/parity_151"
+}

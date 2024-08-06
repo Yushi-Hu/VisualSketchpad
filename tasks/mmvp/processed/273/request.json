@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/273/273.jpg'> What pattern is in the picture? Options: (a) Pumpkin Lights (b) Bats",
+    "images": [
+        "../tasks/mmvp/processed/273/273.jpg"
+    ],
+    "answer": "(a)"
+}

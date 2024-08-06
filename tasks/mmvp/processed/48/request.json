@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/48/48.jpg'> How many spots are on the animal in the image? Options: (a) 5 (b) 6",
+    "images": [
+        "../tasks/mmvp/processed/48/48.jpg"
+    ],
+    "answer": "(b)"
+}

@@ -1,0 +1,7 @@
+{
+    "anl": ". . k r . b . r\np p p . . p p p\n. . . . . n b .\n. . . . N . . .\n. . . . . . . .\n. . N . . . . .\nP P . . K P P P\nn . B . . B . R",
+    "pgn": "1. e4 e5 2. d4 Nf6 3. c3 Nc6 4. Bd3 d5 5. exd5 Qxd5 6. Bf1 exd4 7. cxd4 Qxd4 8. Nc3 Qxd1+ 9. Nxd1 Bf5 10. Nc3 O-O-O 11. Nf3 Nb4 12. Ke2 Bd3+ 13. Ke3 Nc2+ 14. Kd2 Bg6+ 15. Ke2 Nxa1 16. Ne5",
+    "fen": "2kr1b1r/ppp2ppp/5nb1/4N3/8/2N5/PP2KPPP/n1B2B1R b - - 1 16",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/ukj45JEv"
+}

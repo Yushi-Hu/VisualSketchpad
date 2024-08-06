@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/297/297.jpg'> Are there patterns on the easter eggs? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/297/297.jpg"
+    ],
+    "answer": "(a)"
+}

@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = 0.69 x^{6} - 6.14$$",
+    "code": "f(x) = 0.69*x**6 - 6.14",
+    "label": "convex",
+    "id": "isobench/math/convexity_11"
+}

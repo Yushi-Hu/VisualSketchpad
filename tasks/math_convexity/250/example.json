@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = 0.1 x^{7} + 0.08 x^{5} + e^{0.51 x} + 1.05 \\left|{x}\\right| - 5.0$$",
+    "code": "f(x) = 0.1*x**7 + 0.08*x**5 + exp(0.51*x) + 1.05*Abs(x) - 5.0",
+    "label": "convex",
+    "id": "isobench/math/convexity_7"
+}

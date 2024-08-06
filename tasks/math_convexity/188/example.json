@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = 2.95 - 1.2 x$$",
+    "code": "f(x) = 2.95 - 1.2*x",
+    "label": "concave",
+    "id": "isobench/math/convexity_161"
+}

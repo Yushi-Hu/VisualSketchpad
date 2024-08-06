@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/115/115.jpg'> Is the snail in the picture facing the camera or away from the camera? Options: (a) Away from the camera (b) Facing the camera ",
+    "images": [
+        "../tasks/mmvp/processed/115/115.jpg"
+    ],
+    "answer": "(a)"
+}

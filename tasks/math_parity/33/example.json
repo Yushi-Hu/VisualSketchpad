@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{- 4 x^{2} - 18.56}{12 x^{4} + 18 x^{2} + 3.08}$$",
+    "code": "f(x) = (-4*x**2 - 18.56)/(12*x**4 + 18*x**2 + 3.08)",
+    "label": "even",
+    "id": "isobench/math/parity_72"
+}

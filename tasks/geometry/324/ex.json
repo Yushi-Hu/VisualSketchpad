@@ -1,0 +1,124 @@
+{
+    "problem_text": "Find the area of the shaded region (subtracting the area of an isosceles triangle ACE from the area of a circular sector ACE in which it is contained.). Assume the inscribed polygon is regular.",
+    "choices": [
+        "3.3",
+        "6.5",
+        "12.3",
+        "19.6"
+    ],
+    "answer": "A",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Circle",
+        "Triangle"
+    ],
+    "problem_type_goal": [
+        "Area"
+    ],
+    "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+    "comment": "",
+    "id": 324,
+    "annot_id": "pan_2020-03-22_06_49_49",
+    "is_standard": false,
+    "unit": "units^2",
+    "compact_choices": [
+        "3.3",
+        "6.5",
+        "12.3",
+        "19.6"
+    ],
+    "precise_value": [
+        3.3,
+        6.5,
+        12.3,
+        19.6
+    ],
+    "rough_value": [
+        3.3,
+        6.5,
+        12.3,
+        19.6
+    ],
+    "compact_text": "Find the area of the shaded region. Assume the inscribed polygon is regular.",
+    "annotat_text": "Find the area of the shaded region. Assume the inscribed polygon is regular.",
+    "img_width": 315,
+    "img_height": 265,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Regular(Polygon($))",
+            "Find(AreaOf(Shaded(Shape($))))"
+        ],
+        "dissolved_text_logic_form": [
+            "Regular(Polygon(A,J,H,B,F,E))",
+            "Find(AreaOf(Shaded(Shape($))))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(PerimeterOf(Cirle(C))), 12)",
+            "PointLiesOnLine(C, Line(A, B))",
+            "PointLiesOnLine(C, Line(E, H))",
+            "PointLiesOnLine(C, Line(J, F))",
+            "PointLiesOnCircle(A, Circle(C, radius_2_0))",
+            "PointLiesOnCircle(B, Circle(C, radius_2_0))",
+            "PointLiesOnCircle(E, Circle(C, radius_2_0))",
+            "PointLiesOnCircle(F, Circle(C, radius_2_0))",
+            "PointLiesOnCircle(H, Circle(C, radius_2_0))",
+            "PointLiesOnCircle(J, Circle(C, radius_2_0))"
+        ],
+        "line_instances": [
+            "AJ",
+            "JH",
+            "BH",
+            "BF",
+            "EF",
+            "AE",
+            "AC",
+            "JC",
+            "HC",
+            "BC",
+            "FC",
+            "EC",
+            "AB",
+            "EH",
+            "FD",
+            ""
+        ],
+        "point_positions": {
+            "A": [
+                127.0,
+                3.0
+            ],
+            "B": [
+                99.0,
+                223.0
+            ],
+            "C": [
+                111.0,
+                113.0
+            ],
+            "E": [
+                25.0,
+                46.0
+            ],
+            "F": [
+                11.0,
+                154.0
+            ],
+            "H": [
+                202.0,
+                179.0
+            ],
+            "J": [
+                213.0,
+                66.0
+            ]
+        },
+        "circle_instances": [
+            "C"
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Define the coordinates\npoints = {\n    \"A\": [127.0, 3.0],\n    \"B\": [99.0, 223.0],\n    \"C\": [111.0, 113.0],\n    \"E\": [25.0, 46.0],\n    \"F\": [11.0, 154.0],\n    \"H\": [202.0, 179.0],\n    \"J\": [213.0, 66.0]\n}\n\n# Define lines\nlines = [\n    (\"A\", \"J\"), (\"J\", \"H\"), (\"B\", \"H\"), (\"B\", \"F\"), (\"E\", \"F\"),\n    (\"A\", \"E\"), (\"A\", \"C\"), (\"J\", \"C\"), (\"H\", \"C\"), (\"B\", \"C\"),\n    (\"F\", \"C\"), (\"E\", \"C\"), (\"A\", \"B\"), (\"E\", \"H\"), (\"F\", \"D\")\n]\n\n# Calculate circle radius from point C to other points and find maximum for setting limits\nradii = [np.sqrt((points[\"C\"][0] - points[p][0])**2 + (points[\"C\"][1] - points[p][1])**2) for p in points]\nmax_radius = max(radii)\n\n# Create plot\nfig, ax = plt.subplots()\n\n# Draw lines\nfor line in lines:\n    if line[1] in points:  # Check if second point is not empty\n        x_values = [points[line[0]][0], points[line[1]][0]]\n        y_values = [points[line[0]][1], points[line[1]][1]]\n        ax.plot(x_values, y_values, 'k-')  # Black line\n\n# Draw circle\ncircle = plt.Circle((points[\"C\"][0], points[\"C\"][1]), max_radius, color='blue', fill=False)\nax.add_artist(circle)\n\n# Plot points and labels\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ro')  # Red point\n    ax.text(coord[0] + 0.5, coord[1] + 0.5, point, fontsize=20, color='red')\n\n# Set equal aspect and limits adjusted to circle size\nax.set_aspect('equal')\nax.set_xlim(points[\"C\"][0] - 1.5 * max_radius, points[\"C\"][0] + 1.5 * max_radius)\nax.set_ylim(points[\"C\"][1] - 1.5 * max_radius, points[\"C\"][1] + 1.5 * max_radius)\n\n# Hide axes\nax.axis('off')\n\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/1b42ac3c8b7048689af8565dd1aecef6.png"
+}

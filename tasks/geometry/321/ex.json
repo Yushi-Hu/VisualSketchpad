@@ -1,0 +1,123 @@
+{
+    "problem_text": "Chords A C and D F are equidistant from the center. If the radius of \\odot G is 26, find D E.",
+    "choices": [
+        "12",
+        "20",
+        "24",
+        "26"
+    ],
+    "answer": "C",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Circle"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "textbook2_chapter10.pdf page 20",
+    "comment": "",
+    "id": 321,
+    "annot_id": "Ran_2020-03-28_02_38_24",
+    "is_standard": false,
+    "compact_choices": [
+        "12",
+        "20",
+        "24",
+        "26"
+    ],
+    "precise_value": [
+        12.0,
+        20.0,
+        24.0,
+        26.0
+    ],
+    "rough_value": [
+        12,
+        20,
+        24,
+        26
+    ],
+    "compact_text": "Chords AC and DF are equidistant from the center. If the radius of \\odot G is 26, find DE.",
+    "annotat_text": "Chords $\\overline{A C}$ and $\\overline{D F}$ are equidistant from the center. If the radius of $\\odot G$ is 26 find $D E$",
+    "unit": "",
+    "img_width": 297,
+    "img_height": 265,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "IsChordOf(Line(A,C),Circle($))",
+            "IsChordOf(Line(D,F),Circle($))",
+            "Line(A,C)",
+            "Line(D,F)",
+            "Equals(RadiusOf(Circle(G)),26)",
+            "Find(LengthOf(Line(D,E)))"
+        ],
+        "dissolved_text_logic_form": [
+            "IsChordOf(Line(A,C),Circle(G))",
+            "IsChordOf(Line(D,F),Circle(G))",
+            "Line(A,C)",
+            "Line(D,F)",
+            "Equals(RadiusOf(Circle(G)),26)",
+            "Find(LengthOf(Line(D,E)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(B, G)), 10)",
+            "Equals(LengthOf(Line(E, G)), 10)",
+            "PointLiesOnLine(E, Line(D, F))",
+            "PointLiesOnLine(B, Line(A, C))",
+            "PointLiesOnCircle(D, Circle(G, radius_2_0))",
+            "PointLiesOnCircle(A, Circle(G, radius_2_0))",
+            "PointLiesOnCircle(F, Circle(G, radius_2_0))",
+            "PointLiesOnCircle(C, Circle(G, radius_2_0))"
+        ],
+        "line_instances": [
+            "AB",
+            "AC",
+            "AG",
+            "BG",
+            "CB",
+            "DE",
+            "DF",
+            "EG",
+            "FE",
+            "FG"
+        ],
+        "point_positions": {
+            "A": [
+                85.0,
+                1.0
+            ],
+            "B": [
+                132.0,
+                52.0
+            ],
+            "C": [
+                177.0,
+                102.0
+            ],
+            "D": [
+                64.0,
+                174.0
+            ],
+            "E": [
+                36.0,
+                111.0
+            ],
+            "F": [
+                10.0,
+                48.0
+            ],
+            "G": [
+                89.0,
+                88.0
+            ]
+        },
+        "circle_instances": [
+            "G"
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Coordinates\npoints = {\n    \"A\": [85.0, 1.0], \n    \"B\": [132.0, 52.0], \n    \"C\": [177.0, 102.0], \n    \"D\": [64.0, 174.0], \n    \"E\": [36.0, 111.0], \n    \"F\": [10.0, 48.0], \n    \"G\": [89.0, 88.0]\n}\n\n# Line instances\nlines = [\n    (\"A\", \"B\"), (\"A\", \"C\"), (\"A\", \"G\"), \n    (\"B\", \"G\"), (\"C\", \"B\"), (\"D\", \"E\"), \n    (\"D\", \"F\"), (\"E\", \"G\"), (\"F\", \"E\"), (\"F\", \"G\")\n]\n\n# Circle instances (center and points on the circle)\ncircle_center = \"G\"\ncircle_points = [\"D\", \"A\", \"F\", \"C\"]\ncircle_radius = np.sqrt((points[circle_center][0] - points[\"D\"][0])**2 + (points[circle_center][1] - points[\"D\"][1])**2)\n\n# Setup plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\nax.axis('off')\n\n# Plot lines\nfor line in lines:\n    x_vals = [points[line[0]][0], points[line[1]][0]]\n    y_vals = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_vals, y_vals, 'k-')  # 'k-' for black line\n\n# Plot circle\ncircle = plt.Circle((points[circle_center][0], points[circle_center][1]), circle_radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Plot points and labels\nfor point, coords in points.items():\n    ax.plot(coords[0], coords[1], 'ko')  # 'ko' for black circle\n    ax.text(coords[0], coords[1] + 3, point, color='red', fontsize=20, ha='center')\n\n# Set limits\nmax_radius = 1.5 * circle_radius\nx_values = [p[0] for p in points.values()]\ny_values = [p[1] for p in points.values()]\nx_max, x_min = max(x_values) + max_radius, min(x_values) - max_radius\ny_max, y_min = max(y_values) + max_radius, min(y_values) - max_radius\nax.set_xlim(x_min, x_max)\nax.set_ylim(y_min, y_max)\n\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/3e20d46fa9f74774b591a3d122520148.png"
+}

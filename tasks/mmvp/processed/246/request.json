@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/246/246.jpg'> Is the elderly person in the picture standing or sitting? Options: (a) Standing (b) Sitting",
+    "images": [
+        "../tasks/mmvp/processed/246/246.jpg"
+    ],
+    "answer": "(b)"
+}

@@ -1,0 +1,7 @@
+{
+    "anl": "r . b . . r k .\np p . . . . b p\n. . p . . . p .\n. . . p . . . .\n. . . . . . . P\n. . P B . q N .\nP P Q . . . P .\n. K . . R . . R",
+    "pgn": "1. d4 f5 2. Nf3 Nf6 3. Nc3 e6 4. Bg5 c6 5. e4 fxe4 6. Nxe4 Be7 7. Bxf6 Bxf6 8. c3 O-O 9. Bd3 d5 10. Ng3 Nd7 11. Qc2 g6 12. O-O-O e5 13. Nxe5 Nxe5 14. dxe5 Bxe5 15. Rde1 Bg7 16. h4 Qf6 17. f3 Qf4+ 18. Kb1 Qxf3",
+    "fen": "r1b2rk1/pp4bp/2p3p1/3p4/7P/2PB1qN1/PPQ3P1/1K2R2R w - - 0 19",
+    "label": "White",
+    "id": "isobench/chess/winner_id/wC45Rggr"
+}

@@ -1,0 +1,7 @@
+{
+    "anl": "r . . q r . . k\np . p . . . . Q\n. p . . . . p p\n. . . p . . N .\n. . . b . . P P\n. . . . . . . .\nP P K N . P . .\n. . . R . . . R",
+    "pgn": "1. e4 d6 2. Nf3 g6 3. Bc4 Bg7 4. d4 e6 5. Be3 Ne7 6. Nbd2 b6 7. Qe2 O-O 8. Ng5 h6 9. h4 d5 10. exd5 exd5 11. Bd3 Re8 12. O-O-O Nf5 13. Bxf5 Bxf5 14. g4 Bxc2 15. Kxc2 Nc6 16. Qf3 Nxd4+ 17. Bxd4 Bxd4 18. Qxf7+ Kh8 19. Qh7#",
+    "fen": "r2qr2k/p1p4Q/1p4pp/3p2N1/3b2PP/8/PPKN1P2/3R3R b - - 2 19",
+    "label": "White",
+    "id": "isobench/chess/winner_id/XJy6x9a4"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/250/250.jpg'> Is the very top of the cake strawberries or cream? Options: (a) Strawberries (b) Cream",
+    "images": [
+        "../tasks/mmvp/processed/250/250.jpg"
+    ],
+    "answer": "(b)"
+}

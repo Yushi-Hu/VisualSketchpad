@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . . .\n. . . . . . . .\nP b . p . . . .\n. P . P . . . .\n. . B p . k . .\n. . . K . . . .\n. . . . . . . .\n. . . . . . . .",
+    "pgn": "1. e4 c5 2. Nf3 a6 3. d4 cxd4 4. Nxd4 e5 5. Nf5 Qf6 6. Nc3 g6 7. Nd5 Qd8 8. Nfe3 Nc6 9. Bd3 Bg7 10. O-O Nf6 11. f3 Nxd5 12. Nxd5 d6 13. c4 O-O 14. Be3 Nd4 15. Bxd4 exd4 16. Rc1 Be6 17. Qb3 Rb8 18. Rfd1 b5 19. cxb5 axb5 20. Qb4 Bxd5 21. exd5 Qb6 22. Kh1 Be5 23. Rc6 Qb7 24. Rdc1 Rfc8 25. Rxc8+ Rxc8 26. Rxc8+ Qxc8 27. g3 Qc1+ 28. Kg2 Qc5 29. Qxb5 Kg7 30. a4 h5 31. a5 Bf6 32. a6 Bd8 33. b4 Qxb5 34. Bxb5 Bb6 35. Bd3 Kf6 36. Bc4 g5 37. Kf1 Ke5 38. Ke2 f5 39. Kd3 f4 40. b5 g4 41. gxf4+ Kxf4 42. fxg4 hxg4 43. Ke2 g3 44. hxg3+ Kxg3 45. Kd3 Kf4 46. Bb3 Ke5 47. Bc4 Kf4 48. Bb3 Kf3 49. Bc4 Kf2 50. Bb3 Kf3 51. Bc4 Kf4",
+    "fen": "8/8/Pb1p4/1P1P4/2Bp1k2/3K4/8/8 w - - 14 52",
+    "label": "Draw",
+    "id": "isobench/chess/winner_id/BwwnBvpw"
+}

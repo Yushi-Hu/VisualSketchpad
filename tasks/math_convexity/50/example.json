@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = 1.35 x^{6} + 0.36 x^{3} - 1.86 \\log{\\left(x \\right)} + 7.99$$",
+    "code": "f(x) = 1.35*x**6 + 0.36*x**3 - 1.86*log(x) + 7.99",
+    "label": "convex",
+    "id": "isobench/math/convexity_115"
+}

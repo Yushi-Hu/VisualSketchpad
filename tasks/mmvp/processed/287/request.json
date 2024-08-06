@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/287/287.jpg'> Is the cup placed on a surface or being held by hand? Options: (a) Placed on a surface (b) Held by hand",
+    "images": [
+        "../tasks/mmvp/processed/287/287.jpg"
+    ],
+    "answer": "(a)"
+}

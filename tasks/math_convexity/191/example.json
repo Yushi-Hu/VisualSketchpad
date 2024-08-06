@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = 1.01 x + e^{0.76 x} + e^{2.34 x} - 1.71$$",
+    "code": "f(x) = 1.01*x + exp(0.76*x) + exp(2.34*x) - 1.71",
+    "label": "convex",
+    "id": "isobench/math/convexity_3"
+}

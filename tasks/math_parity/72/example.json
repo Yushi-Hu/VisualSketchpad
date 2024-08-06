@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{2 x^{10} + x^{2} - 7.76}{4 x^{10} - x^{6} + 4 x^{4} + 5.67}$$",
+    "code": "f(x) = (2*x**10 + x**2 - 7.76)/(4*x**10 - x**6 + 4*x**4 + 5.67)",
+    "label": "even",
+    "id": "isobench/math/parity_100"
+}

@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{2 x^{5} \\left(- x^{4} + x^{2} + 3\\right)}{6 x^{10} + 10 x^{4} + 47.4}$$",
+    "code": "f(x) = 2*x**5*(-x**4 + x**2 + 3)/(6*x**10 + 10*x**4 + 47.4)",
+    "label": "odd",
+    "id": "isobench/math/parity_290"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/8/8.jpg'> Is the school bus driving towards or away from the camera? Options: (a) Towards the camera (b) Away from the camera",
+    "images": [
+        "../tasks/mmvp/processed/8/8.jpg"
+    ],
+    "answer": "(b)"
+}

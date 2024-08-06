@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = - 1.09 x - e^{1.27 x} + 1.55 \\log{\\left(x \\right)} - 2.2$$",
+    "code": "f(x) = -1.09*x - exp(1.27*x) + 1.55*log(x) - 2.2",
+    "label": "concave",
+    "id": "isobench/math/convexity_169"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/268/268.jpg'> Is the child in the picture facing forward or in profile? Options: (a) Facing forward (b) In profile",
+    "images": [
+        "../tasks/mmvp/processed/268/268.jpg"
+    ],
+    "answer": "(b)"
+}

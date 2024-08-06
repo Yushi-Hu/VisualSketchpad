@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/57/57.jpg'> Is the crocodile submerged in the water? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/57/57.jpg"
+    ],
+    "answer": "(a)"
+}

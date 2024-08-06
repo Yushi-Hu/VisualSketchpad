@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/54/54.jpg'> Is the number of pills in the image in the range of countable? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/54/54.jpg"
+    ],
+    "answer": "(b)"
+}

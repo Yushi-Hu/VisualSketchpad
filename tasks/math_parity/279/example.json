@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{- 6 x^{9} - 9.44}{- 2 x^{10} + x^{8} + 2 x^{6} + x^{2} - 7.45}$$",
+    "code": "f(x) = (-6*x**9 - 9.44)/(-2*x**10 + x**8 + 2*x**6 + x**2 - 7.45)",
+    "label": "neither",
+    "id": "isobench/math/parity_190"
+}

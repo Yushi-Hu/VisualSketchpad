@@ -1,0 +1,7 @@
+{
+    "anl": "r . b q k . . r\np p p . . N p p\n. . n . . . . .\n. . . p p . . .\n. . B . n . . .\n. . . . K . . .\nP P P P . . P P\nR N B Q . . . R",
+    "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 Bc5 5. Nxf7 Bxf2+ 6. Kxf2 Nxe4+ 7. Ke3 d5",
+    "fen": "r1bqk2r/ppp2Npp/2n5/3pp3/2B1n3/4K3/PPPP2PP/RNBQ3R w kq - 0 8",
+    "label": "White",
+    "id": "isobench/chess/winner_id/jHDr8sia"
+}

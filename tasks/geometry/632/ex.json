@@ -1,0 +1,86 @@
+{
+    "problem_text": "Find AC. Round the side measure to the nearest tenth.",
+    "choices": [
+        "6.5",
+        "13.1",
+        "26.1",
+        "52.3"
+    ],
+    "answer": "B",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Triangle"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "textbook1_chapter_8.pdf",
+    "comment": "",
+    "id": 632,
+    "annot_id": "pan_2020-03-25_21_03_07",
+    "is_standard": false,
+    "compact_choices": [
+        "6.5",
+        "13.1",
+        "26.1",
+        "52.3"
+    ],
+    "precise_value": [
+        6.5,
+        13.1,
+        26.1,
+        52.3
+    ],
+    "rough_value": [
+        6.5,
+        13.1,
+        26.1,
+        52.3
+    ],
+    "compact_text": "Find x. Round the side measure to the nearest tenth.",
+    "annotat_text": "Find x. Round the side measure to the nearest tenth.",
+    "unit": "",
+    "img_width": 268,
+    "img_height": 201,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Find(x)"
+        ],
+        "dissolved_text_logic_form": [
+            "Find(x)"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(A, C)), x)",
+            "Equals(LengthOf(Line(A, B)), 11.2)",
+            "Equals(LengthOf(Line(B, C)), 12.4)",
+            "Equals(MeasureOf(Angle(C, B, A)), 67)"
+        ],
+        "line_instances": [
+            "AB",
+            "AC",
+            "BC"
+        ],
+        "point_positions": {
+            "A": [
+                210.0,
+                1.0
+            ],
+            "B": [
+                123.0,
+                158.0
+            ],
+            "C": [
+                1.0,
+                1.0
+            ]
+        },
+        "circle_instances": [
+            ""
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Coordinates of points\npoints = {\"A\": [210.0, 1.0], \"B\": [123.0, 158.0], \"C\": [1.0, 1.0]}\n\n# Creating the plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\n\n# Drawing lines between points based on line instances\nlines = [(\"A\", \"B\"), (\"A\", \"C\"), (\"B\", \"C\")]\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k')  # 'k' is the color black\n\n# Adding point labels\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], point, fontsize=20, color='red', verticalalignment='bottom', horizontalalignment='right')\n\n# Setting the limits of the plot\nax.set_xlim(0, 220)\nax.set_ylim(0, 170)\n\n# Hide axes\nax.set_axis_off()\n\n# Display the plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/40bf45569d8e4b7eb44638f8dac3a700.png"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/12/12.jpg'> Has the peacock opened its tail? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/12/12.jpg"
+    ],
+    "answer": "(b)"
+}

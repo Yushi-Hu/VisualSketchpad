@@ -1,0 +1,7 @@
+{
+    "anl": ". r b . . . . .\np . . . k . p p\n. p n . P . . .\n. . . N . . N .\n. q . . . . . .\n. . . . B . P .\nP P P . . . . P\n. . . R R . K .",
+    "pgn": "1. e4 e5 2. Bc4 Nf6 3. d4 Nxe4 4. dxe5 Bc5 5. Qf3 Bxf2+ 6. Kf1 Qe7 7. Qxe4 d5 8. Bxd5 f5 9. Qxf5 Rf8 10. Qxf2 Rxf2+ 11. Kxf2 Qc5+ 12. Be3 Qxd5 13. Nf3 Be6 14. Nc3 Qc4 15. Ng5 Bd7 16. Rhe1 Nc6 17. e6 Bc8 18. Rad1 Qh4+ 19. Kg1 b6 20. Nd5 Rb8 21. Nxc7+ Ke7 22. g3 Qb4 23. Nd5+",
+    "fen": "1rb5/p3k1pp/1pn1P3/3N2N1/1q6/4B1P1/PPP4P/3RR1K1 b - - 2 23",
+    "label": "White",
+    "id": "isobench/chess/winner_id/Xysejj9d"
+}

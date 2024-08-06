@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{x^{3} \\cdot \\left(8.0 x^{6} + 4.0\\right)}{8.0 x^{8} - 10.0 x^{4} + 42.02}$$",
+    "code": "f(x) = x**3*(8.0*x**6 + 4.0)/(8.0*x**8 - 10.0*x**4 + 42.02)",
+    "label": "odd",
+    "id": "isobench/math/parity_309"
+}

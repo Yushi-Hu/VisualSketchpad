@@ -1,0 +1,111 @@
+{
+    "problem_text": "Find R S if P Q = 12, Q R = 2, and T S = 3.",
+    "choices": [
+        "2",
+        "3",
+        "4",
+        "12"
+    ],
+    "answer": "C",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Line",
+        "Circle"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "textbook2_chapter10.pdf page 51",
+    "comment": "",
+    "id": 1968,
+    "annot_id": "Ran_2020-03-29_04_59_18",
+    "is_standard": false,
+    "compact_choices": [
+        "2",
+        "3",
+        "4",
+        "12"
+    ],
+    "precise_value": [
+        2.0,
+        3.0,
+        4.0,
+        12.0
+    ],
+    "rough_value": [
+        2,
+        3,
+        4,
+        12
+    ],
+    "compact_text": "Find RS if PQ = 12, QR = 2, and TS = 3.",
+    "annotat_text": "Find $R S$ if $P Q=12, Q R=2,$ and $T S=3$",
+    "unit": "",
+    "img_width": 302,
+    "img_height": 236,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Equals(LengthOf(Line(P,Q)),12)",
+            "Equals(LengthOf(Line(Q,R)),2)",
+            "Equals(LengthOf(Line(T,S)),3)",
+            "Find(LengthOf(Line(R,S)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Equals(LengthOf(Line(P,Q)),12)",
+            "Equals(LengthOf(Line(Q,R)),2)",
+            "Equals(LengthOf(Line(T,S)),3)",
+            "Find(LengthOf(Line(R,S)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(R, Q)), 2)",
+            "Equals(LengthOf(Line(P, Q)), 12)",
+            "Equals(LengthOf(Line(T, S)), 3)",
+            "PointLiesOnLine(Q, Line(P, R))",
+            "PointLiesOnCircle(P, Circle(A, radius_2_0))",
+            "PointLiesOnCircle(S, Circle(A, radius_2_0))",
+            "PointLiesOnCircle(Q, Circle(A, radius_2_0))",
+            "PointLiesOnCircle(T, Circle(A, radius_2_0))"
+        ],
+        "line_instances": [
+            "QS",
+            "PQ",
+            "PR",
+            "RQ",
+            "RS"
+        ],
+        "point_positions": {
+            "A": [
+                89.0,
+                87.0
+            ],
+            "Q": [
+                173.0,
+                69.0
+            ],
+            "P": [
+                3.0,
+                66.0
+            ],
+            "R": [
+                201.0,
+                68.0
+            ],
+            "S": [
+                170.0,
+                110.0
+            ],
+            "T": [
+                140.0,
+                152.0
+            ]
+        },
+        "circle_instances": [
+            "A"
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Define points\npoints = {\"A\": [89.0, 87.0], \"Q\": [173.0, 69.0], \"P\": [3.0, 66.0], \"R\": [201.0, 68.0], \"S\": [170.0, 110.0], \"T\": [140.0, 152.0]}\n\n# Define lines\nlines = [(\"Q\", \"S\"), (\"P\", \"Q\"), (\"P\", \"R\"), (\"R\", \"Q\"), (\"R\", \"S\")]\n\n# Calculate circle radius for circle centered at A\ncircle_center = np.array(points[\"A\"])\nradius = max(np.linalg.norm(np.array(points[p]) - circle_center) for p in [\"P\", \"S\", \"Q\", \"T\"])\n\n# Create plot\nfig, ax = plt.subplots()\n\n# Draw lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # black line\n\n# Draw circle\ncircle = plt.Circle(circle_center, radius, color='b', fill=False)\nax.add_artist(circle)\n\n# Plot points and labels\nfor label, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ro')  # red point\n    ax.text(coord[0], coord[1], f' {label}', fontsize=20, color='red', verticalalignment='bottom', horizontalalignment='right')\n\n# Set equal scaling and limits\nax.set_aspect('equal')\nlimit = 1.5 * radius\nax.set_xlim(circle_center[0] - limit, circle_center[0] + limit)\nax.set_ylim(circle_center[1] - limit, circle_center[1] + limit)\n\n# Hide axes\nax.axis('off')\n\n# Show plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/d3147723df644ded8e34b76c253e1474.png"
+}

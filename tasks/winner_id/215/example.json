@@ -1,0 +1,7 @@
+{
+    "anl": "K . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . b . .\nq . . . . . p .\n. . . . . k . .\n. . . . . . . .\n. q . . . . . .",
+    "pgn": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Bd3 Bg7 7. f3 Nc6 8. Nb3 Ne5 9. Be3 Nxd3+ 10. cxd3 a6 11. Qd2 h5 12. h3 b5 13. g4 hxg4 14. fxg4 Nxg4 15. O-O-O Nxe3 16. Qxe3 Bh6 17. Qxh6 Rxh6 18. Kb1 Rxh3 19. Rhf1 Be6 20. Nd4 Bg4 21. Rd2 Qb6 22. Nb3 Qe3 23. Nd5 Qg3 24. Nc7+ Kd7 25. Nxa8 Kc8 26. Nb6+ Kb7 27. Nd5 e6 28. Rxf7+ Kc8 29. Rc2+ Kd8 30. a3 exd5 31. Ka2 Qxd3 32. Rf8+ Ke7 33. Rcf2 Qxb3+ 34. Kb1 Rh1+ 35. Rf1 Rxf1+ 36. Rxf1 dxe4 37. Re1 Bf5 38. Ka1 Ke6 39. Rc1 Ke5 40. Rc3 Qd5 41. Re3 Kf4 42. Rc3 e3 43. a4 bxa4 44. b3 axb3 45. Rxb3 Qd1+ 46. Kb2 Qxb3+ 47. Kxb3 Kf3 48. Kb4 e2 49. Ka5 e1=Q+ 50. Kxa6 Qb1 51. Ka7 d5 52. Ka8 d4 53. Ka7 d3 54. Ka6 d2 55. Ka5 d1=Q 56. Ka6 g5 57. Ka7 g4 58. Ka8 Qa4#",
+    "fen": "K7/8/8/5b2/q5p1/5k2/8/1q6 w - - 2 59",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/mwam0acc"
+}

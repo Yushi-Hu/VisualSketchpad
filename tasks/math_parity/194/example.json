@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{33.84}{16 x^{10} + 6 x^{6} + 8.18}$$",
+    "code": "f(x) = 33.84/(16*x**10 + 6*x**6 + 8.18)",
+    "label": "even",
+    "id": "isobench/math/parity_9"
+}

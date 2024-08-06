@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = - \\frac{8 x \\left(x^{6} + 1\\right)}{4 x^{10} + 12 x^{8} + 8 x^{6} + 32.9}$$",
+    "code": "f(x) = -8*x*(x**6 + 1)/(4*x**10 + 12*x**8 + 8*x**6 + 32.9)",
+    "label": "odd",
+    "id": "isobench/math/parity_368"
+}

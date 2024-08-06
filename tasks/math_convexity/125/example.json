@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = - 0.86 x^{2} + 1.36 \\log{\\left(x \\right)} + 11.08$$",
+    "code": "f(x) = -0.86*x**2 + 1.36*log(x) + 11.08",
+    "label": "concave",
+    "id": "isobench/math/convexity_185"
+}

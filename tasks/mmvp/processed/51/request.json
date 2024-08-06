@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/51/51.jpg'> Is the elephant's trunk curled in the picture? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/51/51.jpg"
+    ],
+    "answer": "(a)"
+}

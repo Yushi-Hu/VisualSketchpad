@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . . .\nq . . . . . . k\n. q . . . . . .\n. K . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . r . . . . .",
+    "pgn": "1. e4 d5 2. f3 dxe4 3. fxe4 e5 4. Nf3 Nc6 5. Nc3 a6 6. d4 Bb4 7. Qd2 h6 8. dxe5 Qxd2+ 9. Kxd2 Bxc3+ 10. Kxc3 Nge7 11. Kd2 O-O 12. Ke1 Bg4 13. Nd2 Nxe5 14. h3 Bh5 15. g4 Bg6 16. Nb3 b5 17. Nc5 Rad8 18. Nxa6 Nf3+ 19. Kf2 Bxe4 20. Bxb5 Ne5 21. Re1 f5 22. Be2 fxg4+ 23. Kg3 Nf5+ 24. Kf4 Rde8 25. Kxe4 Ng3+ 26. Ke3 Nc4+ 27. Kd4 Nxe2+ 28. Kxc4 gxh3 29. Nxc7 Rc8 30. Rxe2 Rxc7+ 31. Kd3 Rd7+ 32. Kc3 Rc8+ 33. Kb3 Rb8+ 34. Kc4 Rc8+ 35. Kb5 Ra8 36. Kc6 Rad8 37. a4 Rd4 38. Re7 h2 39. Be3 Rxa4 40. Rxa4 h1=Q+ 41. Kc7 Rd5 42. Ra8+ Kh7 43. Kc6 Rh5+ 44. Kd6 Qxa8 45. Bd4 Qd5+ 46. Kc7 Qxd4 47. c3 Qd2 48. c4 Rc5+ 49. Kb6 Rxc4 50. b3 Rb4+ 51. Kc5 Rxb3 52. Kc6 Rh3 53. Kc5 Rh5+ 54. Kc6 Qd5+ 55. Kc7 Re5 56. Rd7 Qxd7+ 57. Kxd7 g5 58. Kd6 Re1 59. Kd5 g4 60. Kd4 g3 61. Kd3 g2 62. Kd2 g1=Q 63. Kd3 h5 64. Kd2 h4 65. Kd3 h3 66. Kd2 h2 67. Kd3 h1=Q 68. Kd2 Qd5+ 69. Kc2 Rd1 70. Kc3 Qdc5+ 71. Kb3 Rc1 72. Ka4 Qa7+ 73. Kb5 Qgb6#",
+    "fen": "8/q6k/1q6/1K6/8/8/8/2r5 w - - 12 74",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/i9zbhpJ5"
+}

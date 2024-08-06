@@ -1,0 +1,115 @@
+{
+    "problem_text": "\\odot P is inscribed in equilateral triangle L M N. What is the circumference of \\odot P?",
+    "choices": [
+        "\\frac { 8 } { 3 } \\pi",
+        "\\frac { 8 } { \\sqrt 3 } \\pi",
+        "8 \\sqrt 3 \\pi",
+        "24 \\pi"
+    ],
+    "answer": "B",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Circle",
+        "Triangle"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "textbook1_chapter_10.pdf",
+    "comment": "the answer is complicated",
+    "id": 1465,
+    "annot_id": "Shibiao_2020-03-27_11_13_33",
+    "is_standard": false,
+    "compact_choices": [
+        "\\frac{8}{3}\\pi",
+        "\\frac{8}{\\sqrt3}\\pi",
+        "8\\sqrt3\\pi",
+        "24\\pi"
+    ],
+    "precise_value": [
+        8.377580409572781,
+        14.510394913873744,
+        43.531184741621225,
+        75.39822368615503
+    ],
+    "rough_value": [
+        8.38,
+        14.51,
+        43.53,
+        75.4
+    ],
+    "compact_text": "\\odot P is inscribed in equilateral triangle LMN. What is the circumference of \\odot P?",
+    "annotat_text": "$\\odot P$ is inscribed in equilateral triangle $LMN$. What is the circumference of $\\odot P$?",
+    "unit": "",
+    "img_width": 604,
+    "img_height": 509,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "InscribedIn(Circle(P),Equilateral(Triangle(L,M,N)))",
+            "Find(CircumferenceOf(Circle(P)))"
+        ],
+        "dissolved_text_logic_form": [
+            "InscribedIn(Circle(P),Equilateral(Triangle(L,M,N)))",
+            "Find(CircumferenceOf(Circle(P)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(N, L)), 8)",
+            "",
+            "PointLiesOnLine(E, Line(N, M))",
+            "PointLiesOnLine(F, Line(L, N))",
+            "PointLiesOnLine(D, Line(M, L))",
+            "PointLiesOnCircle(D, Circle(P, radius_1_0))",
+            "PointLiesOnCircle(E, Circle(P, radius_1_0))",
+            "PointLiesOnCircle(F, Circle(P, radius_1_0))"
+        ],
+        "line_instances": [
+            "LN",
+            "ML",
+            "MN",
+            "EM",
+            "EN",
+            "FN",
+            "FL",
+            "DL",
+            "DM"
+        ],
+        "point_positions": {
+            "D": [
+                92.0,
+                155.0
+            ],
+            "E": [
+                184.0,
+                313.0
+            ],
+            "F": [
+                271.0,
+                157.0
+            ],
+            "L": [
+                181.0,
+                0.0
+            ],
+            "M": [
+                0.0,
+                313.0
+            ],
+            "N": [
+                361.0,
+                313.0
+            ],
+            "P": [
+                184.0,
+                208.0
+            ]
+        },
+        "circle_instances": [
+            "P"
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Define points\npoints = {'D': [92.0, 155.0], 'E': [184.0, 313.0], 'F': [271.0, 157.0], 'L': [181.0, 0.0], 'M': [0.0, 313.0], 'N': [361.0, 313.0], 'P': [184.0, 208.0]}\n\n# Define lines\nlines = {\n    'LN': ('L', 'N'),\n    'ML': ('M', 'L'),\n    'MN': ('M', 'N'),\n    'EM': ('E', 'M'),\n    'EN': ('E', 'N'),\n    'FN': ('F', 'N'),\n    'FL': ('F', 'L'),\n    'DL': ('D', 'L'),\n    'DM': ('D', 'M')\n}\n\n# Calculate radius of the circle\nradius = np.linalg.norm(np.array(points['D']) - np.array(points['P']))\n\n# Create plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\n\n# Draw lines\nfor line in lines.values():\n    p1, p2 = points[line[0]], points[line[1]]\n    ax.plot([p1[0], p2[0]], [p1[1], p2[1]], 'k-')  # Black lines\n\n# Draw circle\ncircle = plt.Circle(points['P'], radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Plot points\nfor label, coord in points.items():\n    ax.plot(*coord, 'ko')  # Black points\n    ax.text(coord[0] + 5, coord[1] + 5, label, fontsize=20, color='r')  # Red labels\n\n# Set limits\nplot_radius = 2 * radius\nmax_coord = max(max(abs(x) for x in point) for point in points.values())\nlimit = max(plot_radius, max_coord)\nax.set_xlim(-limit, limit)\nax.set_ylim(-limit, limit)\n\n# Hide the background\nax.axis('off')\n\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/10d95b496a0c48d2baa63d8d67e5c450.png"
+}

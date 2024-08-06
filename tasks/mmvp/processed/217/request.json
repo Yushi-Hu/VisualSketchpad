@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/217/217.jpg'> Is the knife laid flat or standing up? Options: (a) Flat (b) Standing up",
+    "images": [
+        "../tasks/mmvp/processed/217/217.jpg"
+    ],
+    "answer": "(a)"
+}

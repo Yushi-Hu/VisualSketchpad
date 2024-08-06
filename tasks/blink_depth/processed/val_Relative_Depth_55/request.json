@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/blink_depth/processed/val_Relative_Depth_55/image.jpg'> Two points are circled on the image, labeled by A and B beside each circle. Which point is closer to the camera?\nSelect from the following choices.\n(A) A is closer\n(B) B is closer",
+    "images": [
+        "../tasks/blink_depth/processed/val_Relative_Depth_55/image.jpg"
+    ],
+    "answer": "(B)"
+}

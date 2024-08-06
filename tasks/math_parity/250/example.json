@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{4 x^{5} + 3 x^{3} + 8.68}{x^{10} + 7 x^{6} + 5 x^{4} - 4 x^{2} + 11.18}$$",
+    "code": "f(x) = (4*x**5 + 3*x**3 + 8.68)/(x**10 + 7*x**6 + 5*x**4 - 4*x**2 + 11.18)",
+    "label": "neither",
+    "id": "isobench/math/parity_142"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/242/242.jpg'> Is the photo taken directly above the coffee or from the side? Options: (a) Above (b) From the side",
+    "images": [
+        "../tasks/mmvp/processed/242/242.jpg"
+    ],
+    "answer": "(b)"
+}

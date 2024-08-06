@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/59/59.jpg'> Is the lock locked to the chain-linked fence? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/59/59.jpg"
+    ],
+    "answer": "(a)"
+}

@@ -1,0 +1,7 @@
+{
+    "anl": "r n . q k b n r\np p p . p p p p\n. . . . . . . .\n. . . P . . . .\n. . . P . . . .\n. . . . . . . .\nP P P . . P P P\nR N B b K B N R",
+    "pgn": "1. e4 d5 2. exd5 Bg4 3. d4 Bxd1",
+    "fen": "rn1qkbnr/ppp1pppp/8/3P4/3P4/8/PPP2PPP/RNBbKBNR w KQkq - 0 4",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/nk9cQFG5"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/129/129.jpg'> From the camera's perspective, are the words \"SCHOOL BUS\" in the picture facing straight or oriented at an angle? Options: (a) Directly towards the camera (b) At an angle",
+    "images": [
+        "../tasks/mmvp/processed/129/129.jpg"
+    ],
+    "answer": "(a)"
+}

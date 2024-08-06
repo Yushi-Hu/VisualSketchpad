@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/35/35.jpg'> Do the vegetables have spikes? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/35/35.jpg"
+    ],
+    "answer": "(a)"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/269/269.jpg'> Is the wall behind the bed empty or is there a painting hanging on it? Options: (a) Empty (b) A painting hanging on it",
+    "images": [
+        "../tasks/mmvp/processed/269/269.jpg"
+    ],
+    "answer": "(a)"
+}

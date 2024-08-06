@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . . .\n. . . P . . p k\n. . . . . . . .\n. . . . . K . .\n. . . . . N . .\n. . . . . . P .\n. . . . . . . .\n. . . . . . . .",
+    "pgn": "1. d4 d5 2. Nf3 e6 3. Bf4 Nf6 4. e3 c5 5. c3 cxd4 6. cxd4 Bd6 7. Bxd6 Qxd6 8. a3 a5 9. Nbd2 b6 10. Bd3 Ba6 11. Bxa6 Nxa6 12. Rc1 O-O 13. O-O b5 14. Nb3 b4 15. Nc5 bxa3 16. bxa3 Rfc8 17. Nxa6 Qxa6 18. Rxc8+ Rxc8 19. Qa4 Ne4 20. Ne5 f6 21. Nd7 h6 22. Rb1 Nc3 23. Nc5 Qe2 24. Qd7 Nxb1 25. Qxc8+ Kh7 26. g3 Nd2 27. Qa6 Nc4 28. Nxe6 Qd1+ 29. Kg2 Nxa3 30. Qxa5 Nc4 31. Qc7 Nxe3+ 32. fxe3 Qe2+ 33. Kh3 Qf1+ 34. Kg4 Qe2+ 35. Kf4 Qf2+ 36. Kg4 Qe2+ 37. Kf5 Qf3+ 38. Nf4 Qxe3 39. Qc5 Qe4+ 40. Kg4 f5+ 41. Kh3 h5 42. Qxd5 Qf3 43. Qxf5+ Kg8 44. Qxh5 Qf1+ 45. Kh4 Qg1 46. Qe8+ Kh7 47. Qg6+ Kg8 48. d5 Qxh2+ 49. Kg4 Qd2 50. d6 Qd1+ 51. Kg5 Qf3 52. Qe6+ Kh7 53. Qg4 Qb7 54. d7 Qb5+ 55. Qf5+ Qxf5+ 56. Kxf5",
+    "fen": "8/3P2pk/8/5K2/5N2/6P1/8/8 b - - 0 56",
+    "label": "White",
+    "id": "isobench/chess/winner_id/8aCf6urT"
+}

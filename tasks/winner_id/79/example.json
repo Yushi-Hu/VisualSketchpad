@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . r . k .\n. b . . . p p .\np . . . p . . .\n. p . . . . . .\n. . . . P P . p\nP . P . . K . .\n. . N . . . . .\nR R . . . . . .",
+    "pgn": "1. d4 Nf6 2. Nc3 e6 3. Bf4 Bb4 4. Nf3 O-O 5. e3 c5 6. dxc5 Bxc5 7. Nb5 d6 8. a3 Nc6 9. Be2 a6 10. Nxd6 Bxd6 11. Bxd6 Re8 12. O-O Qb6 13. Be5 Ne4 14. Bd4 Nxd4 15. Nxd4 Qc7 16. f3 Nf6 17. c3 b5 18. Nb3 Bb7 19. e4 Rad8 20. Qc1 h5 21. Rd1 h4 22. h3 Qg3 23. Nd4 Rd5 24. Qe3 Rg5 25. Qf2 Qxh3 26. f4 Ng4 27. Bxg4 Rxg4 28. Kf1 Qh1+ 29. Ke2 Qxg2 30. Qxg2 Rxg2+ 31. Kf3 Rxb2 32. Rdb1 Rc2 33. Nxc2",
+    "fen": "4r1k1/1b3pp1/p3p3/1p6/4PP1p/P1P2K2/2N5/RR6 b - - 0 33",
+    "label": "White",
+    "id": "isobench/chess/winner_id/HribeMmz"
+}

@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = - \\frac{25.16}{12 x^{6} + 6 x^{4} - 2 x^{2} + 3.54}$$",
+    "code": "f(x) = -25.16/(12*x**6 + 6*x**4 - 2*x**2 + 3.54)",
+    "label": "even",
+    "id": "isobench/math/parity_6"
+}

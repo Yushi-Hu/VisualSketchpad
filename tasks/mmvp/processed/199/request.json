@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/199/199.jpg'> Which type of eggs are in the corner of the picture? Options: (a) Quail eggs (b) Chicken eggs ",
+    "images": [
+        "../tasks/mmvp/processed/199/199.jpg"
+    ],
+    "answer": "(a)"
+}

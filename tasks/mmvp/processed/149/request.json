@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/149/149.jpg'> Is the piano's back panel on the left or right side? Options: (a) Left (b) Right",
+    "images": [
+        "../tasks/mmvp/processed/149/149.jpg"
+    ],
+    "answer": "(a)"
+}

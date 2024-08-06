@@ -1,0 +1,101 @@
+{
+    "problem_text": "Given figure A B C D, with A B \\parallel D C, m \\angle B = 60, m \\angle D = 45, B C = 8 and A B = 24, find the perimeter.",
+    "choices": [
+        "26 + 2 \\sqrt { 3 } + 2 \\sqrt { 6 }",
+        "26 + 4 \\sqrt { 3 } + 4 \\sqrt { 6 }",
+        "52 + 2 \\sqrt { 3 } + 2 \\sqrt { 6 }",
+        "52 + 4 \\sqrt { 3 } + 4 \\sqrt { 6 }"
+    ],
+    "answer": "D",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Other"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "textbook2_chapter7.pdf page 23",
+    "comment": "",
+    "id": 428,
+    "annot_id": "Ran_2020-03-22_05_40_04",
+    "is_standard": false,
+    "compact_choices": [
+        "26+2\\sqrt{3}+2\\sqrt{6}",
+        "26+4\\sqrt{3}+4\\sqrt{6}",
+        "52+2\\sqrt{3}+2\\sqrt{6}",
+        "52+4\\sqrt{3}+4\\sqrt{6}"
+    ],
+    "precise_value": [
+        34.36308110070411,
+        42.726162201408215,
+        60.363081100704115,
+        68.72616220140821
+    ],
+    "rough_value": [
+        34.36,
+        42.73,
+        60.36,
+        68.73
+    ],
+    "compact_text": "Given figure ABCD, with AB \\parallel DC, m \\angle B = 60, m \\angle D = 45, BC = 8 and AB = 24, find the perimeter.",
+    "annotat_text": "Given figure $A B C D$, with $\\overline{A B} \\| \\overline{D C}, m \\angle B=60, m \\angle D=45, B C=8$\r\nand $A B=24,$ find the perimeter.",
+    "unit": "",
+    "img_width": 581,
+    "img_height": 251,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Quadrilateral(A,B,C,D)",
+            "Parallel(Line(A,B),Line(D,C))",
+            "Equals(MeasureOf(Angle(B)),60)",
+            "Equals(MeasureOf(Angle(D)),45)",
+            "Equals(LengthOf(Line(B,C)),8)",
+            "Equals(LengthOf(Line(A,B)),24)",
+            "Find(PerimeterOf(Polygon($)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Quadrilateral(A,B,C,D)",
+            "Parallel(Line(A,B),Line(D,C))",
+            "Equals(MeasureOf(Angle(B)),60)",
+            "Equals(MeasureOf(Angle(D)),45)",
+            "Equals(LengthOf(Line(B,C)),8)",
+            "Equals(LengthOf(Line(A,B)),24)",
+            "Find(PerimeterOf(Quadrilateral(A,B,C,D)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(MeasureOf(Angle(C, B, A)), 60)",
+            "Equals(MeasureOf(Angle(A, D, C)), 45)"
+        ],
+        "line_instances": [
+            "AB",
+            "CB",
+            "DA",
+            "DC"
+        ],
+        "point_positions": {
+            "A": [
+                121.0,
+                1.0
+            ],
+            "B": [
+                466.0,
+                0.0
+            ],
+            "C": [
+                398.0,
+                122.0
+            ],
+            "D": [
+                1.0,
+                122.0
+            ]
+        },
+        "circle_instances": [
+            ""
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Define coordinates\npoints = {\n    \"A\": [121.0, 1.0],\n    \"B\": [466.0, 0.0],\n    \"C\": [398.0, 122.0],\n    \"D\": [1.0, 122.0]\n}\n\n# Create the figure and axis\nfig, ax = plt.subplots()\nfig.set_size_inches(10, 8)\n\n# Draw lines between points\nlines = {\n    \"AB\": (\"A\", \"B\"),\n    \"CB\": (\"C\", \"B\"),\n    \"DA\": (\"D\", \"A\"),\n    \"DC\": (\"D\", \"C\")\n}\n\nfor line in lines.values():\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Add points and labels\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' for black dot\n    ax.text(coord[0] + 5, coord[1] + 5, point, fontsize=20, color='red')\n\n# Set the aspect of the plot to be equal\nax.set_aspect('equal')\n\n# Remove axes\nax.axis('off')\n\n# Display the plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/09eb25192cc5404b90c2c39307b0e55f.png"
+}

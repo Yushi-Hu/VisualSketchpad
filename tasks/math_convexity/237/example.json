@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = - 0.55 x^{5} - e^{0.48 x} - e^{1.01 x} + 0.39 \\log{\\left(x \\right)} + 4.91$$",
+    "code": "f(x) = -0.55*x**5 - exp(0.48*x) - exp(1.01*x) + 0.39*log(x) + 4.91",
+    "label": "concave",
+    "id": "isobench/math/convexity_178"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/119/119.jpg'> In this image, how many eyes can you see on the animal? Options: (a) 1 (b) 2",
+    "images": [
+        "../tasks/mmvp/processed/119/119.jpg"
+    ],
+    "answer": "(a)"
+}

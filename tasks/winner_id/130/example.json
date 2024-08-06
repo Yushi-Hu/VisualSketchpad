@@ -1,0 +1,7 @@
+{
+    "anl": ". . Q . . . . .\np . . . . p k .\n. . . p . q . .\n. p . . p . p .\n. P . . P . . p\nP . . P . . . .\n. . . . . P K .\n. . . . R . . R",
+    "pgn": "1. e4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. Be2 Bd6 5. a3 O-O 6. O-O Nd4 7. d3 Nxf3+ 8. Bxf3 Be7 9. Be3 d6 10. Bg5 h6 11. Bxf6 Bxf6 12. Nd5 Bg5 13. h3 Be6 14. Nb4 Qd7 15. c4 Bxh3 16. gxh3 Qxh3 17. Bg2 Qh4 18. Qf3 Bf4 19. Qh3 Qg5 20. Nd5 c6 21. Nxf4 Qxf4 22. Qg3 Qf6 23. Rae1 g5 24. Bh3 h5 25. Bf5 h4 26. Qg4 Kg7 27. Kg2 Rh8 28. Rh1 b5 29. cxb5 cxb5 30. b4 Rac8 31. Bxc8 Rxc8 32. Qxc8",
+    "fen": "2Q5/p4pk1/3p1q2/1p2p1p1/1P2P2p/P2P4/5PK1/4R2R b - - 0 32",
+    "label": "White",
+    "id": "isobench/chess/winner_id/TojJhb1f"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/167/167.jpg'> Are some fruits cut open or are all the fruits uncut? Options: (a) Some are cut open (b) All are uncut",
+    "images": [
+        "../tasks/mmvp/processed/167/167.jpg"
+    ],
+    "answer": "(a)"
+}

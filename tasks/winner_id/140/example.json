@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . . .\n. . k p . . . p\n. . . . . . . .\n. . . . . . . .\n. . . . . P . .\n. . . . . . . P\n. . r . . . . .\n. q . K . . . .",
+    "pgn": "1. d4 Nf6 2. c4 b6 3. Nc3 Bb7 4. d5 e6 5. e4 exd5 6. exd5 Bb4 7. Bd3 O-O 8. Ne2 Re8 9. O-O Ng4 10. h3 Ne5 11. a3 Bxc3 12. Nxc3 Qh4 13. Be3 Nxc4 14. Bxc4 Qxc4 15. Bd4 Bxd5 16. Bxg7 Bxg2 17. Kxg2 Kxg7 18. Rc1 Rg8 19. Kh1 Qc6+ 20. f3 Qh6 21. Kh2 Kf8 22. Qd4 c5 23. Qe4 Qd6+ 24. f4 Qd2+ 25. Qe2 Qxe2+ 26. Nxe2 Nc6 27. Rfd1 Ke7 28. Ng3 Nd4 29. Re1+ Kd8 30. b4 Nf3+ 31. Kg2 Nxe1+ 32. Rxe1 Kc7 33. Re7 cxb4 34. axb4 a5 35. bxa5 bxa5 36. Rxf7 a4 37. Re7 a3 38. Re1 a2 39. Ra1 Ra3 40. Kf2 Rgxg3 41. Rc1+ Rgc3 42. Ra1 Rc2+ 43. Ke1 Rb3 44. Kd1 Rb1+ 45. Rxb1 axb1=Q#",
+    "fen": "8/2kp3p/8/8/5P2/7P/2r5/1q1K4 w - - 0 46",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/WPVYNgOj"
+}

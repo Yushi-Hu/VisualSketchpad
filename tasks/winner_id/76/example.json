@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . . .\n. . . . . . . .\nb . . . . . . .\nP . . . . . . .\n. . . . . . . .\n. . . . . . K .\n. . . . . . . p\n. . . . . . k .",
+    "pgn": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. Bc4 Bd7 10. Bb3 Rc8 11. O-O-O a6 12. Kb1 b5 13. h4 Ne5 14. h5 Nc4 15. Bxc4 Rxc4 16. hxg6 fxg6 17. Bh6 Bxh6 18. Qxh6 e6 19. f4 Rf7 20. e5 dxe5 21. fxe5 Ng4 22. Qh4 Qxh4 23. Rxh4 Nxe5 24. g3 Nc6 25. Nb3 Rxh4 26. gxh4 Ne5 27. Ne4 Bc6 28. Ng5 Rd7 29. Rxd7 Bxd7 30. Nc5 Bc8 31. Ngxe6 Kf7 32. Nd4 Kf6 33. Kc1 Nc4 34. b3 Ne3 35. Kd2 Nf5 36. Nxf5 Kxf5 37. Ke2 Kg4 38. c4 Kxh4 39. cxb5 axb5 40. a4 bxa4 41. bxa4 Kg3 42. Ne4+ Kg2 43. Nf6 h5 44. Ne8 h4 45. Nd6 Ba6+ 46. Ke3 h3 47. Ne4 h2 48. Nf2 g5 49. Nh1 Kxh1 50. Kf2 g4 51. a5 g3+ 52. Kxg3 Kg1",
+    "fen": "8/8/b7/P7/8/6K1/7p/6k1 w - - 1 53",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/Gsd8S3x1"
+}

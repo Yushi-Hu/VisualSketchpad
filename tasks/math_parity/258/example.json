@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{x^{5} \\cdot \\left(10.0 - 4.0 x^{4}\\right)}{2.0 x^{8} - 2.0 x^{4} + 41.88}$$",
+    "code": "f(x) = x**5*(10.0 - 4.0*x**4)/(2.0*x**8 - 2.0*x**4 + 41.88)",
+    "label": "odd",
+    "id": "isobench/math/parity_327"
+}

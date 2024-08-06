@@ -1,0 +1,7 @@
+{
+    "anl": "r . . . . r k .\np . . p n p p Q\n. p . . p . . p\n. . . . . . q .\n. . . P . . . .\n. . P . . . . .\nP P B . . P P P\n. . . R . R K .",
+    "pgn": "1. d4 Nf6 2. Bf4 Nd5 3. Bg3 e6 4. e3 Qf6 5. Nf3 Bd6 6. Bxd6 cxd6 7. Be2 O-O 8. Nbd2 b6 9. c3 Bb7 10. O-O Ne7 11. Bd3 Nf5 12. Ne4 Qe7 13. Qe2 Nh4 14. Neg5 Nxf3+ 15. Nxf3 h6 16. Rad1 Bxf3 17. Qxf3 Nc6 18. Be4 d5 19. Bc2 Qg5 20. e4 dxe4 21. Qxe4 Ne7 22. Qh7#",
+    "fen": "r4rk1/p2pnppQ/1p2p2p/6q1/3P4/2P5/PPB2PPP/3R1RK1 b - - 2 22",
+    "label": "White",
+    "id": "isobench/chess/winner_id/B1sWXffp"
+}

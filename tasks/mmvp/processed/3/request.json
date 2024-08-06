@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/3/3.jpg'> Is the flame of the match more round or thin? Options: (a) Round (b) Thin",
+    "images": [
+        "../tasks/mmvp/processed/3/3.jpg"
+    ],
+    "answer": "(a)"
+}

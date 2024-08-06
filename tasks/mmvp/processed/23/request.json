@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/23/23.jpg'> From which angle is this image taken? Options: (a) Front (b) Side",
+    "images": [
+        "../tasks/mmvp/processed/23/23.jpg"
+    ],
+    "answer": "(a)"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/290/290.jpg'> Is the following statement correct: There are different colors of grapes in the image. Options: (a) Correct (b) Incorrect",
+    "images": [
+        "../tasks/mmvp/processed/290/290.jpg"
+    ],
+    "answer": "(b)"
+}

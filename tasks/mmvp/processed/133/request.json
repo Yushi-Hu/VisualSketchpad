@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/133/133.jpg'> What does the center button say? Options: (a) OK/SELECT (b) OK",
+    "images": [
+        "../tasks/mmvp/processed/133/133.jpg"
+    ],
+    "answer": "(a)"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/263/263.jpg'> Is it a slice of cake or a whole cake in the picture? Options: (a) Slice (b) Whole",
+    "images": [
+        "../tasks/mmvp/processed/263/263.jpg"
+    ],
+    "answer": "(a)"
+}

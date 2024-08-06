@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/101/101.jpg'> What is the woman more likely to do? Options: (a) Bump (b) Set",
+    "images": [
+        "../tasks/mmvp/processed/101/101.jpg"
+    ],
+    "answer": "(a)"
+}

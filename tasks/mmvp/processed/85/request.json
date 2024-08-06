@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/85/85.jpg'> Are the ears of the dog erect or drooping? Options: (a) Erect (b) Drooping",
+    "images": [
+        "../tasks/mmvp/processed/85/85.jpg"
+    ],
+    "answer": "(a)"
+}

@@ -1,0 +1,125 @@
+{
+    "problem_text": "Find the area of the shaded region (the region inside the circle A but outside the triangle BCD). Assume that all polygons that appear to be regular are regular. Round to the nearest tenth.",
+    "choices": [
+        "10.6",
+        "15.2",
+        "15.6",
+        "18.1"
+    ],
+    "answer": "A",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Circle",
+        "Triangle"
+    ],
+    "problem_type_goal": [
+        "Area"
+    ],
+    "source": "Textbook 2_Chapter 11 - Areas of Polygons and Circles.pdf",
+    "comment": "Complex shaded area shape",
+    "id": 253,
+    "annot_id": "pan_2020-03-22_05_53_22",
+    "is_standard": false,
+    "unit": "cm^2",
+    "compact_choices": [
+        "10.6",
+        "15.2",
+        "15.6",
+        "18.1"
+    ],
+    "precise_value": [
+        10.6,
+        15.2,
+        15.6,
+        18.1
+    ],
+    "rough_value": [
+        10.6,
+        15.2,
+        15.6,
+        18.1
+    ],
+    "compact_text": "Find the area of the shaded region. Assume that all polygons that appear to be regular are regular. Round to the nearest tenth.",
+    "annotat_text": "Find the area of the shaded region. Assume that all polygons that appear to be regular are regular. Round to the nearest tenth.",
+    "img_width": 247,
+    "img_height": 231,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Regular(Polygon($))",
+            "Find(AreaOf(Shaded(Shape($))))"
+        ],
+        "dissolved_text_logic_form": [
+            "Regular(Polygon(B,C,D))",
+            "Find(AreaOf(Shaded(Shape(B,C,D))))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(A, B)), 2.4)",
+            "PointLiesOnLine(E, Line(A, B))",
+            "PointLiesOnLine(F, Line(A, B))",
+            "PointLiesOnLine(G, Line(A, B))",
+            "PointLiesOnLine(F, Line(A, E))",
+            "PointLiesOnLine(E, Line(A, G))",
+            "PointLiesOnLine(F, Line(A, G))",
+            "PointLiesOnLine(G, Line(B, E))",
+            "PointLiesOnLine(E, Line(B, F))",
+            "PointLiesOnLine(G, Line(B, F))",
+            "PointLiesOnLine(E, Line(F, G))",
+            "PointLiesOnCircle(B, Circle(A, radius_0_0))",
+            "PointLiesOnCircle(C, Circle(A, radius_0_0))",
+            "PointLiesOnCircle(D, Circle(A, radius_0_0))"
+        ],
+        "line_instances": [
+            "AB",
+            "AE",
+            "AF",
+            "AG",
+            "BC",
+            "BD",
+            "BE",
+            "BF",
+            "BG",
+            "CD",
+            "EF",
+            "EG",
+            "FG"
+        ],
+        "point_positions": {
+            "A": [
+                110.0,
+                105.0
+            ],
+            "B": [
+                14.0,
+                158.0
+            ],
+            "C": [
+                198.0,
+                159.0
+            ],
+            "D": [
+                106.0,
+                2.0
+            ],
+            "E": [
+                64.0,
+                130.0
+            ],
+            "F": [
+                81.0,
+                121.0
+            ],
+            "G": [
+                50.0,
+                140.0
+            ]
+        },
+        "circle_instances": [
+            "A"
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Coordinates of the points\npoints = {\n    \"A\": [110.0, 105.0],\n    \"B\": [14.0, 158.0],\n    \"C\": [198.0, 159.0],\n    \"D\": [106.0, 2.0],\n    \"E\": [64.0, 130.0],\n    \"F\": [81.0, 121.0],\n    \"G\": [50.0, 140.0]\n}\n\n# Lines to be drawn\nlines = [\n    (\"A\", \"B\"), (\"A\", \"E\"), (\"A\", \"F\"), (\"A\", \"G\"),\n    (\"B\", \"C\"), (\"B\", \"D\"), (\"B\", \"E\"), (\"B\", \"F\"), (\"B\", \"G\"),\n    (\"C\", \"D\"), (\"E\", \"F\"), (\"E\", \"G\"), (\"F\", \"G\")\n]\n\n# Circles to be drawn (center, radius)\ncircles = {\n    \"A\": np.linalg.norm(np.array(points[\"A\"]) - np.array(points[\"B\"]))\n}\n\n# Create the plot\nfig, ax = plt.subplots()\n\n# Draw the lines\nfor line in lines:\n    point1, point2 = line\n    x_values = [points[point1][0], points[point2][0]]\n    y_values = [points[point1][1], points[point2][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Draw the circles\nfor center, radius in circles.items():\n    circle = plt.Circle(points[center], radius, color='k', fill=False)\n    ax.add_artist(circle)\n\n# Label the points\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], f' {point}', color='red', fontsize=20, verticalalignment='center', horizontalalignment='left')\n\n# Set the aspect of the plot to be equal\nax.set_aspect('equal')\n\n# Set the limits of the plot\nall_coords = np.array(list(points.values()))\nmax_radius = max(circles.values())\nlimit = np.max(np.abs(all_coords)) + max_radius\nax.set_xlim(-limit, limit)\nax.set_ylim(-limit, limit)\n\n# Remove the background\nax.axis('off')\n\n# Show the plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/4701bdd8978f4e7e8e9f6ca9ac19056a.png"
+}

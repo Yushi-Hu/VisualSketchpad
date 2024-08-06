@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/256/256.jpg'> Are there cookies stacked on top of other cookies? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/256/256.jpg"
+    ],
+    "answer": "(b)"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/254/254.jpg'> Is the design in the picture Santa Claus or a snowman? Options: (a) Santa Claus (b) Snowman",
+    "images": [
+        "../tasks/mmvp/processed/254/254.jpg"
+    ],
+    "answer": "(b)"
+}

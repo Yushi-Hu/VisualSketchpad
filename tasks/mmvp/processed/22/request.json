@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/22/22.jpg'> Is the duck's entire beak visible in the picture? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/22/22.jpg"
+    ],
+    "answer": "(b)"
+}

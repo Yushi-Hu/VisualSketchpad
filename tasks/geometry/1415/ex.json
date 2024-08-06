@@ -1,0 +1,111 @@
+{
+    "problem_text": "Find m \\angle A.",
+    "choices": [
+        "17",
+        "20",
+        "33",
+        "47"
+    ],
+    "answer": "B",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Circle"
+    ],
+    "problem_type_goal": [
+        "Angle"
+    ],
+    "source": "textbook1_chapter_10.pdf",
+    "comment": "the picture is complicated",
+    "id": 1415,
+    "annot_id": "Shibiao_2020-03-28_09_33_30",
+    "is_standard": false,
+    "compact_choices": [
+        "17",
+        "20",
+        "33",
+        "47"
+    ],
+    "precise_value": [
+        17.0,
+        20.0,
+        33.0,
+        47.0
+    ],
+    "rough_value": [
+        17,
+        20,
+        33,
+        47
+    ],
+    "compact_text": "Find m \\angle A.",
+    "annotat_text": "Find $m \\angle A$.",
+    "unit": "",
+    "img_width": 662,
+    "img_height": 545,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Find(MeasureOf(Angle(A)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Find(MeasureOf(Angle(A)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(MeasureOf(Angle(D, B, C)), 7x-8)",
+            "Equals(MeasureOf(Angle(B, C, A)), 5y-3)",
+            "Equals(MeasureOf(Angle(D, A, C)), 5x)",
+            "Equals(MeasureOf(Angle(A, D, B)), 4x+7)",
+            "PointLiesOnLine(I, Line(D, B))",
+            "PointLiesOnLine(I, Line(A, C))",
+            "PointLiesOnCircle(D, Circle(J, radius_9_0))",
+            "PointLiesOnCircle(B, Circle(J, radius_9_0))",
+            "PointLiesOnCircle(C, Circle(J, radius_9_0))",
+            "PointLiesOnCircle(A, Circle(J, radius_9_0))"
+        ],
+        "line_instances": [
+            "AC",
+            "AI",
+            "BC",
+            "BI",
+            "CJ",
+            "DA",
+            "DB",
+            "DI",
+            "IC",
+            "IJ"
+        ],
+        "point_positions": {
+            "A": [
+                12.0,
+                133.0
+            ],
+            "B": [
+                171.0,
+                1.0
+            ],
+            "C": [
+                317.0,
+                208.0
+            ],
+            "D": [
+                242.0,
+                297.0
+            ],
+            "I": [
+                214.0,
+                183.0
+            ],
+            "J": [
+                167.0,
+                159.0
+            ]
+        },
+        "circle_instances": [
+            "J"
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Coordinates\npoints = {\"A\": [12.0, 133.0], \"B\": [171.0, 1.0], \"C\": [317.0, 208.0], \"D\": [242.0, 297.0], \"I\": [214.0, 183.0], \"J\": [167.0, 159.0]}\n\n# Lines\nlines = [(\"A\", \"C\"), (\"A\", \"I\"), (\"B\", \"C\"), (\"B\", \"I\"), (\"C\", \"J\"), (\"D\", \"A\"), (\"D\", \"B\"), (\"D\", \"I\"), (\"I\", \"C\"), (\"I\", \"J\")]\n\n# Circle\ncircle_center = \"J\"\ncircle_points = [\"A\", \"B\", \"C\", \"D\"]\ncx, cy = points[circle_center]\n\n# Calculate radius using the distance formula\nradius = max(np.sqrt((points[p][0] - cx)**2 + (points[p][1] - cy)**2) for p in circle_points)\n\n# Create plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\n\n# Draw lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' denotes black solid line\n\n# Draw circle\ncircle = plt.Circle((cx, cy), radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Plot points and labels\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' denotes black circle marker\n    ax.text(coord[0], coord[1], f' {point}', fontsize=20, color='red', verticalalignment='bottom', horizontalalignment='right')\n\n# Set limits and hide axes\nax.set_xlim(cx - radius - 10, cx + radius + 10)\nax.set_ylim(cy - radius - 10, cy + radius + 10)\nax.axis('off')\n\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/774d024584a9441fba3e68e883f9f2e5.png"
+}

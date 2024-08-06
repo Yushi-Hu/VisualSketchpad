@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = - 0.76 x^{7} - 1.89 x^{2} + 0.57 \\log{\\left(x \\right)} + 0.05$$",
+    "code": "f(x) = -0.76*x**7 - 1.89*x**2 + 0.57*log(x) + 0.05",
+    "label": "concave",
+    "id": "isobench/math/convexity_130"
+}

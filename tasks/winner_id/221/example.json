@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . . .\n. . . . . . B .\n. . . . . . . .\n. . p . . . . .\n. p . . . K . .\n. . . . . . . .\nk Q . . . . . .\n. . . . . . . .",
+    "pgn": "1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. Bb5 Bc5 5. O-O h6 6. h3 g5 7. Bxc6 dxc6 8. Nxe5 Bd4 9. Nf3 g4 10. Nxd4 gxh3 11. Nf5 hxg2 12. Kxg2 Bxf5 13. exf5 Rg8+ 14. Kh1 Qd4 15. f4 O-O-O 16. d3 Qc5 17. Qf3 Qxf5 18. Be3 Nh5 19. Rg1 a6 20. Ne4 Qe6 21. f5 Qe7 22. Qh3 Nf6 23. Nxf6 Qxf6 24. Rxg8 Rxg8 25. c3 Kb8 26. Rg1 Re8 27. Bd4 Qd6 28. b4 Qd5+ 29. Rg2 Rg8 30. Kh2 Rxg2+ 31. Qxg2 Qxf5 32. Qg8+ Qc8 33. Qxf7 b6 34. a4 Qg4 35. Qe8+ Kb7 36. b5 axb5 37. axb5 Qh4+ 38. Kg2 cxb5 39. Qe4+ Qxe4+ 40. dxe4 Kc6 41. Bg7 h5 42. Kf3 Kc5 43. Kf4 Kc4 44. e5 b4 45. cxb4 Kxb4 46. e6 h4 47. e7 c5 48. e8=Q h3 49. Qe4+ Kb3 50. Qd3+ Ka2 51. Qxh3 b5 52. Qc3 b4 53. Qb2#",
+    "fen": "8/6B1/8/2p5/1p3K2/8/kQ6/8 b - - 1 53",
+    "label": "White",
+    "id": "isobench/chess/winner_id/qcSgg1oc"
+}

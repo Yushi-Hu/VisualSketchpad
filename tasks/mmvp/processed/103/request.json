@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/103/103.jpg'> Is the needle pointing up or down? Options: (a) Up (b) Down",
+    "images": [
+        "../tasks/mmvp/processed/103/103.jpg"
+    ],
+    "answer": "(a)"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/231/231.jpg'> Are all easter eggs placed in a container (e.g nest, basket)? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/231/231.jpg"
+    ],
+    "answer": "(a)"
+}

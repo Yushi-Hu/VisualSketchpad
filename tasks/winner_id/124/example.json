@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . . .\n. p . . . k . .\n. . . b p . . .\np . . . . . p p\nP . . . . . . .\n. . . . . r . P\n. . K . . P . .\n. . . . . . . .",
+    "pgn": "1. e4 c5 2. d4 cxd4 3. c3 Nf6 4. e5 Nd5 5. Bc4 Nb6 6. Bb3 d6 7. Bxf7+ Kxf7 8. Qf3+ Kg8 9. Ne2 dxe5 10. O-O Nc6 11. Re1 Qd5 12. Qg3 d3 13. c4 Nxc4 14. Nec3 Qf7 15. Nd2 Nxd2 16. Bxd2 Bf5 17. Ne4 Bxe4 18. Rxe4 Rd8 19. Rc1 e6 20. Rcc4 Rd4 21. Rexd4 exd4 22. Qxd3 Ne5 23. Qxd4 Nxc4 24. Qxc4 Qf5 25. h3 Qd5 26. Qf4 h5 27. Qg3 Qxd2 28. Qe5 Qd5 29. Qc3 Rh6 30. Qg3 Bd6 31. Qf3 Qxf3 32. gxf3 Rg6+ 33. Kf1 Kf7 34. Ke2 Rf6 35. Ke3 Rf4 36. Ke2 g5 37. b3 a5 38. a4 Rb4 39. Kd2 Rxb3 40. Kc2 Rxf3",
+    "fen": "8/1p3k2/3bp3/p5pp/P7/5r1P/2K2P2/8 w - - 0 41",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/ShachG3G"
+}

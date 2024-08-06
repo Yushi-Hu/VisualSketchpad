@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/261/261.jpg'> Is the person in the picture sitting on a black or white chair? Options: (a) Black (b) White",
+    "images": [
+        "../tasks/mmvp/processed/261/261.jpg"
+    ],
+    "answer": "(a)"
+}

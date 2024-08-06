@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{- x^{9} + x^{8} - 2 x^{3} - 5.65}{5 x^{8} + 3 x^{6} - x^{4} + 8.04}$$",
+    "code": "f(x) = (-x**9 + x**8 - 2*x**3 - 5.65)/(5*x**8 + 3*x**6 - x**4 + 8.04)",
+    "label": "neither",
+    "id": "isobench/math/parity_224"
+}

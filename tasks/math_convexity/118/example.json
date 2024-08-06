@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = 0.78 x^{7} + 0.9 x^{3} + e^{0.78 x} - 5.4$$",
+    "code": "f(x) = 0.78*x**7 + 0.9*x**3 + exp(0.78*x) - 5.4",
+    "label": "convex",
+    "id": "isobench/math/convexity_104"
+}

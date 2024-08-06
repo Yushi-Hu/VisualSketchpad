@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/142/142.jpg'> Is the elephant's trunk raised or lowered? Options: (a) Raised (b) Lowered",
+    "images": [
+        "../tasks/mmvp/processed/142/142.jpg"
+    ],
+    "answer": "(b)"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/106/106.jpg'> Is the camera positioned at eye level or looking down from above? Options: (a) Eye level (b) Above",
+    "images": [
+        "../tasks/mmvp/processed/106/106.jpg"
+    ],
+    "answer": "(b)"
+}

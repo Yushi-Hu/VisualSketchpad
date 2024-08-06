@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/189/189.jpg'> Is the person in the picture on the grass or on the gravel path? Options: (a) Grass (b) Gravel path",
+    "images": [
+        "../tasks/mmvp/processed/189/189.jpg"
+    ],
+    "answer": "(a)"
+}

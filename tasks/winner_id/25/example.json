@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . . b\n. . . . . . . .\n. . . . . . p p\n. . . k . . . .\n. r . . . . . .\n. . . . . . . P\n. . . . . P P .\n. . . . . . K .",
+    "pgn": "1. e4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. Bc4 d6 5. d3 h6 6. h3 Qe7 7. Ne2 Be6 8. Bb5 Qd7 9. Ng3 g6 10. c3 O-O-O 11. c4 a6 12. Ba4 Kb8 13. b4 b5 14. cxb5 axb5 15. Bxb5 Kb7 16. a4 Ra8 17. a5 Qc8 18. Qc2 Nb8 19. Ba4 Bd7 20. b5 c5 21. a6+ Ka7 22. Qc3 Qc7 23. Rb1 Bc8 24. b6+ Qxb6 25. Rxb6 Kxb6 26. Qb3+ Kxa6 27. Qb5+ Ka7 28. O-O Na6 29. Be3 Bd7 30. Qc4 Bxa4 31. Qxa4 Rb8 32. Ra1 Rb6 33. d4 exd4 34. Nxd4 Nd7 35. Nb5+ Kb7 36. Rb1 Nb4 37. Qa7+ Kc6 38. Qc7+ Kxb5 39. Qxd7+ Kc4 40. e5 Bg7 41. exd6 Be5 42. Bxc5 Kxc5 43. Rc1+ Kd5 44. Rd1+ Bd4 45. Qxf7+ Kc5 46. Rc1+ Kxd6 47. Ne4+ Ke5 48. Qg7+ Kxe4 49. Qxh8 Bxh8 50. Rc4+ Kd5 51. Rxb4 Rxb4",
+    "fen": "7b/8/6pp/3k4/1r6/7P/5PP1/6K1 w - - 0 52",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/6UU3UslF"
+}

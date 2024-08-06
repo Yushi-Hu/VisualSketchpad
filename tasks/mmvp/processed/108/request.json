@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/108/108.jpg'> Are the butterfly's feet visible? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/108/108.jpg"
+    ],
+    "answer": "(b)"
+}

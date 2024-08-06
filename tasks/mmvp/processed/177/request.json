@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/177/177.jpg'> In the picture, is the person facing the ocean or turned sideways to the ocean? Options: (a) Facing the ocean (b) Turned sideways to the ocean",
+    "images": [
+        "../tasks/mmvp/processed/177/177.jpg"
+    ],
+    "answer": "(a)"
+}

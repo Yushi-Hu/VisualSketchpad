@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/155/155.jpg'> Is the vase beside the bedside table or on the windowsill? Options: (a) Beside the bedside Table (b) On the Windowsill",
+    "images": [
+        "../tasks/mmvp/processed/155/155.jpg"
+    ],
+    "answer": "(a)"
+}

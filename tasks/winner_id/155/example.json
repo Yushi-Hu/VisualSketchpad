@@ -1,0 +1,7 @@
+{
+    "anl": ". . r q . r k .\np . . . b p p p\n. p . . p . . .\n. . . . N . . .\n. P . P . . . .\nP . . . R . . .\n. B P . . P P P\n. . R n . . K .",
+    "pgn": "1. b3 Nf6 2. Bb2 e6 3. e3 Be7 4. Nf3 O-O 5. d4 d5 6. Bd3 c5 7. O-O cxd4 8. exd4 Nc6 9. Re1 b6 10. a3 Bb7 11. Nbd2 Na5 12. b4 Nc4 13. Nxc4 dxc4 14. Bxc4 Rc8 15. Bd3 Nd5 16. Ne5 Nf4 17. Be4 Bxe4 18. Rxe4 Nd5 19. Rc1 Nc3 20. Re3 Nxd1",
+    "fen": "2rq1rk1/p3bppp/1p2p3/4N3/1P1P4/P3R3/1BP2PPP/2Rn2K1 w - - 0 21",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/Yd93rcno"
+}

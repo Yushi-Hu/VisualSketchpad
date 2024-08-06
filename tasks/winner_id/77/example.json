@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . . .\n. . . . . . . k\n. . . . . . . .\n. . . . b K . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .",
+    "pgn": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nxd4 5. Qxd4 d6 6. h3 Nf6 7. Bg5 Be7 8. c3 O-O 9. Bxf6 Bxf6 10. Qd1 Re8 11. Bd3 d5 12. O-O dxe4 13. Bc2 Bd7 14. Nd2 Bc6 15. Nb3 Qe7 16. Re1 Qe5 17. Qg4 Qd5 18. Rad1 Qc4 19. Na5 Qxa2 20. Nxc6 bxc6 21. Bxe4 Qxb2 22. Re2 Qxc3 23. Rc2 Qe5 24. Bxc6 Rad8 25. Bxe8 Rxe8 26. Rxc7 Qxc7 27. Rd7 Qe5 28. Rxa7 h6 29. g3 Qd4 30. Qd7 Qxd7 31. Rxd7 Re7 32. Rd8+ Kh7 33. Kg2 Re2 34. Rd7 Kg6 35. h4 Ra2 36. h5+ Kh7 37. Rxf7 Ra4 38. Rd7 Rd4 39. Rxd4 Bxd4 40. f3 Bf6 41. g4 Kg8 42. Kg3 Kf7 43. Kf4 Be7 44. Kf5 Bc5 45. f4 Be7 46. g5 hxg5 47. fxg5 Kg8 48. Kg6 Kh8 49. h6 gxh6 50. gxh6 Bd6 51. h7 Be5 52. Kf5 Kxh7",
+    "fen": "8/7k/8/4bK2/8/8/8/8 w - - 0 53",
+    "label": "Draw",
+    "id": "isobench/chess/winner_id/GtRKyeqI"
+}

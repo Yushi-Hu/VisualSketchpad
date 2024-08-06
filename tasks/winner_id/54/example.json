@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . k .\n. . . . R p . p\np . . . . . p .\n. . . r . . B .\n. . . . . . . .\n. . . . . . . P\nP R . . . . P .\n. . . . . . . K",
+    "pgn": "1. e4 c5 2. c3 Nc6 3. d4 cxd4 4. cxd4 g6 5. d5 Nb8 6. Nf3 Bg7 7. Nc3 d6 8. Bd3 Bg4 9. h3 Bxf3 10. Qxf3 a6 11. O-O Nf6 12. Re1 Nbd7 13. Bg5 Ne5 14. Qe2 Nxd3 15. Qxd3 O-O 16. Kh1 b5 17. f4 Rc8 18. Rac1 Qd7 19. e5 dxe5 20. fxe5 b4 21. exf6 bxc3 22. fxg7 cxb2 23. gxf8=Q+ Rxf8 24. Rb1 Rd8 25. Rxb2 Qxd5 26. Qxd5 Rxd5 27. Rxe7",
+    "fen": "6k1/4Rp1p/p5p1/3r2B1/8/7P/PR4P1/7K b - - 0 27",
+    "label": "White",
+    "id": "isobench/chess/winner_id/CDE9GCva"
+}

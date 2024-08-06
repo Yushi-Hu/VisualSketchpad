@@ -1,0 +1,7 @@
+{
+    "anl": ". k . . Q . . .\n. . . Q . . . .\n. . . . . . K .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .",
+    "pgn": "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 d6 5. Nc3 e6 6. Be3 Nf6 7. Bb5 Bd7 8. O-O g6 9. h3 Nxd4 10. Bxd7+ Qxd7 11. Bxd4 e5 12. Be3 Bg7 13. Nd5 Nxd5 14. exd5 O-O 15. f4 exf4 16. Bxf4 f5 17. Qd3 Bxb2 18. Rab1 Be5 19. Qf3 Rac8 20. c4 Rxc4 21. Bh6 Rf4 22. Bxf4 Bxf4 23. Qxf4 b5 24. a4 bxa4 25. Ra1 a5 26. Qxa4 Qxa4 27. Rxa4 Ra8 28. Rb1 Kf7 29. Rb7+ Kf6 30. Rb5 Ke5 31. Rbxa5 Rxa5 32. Rxa5 h5 33. Kf2 g5 34. Ke3 f4+ 35. Kf3 Kd4 36. Ra4+ Kxd5 37. Re4 Kc5 38. Re6 d5 39. Rh6 h4 40. Rg6 d4 41. Rxg5+ Kc4 42. Rg8 Kd3 43. Rd8 Kc3 44. Kxf4 d3 45. Kg4 Kd2 46. Kxh4 Ke2 47. g4 d2 48. g5 d1=Q 49. Rxd1 Kxd1 50. g6 Ke2 51. g7 Kf3 52. g8=Q Kf4 53. Kh5 Ke5 54. Kg6 Kd4 55. h4 Kc5 56. h5 Kd4 57. h6 Kc3 58. h7 Kb4 59. h8=Q Kb5 60. Qd4 Kc6 61. Qe6+ Kc7 62. Qdd7+ Kb8 63. Qee8#",
+    "fen": "1k2Q3/3Q4/6K1/8/8/8/8/8 b - - 8 63",
+    "label": "White",
+    "id": "isobench/chess/winner_id/YE7XXTaQ"
+}

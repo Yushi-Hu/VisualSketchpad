@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/139/139.jpg'> Can you see the side windows of the vehicles? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/139/139.jpg"
+    ],
+    "answer": "(a)"
+}

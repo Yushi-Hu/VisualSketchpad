@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/272/272.jpg'> Is the male in the picture wearing a shirt or a T-shirt? Options: (a) Shirt (b) T-shirt",
+    "images": [
+        "../tasks/mmvp/processed/272/272.jpg"
+    ],
+    "answer": "(b)"
+}

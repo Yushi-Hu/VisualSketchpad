@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/83/83.jpg'> Is the door of the truck cab open? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/83/83.jpg"
+    ],
+    "answer": "(a)"
+}

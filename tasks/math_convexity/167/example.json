@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = 2.19 \\log{\\left(x \\right)} - 2.71 \\left|{x}\\right| - 16.74$$",
+    "code": "f(x) = 2.19*log(x) - 2.71*Abs(x) - 16.74",
+    "label": "concave",
+    "id": "isobench/math/convexity_242"
+}

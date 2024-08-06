@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/184/184.jpg'> Are the teddy bears holding hands or leaning against each other? Options: (a) Holding hands (b) Leaning against",
+    "images": [
+        "../tasks/mmvp/processed/184/184.jpg"
+    ],
+    "answer": "(b)"
+}

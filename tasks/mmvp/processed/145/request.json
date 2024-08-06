@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/145/145.jpg'> Is the photo taken looking down from above or looking up from below? Options: (a) Looking down from above (b) Looking up from below",
+    "images": [
+        "../tasks/mmvp/processed/145/145.jpg"
+    ],
+    "answer": "(a)"
+}

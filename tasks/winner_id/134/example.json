@@ -1,0 +1,7 @@
+{
+    "anl": "r n b . . Q . k\n. p . p N p . p\np . . . . q p .\n. . . . p . . .\n. . . . . . . .\n. . . . . . . .\nP P P . B P P P\nR . . . . R K .",
+    "pgn": "1. e4 c5 2. Nf3 e6 3. Nc3 a6 4. d4 cxd4 5. Nxd4 Bc5 6. Be2 Qf6 7. Be3 Nh6 8. O-O e5 9. Nd5 Qd6 10. Nf5 Nxf5 11. Bxc5 Qxc5 12. exf5 O-O 13. f6 g6 14. Ne7+ Kh8 15. Qd2 Qb6 16. Qh6 Qxf6 17. Qxf8#",
+    "fen": "rnb2Q1k/1p1pNp1p/p4qp1/4p3/8/8/PPP1BPPP/R4RK1 b - - 0 17",
+    "label": "White",
+    "id": "isobench/chess/winner_id/UaNes0jc"
+}

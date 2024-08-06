@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/244/244.jpg'> Is the rabbit in the image facing left or right? Options: (a) Left (b) Right",
+    "images": [
+        "../tasks/mmvp/processed/244/244.jpg"
+    ],
+    "answer": "(b)"
+}

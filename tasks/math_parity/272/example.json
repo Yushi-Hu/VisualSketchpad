@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{5 x^{6} + 5 x^{5} + 2 x^{4} - 0.69}{x^{6} - 4 x^{2} + 9.05}$$",
+    "code": "f(x) = (5*x**6 + 5*x**5 + 2*x**4 - 0.69)/(x**6 - 4*x**2 + 9.05)",
+    "label": "neither",
+    "id": "isobench/math/parity_218"
+}

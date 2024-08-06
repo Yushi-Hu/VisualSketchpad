@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/188/188.jpg'> In the picture, is the person stretching out one arm or both arms above their head? Options: (a) One arm (b) Both arms",
+    "images": [
+        "../tasks/mmvp/processed/188/188.jpg"
+    ],
+    "answer": "(b)"
+}

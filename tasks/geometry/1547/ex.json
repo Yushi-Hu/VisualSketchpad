@@ -1,0 +1,115 @@
+{
+    "problem_text": "If the polygon shown is regular, what is m \\angle A B C.",
+    "choices": [
+        "140",
+        "144",
+        "162",
+        "180"
+    ],
+    "answer": "A",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Other"
+    ],
+    "problem_type_goal": [
+        "Angle"
+    ],
+    "source": "textbook1_chapter6.pdf page 12",
+    "comment": "",
+    "id": 1547,
+    "annot_id": "Ran_2020-03-15_04_51_45",
+    "is_standard": true,
+    "compact_choices": [
+        "140",
+        "144",
+        "162",
+        "180"
+    ],
+    "precise_value": [
+        140.0,
+        144.0,
+        162.0,
+        180.0
+    ],
+    "rough_value": [
+        140,
+        144,
+        162,
+        180
+    ],
+    "compact_text": "If the polygon shown is regular, what is m \\angle ABC.",
+    "annotat_text": "If the polygon shown is regular, what is $m\\angle ABC$",
+    "unit": "",
+    "img_width": 347,
+    "img_height": 379,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Regular(Polygon($))",
+            "Find(MeasureOf(Angle(A,B,C)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Regular(Polygon(A,B,C,D,E,F,G,I,H))",
+            "Find(MeasureOf(Angle(A,B,C)))"
+        ],
+        "diagram_logic_form": [
+            ""
+        ],
+        "line_instances": [
+            "AB",
+            "BC",
+            "CD",
+            "DE",
+            "EF",
+            "FG",
+            "GI",
+            "HA",
+            "IH"
+        ],
+        "point_positions": {
+            "A": [
+                210.0,
+                31.0
+            ],
+            "B": [
+                255.0,
+                113.0
+            ],
+            "C": [
+                235.0,
+                195.0
+            ],
+            "D": [
+                170.0,
+                255.0
+            ],
+            "E": [
+                100.0,
+                255.0
+            ],
+            "F": [
+                34.0,
+                195.0
+            ],
+            "G": [
+                0.0,
+                113.0
+            ],
+            "I": [
+                41.0,
+                35.0
+            ],
+            "H": [
+                128.0,
+                2.0
+            ]
+        },
+        "circle_instances": [
+            "G"
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Define the coordinates\npoints = {\n    \"A\": [210.0, 31.0], \"B\": [255.0, 113.0], \"C\": [235.0, 195.0], \"D\": [170.0, 255.0],\n    \"E\": [100.0, 255.0], \"F\": [34.0, 195.0], \"G\": [0.0, 113.0], \"I\": [41.0, 35.0], \"H\": [128.0, 2.0]\n}\n\n# Define the lines between points\nlines = [(\"A\", \"B\"), (\"B\", \"C\"), (\"C\", \"D\"), (\"D\", \"E\"), (\"E\", \"F\"), (\"F\", \"G\"), (\"G\", \"I\"), (\"H\", \"A\"), (\"I\", \"H\")]\n\n# Create the plot\nfig, ax = plt.subplots()\n\n# Plot the lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Plot the points and labels\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' for black dot\n    ax.text(coord[0], coord[1], f' {point}', color='red', fontsize=20, verticalalignment='bottom', horizontalalignment='right')\n\n# Set the aspect of the plot to be equal\nax.set_aspect('equal')\n\n# Remove the axes\nax.axis('off')\n\n# Show the plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/3e6a61bc107f4393a008d3c02a4ebb06.png"
+}

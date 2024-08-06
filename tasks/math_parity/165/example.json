@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{- 10 x^{8} - 30.58}{10 x^{10} - 2 x^{4} + 3.16}$$",
+    "code": "f(x) = (-10*x**8 - 30.58)/(10*x**10 - 2*x**4 + 3.16)",
+    "label": "even",
+    "id": "isobench/math/parity_110"
+}

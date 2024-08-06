@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . k .\n. . . . . . N .\n. . . . . . K .\n. . . . . . . .",
+    "pgn": "1. e4 e5 2. f4 exf4 3. Bc4 Bd6 4. Bxf7+ Kxf7 5. Nf3 g6 6. c3 Nc6 7. d4 Bf8 8. O-O Bg7 9. Bxf4 Nf6 10. e5 Nd5 11. Qb3 Ne7 12. Bg5 c6 13. Nbd2 Qb6 14. Ne4 Qxb3 15. axb3 h6 16. Nd6+ Kf8 17. Bf6 Bxf6 18. exf6 Nxf6 19. Ne5 Kg7 20. Rae1 Ned5 21. Ne4 d6 22. Nxf6 Nxf6 23. Nc4 Nd5 24. Nxd6 b5 25. c4 bxc4 26. bxc4 Ba6 27. b3 Rab8 28. cxd5 Bxf1 29. Re7+ Kf6 30. Rf7+ Kg5 31. Rxf1 cxd5 32. Nf7+ Kh5 33. Nxh8 Rxb3 34. Nf7 a5 35. Ne5 a4 36. g4+ Kg5 37. Ra1 Rb4 38. Nd3 Rxd4 39. Nc5 Rxg4+ 40. Kh1 d4 41. Nxa4 d3 42. Nc3 Rc4 43. Nd1 d2 44. Ra2 Rd4 45. Kg2 Rd3 46. Kf2 h5 47. Ke2 Rd8 48. Rxd2 Rxd2+ 49. Kxd2 Kf4 50. Ke2 g5 51. Kf2 g4 52. Kg2 h4 53. Nf2 g3 54. Nh3+ Kg4 55. hxg3 hxg3 56. Ng1 Kf4 57. Ne2+ Kg4 58. Nxg3",
+    "fen": "8/8/8/8/6k1/6N1/6K1/8 b - - 0 58",
+    "label": "Draw",
+    "id": "isobench/chess/winner_id/CLgAOjY1"
+}

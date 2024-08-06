@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . . .\n. . . . . . . .\n. . . . r . . .\n. . . . . . . K\n. . . . . k . P\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .",
+    "pgn": "1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. d3 Bc5 6. Be2 Be6 7. c3 Qe7 8. d4 O-O-O 9. Nd2 Bb6 10. h3 Rhe8 11. a4 a6 12. a5 Ba7 13. e5 Nd5 14. Nf3 f6 15. exf6 Nxf6 16. Ne5 h6 17. Bxa6 bxa6 18. Nxc6 Qd6 19. Nxa7+ Kb7 20. Be3 Kxa7 21. d5+ c5 22. dxe6 Qc6 23. Qf3 Rxe6 24. Qxc6 Rxc6 25. O-O Kb7 26. b4 cxb4 27. cxb4 Nd5 28. Rab1 Nxe3 29. fxe3 Rdd6 30. b5 axb5 31. Rxb5+ Ka6 32. Rb6+ Rxb6 33. axb6 Kxb6 34. Rf7 g6 35. Rh7 h5 36. Re7 Kc5 37. Kf2 Rf6+ 38. Kg3 Kd6 39. Re8 Rf5 40. e4 Re5 41. Kf4 Rxe8 42. Kg5 Re6 43. g4 Ke5 44. gxh5 gxh5 45. Kxh5 Kxe4 46. h4 Kf4",
+    "fen": "8/8/4r3/7K/5k1P/8/8/8 w - - 1 47",
+    "label": "Draw",
+    "id": "isobench/chess/winner_id/NAmoHW9M"
+}

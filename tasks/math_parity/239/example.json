@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{10.0 x \\left(x^{4} - x^{2} - 1\\right)}{18.0 x^{8} + 10.0 x^{2} + 34.22}$$",
+    "code": "f(x) = 10.0*x*(x**4 - x**2 - 1)/(18.0*x**8 + 10.0*x**2 + 34.22)",
+    "label": "odd",
+    "id": "isobench/math/parity_297"
+}

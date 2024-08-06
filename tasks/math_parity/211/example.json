@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{- 5 x^{7} + 5 x^{6} - 3 x^{3} - 2 x + 7.94}{2 x^{10} + 11.63}$$",
+    "code": "f(x) = (-5*x**7 + 5*x**6 - 3*x**3 - 2*x + 7.94)/(2*x**10 + 11.63)",
+    "label": "neither",
+    "id": "isobench/math/parity_185"
+}

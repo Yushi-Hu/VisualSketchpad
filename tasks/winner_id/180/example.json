@@ -1,0 +1,7 @@
+{
+    "anl": ". k r . . b . r\n. p . n . p p .\np . q . p . b p\n. N P p P n . .\nP . . P . . . .\n. Q . B . . N .\n. . . . . P P P\nR . B . . R K .",
+    "pgn": "1. e4 c6 2. d4 d5 3. e5 Bf5 4. c4 e6 5. Nc3 h6 6. Nge2 Ne7 7. Ng3 Bg6 8. Bd3 Nd7 9. c5 Qc7 10. O-O O-O-O 11. b4 Kb8 12. b5 Rc8 13. bxc6 Qxc6 14. a4 a6 15. Qb3 Nf5 16. Nb5",
+    "fen": "1kr2b1r/1p1n1pp1/p1q1p1bp/1NPpPn2/P2P4/1Q1B2N1/5PPP/R1B2RK1 b - - 3 16",
+    "label": "White",
+    "id": "isobench/chess/winner_id/ecrm7AQT"
+}

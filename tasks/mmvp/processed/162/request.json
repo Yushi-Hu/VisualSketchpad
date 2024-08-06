@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/162/162.jpg'> Is the minute hand of the clock closer to 12 or closer to 1? Options: (a) 12 (b) 1 ",
+    "images": [
+        "../tasks/mmvp/processed/162/162.jpg"
+    ],
+    "answer": "(b)"
+}

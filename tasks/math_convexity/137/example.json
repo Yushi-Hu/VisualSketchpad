@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = 0.36 x^{5} + 0.78 \\left|{x}\\right| - 11.75$$",
+    "code": "f(x) = 0.36*x**5 + 0.78*Abs(x) - 11.75",
+    "label": "convex",
+    "id": "isobench/math/convexity_94"
+}

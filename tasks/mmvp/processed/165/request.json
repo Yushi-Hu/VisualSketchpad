@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/165/165.jpg'> In this image, are the berries placed Options: (a) On a dish (b) In bowls of yogurts",
+    "images": [
+        "../tasks/mmvp/processed/165/165.jpg"
+    ],
+    "answer": "(a)"
+}

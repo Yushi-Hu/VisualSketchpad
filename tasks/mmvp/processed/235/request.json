@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/235/235.jpg'> Do the individuals in the picture face the front or the back? Options: (a) Front (b) Back",
+    "images": [
+        "../tasks/mmvp/processed/235/235.jpg"
+    ],
+    "answer": "(a)"
+}

@@ -1,0 +1,7 @@
+{
+    "anl": "r . . . k . . Q\np p . q b p . p\n. . p . . . b .\n. . . p . . . .\n. . . . . . P .\n. B P . . . . P\nP P . . . P . .\nR N . . R . K .",
+    "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. c3 Nxe4 5. O-O d5 6. Bb3 Bc5 7. d3 Nf6 8. Bg5 Bg4 9. h3 Bh5 10. g4 Bg6 11. d4 exd4 12. Re1+ Be7 13. Bxf6 gxf6 14. Nxd4 Nxd4 15. Qxd4 c6 16. Qxf6 Qd7 17. Qxh8#",
+    "fen": "r3k2Q/pp1qbp1p/2p3b1/3p4/6P1/1BP4P/PP3P2/RN2R1K1 b q - 0 17",
+    "label": "White",
+    "id": "isobench/chess/winner_id/lhtRTOJt"
+}

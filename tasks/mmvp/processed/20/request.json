@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/20/20.jpg'> Can you see the dorsal fin of the animal? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/20/20.jpg"
+    ],
+    "answer": "(b)"
+}

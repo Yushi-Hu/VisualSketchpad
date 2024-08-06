@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{8 x^{7} \\left(x^{2} + 1\\right)}{14 x^{8} + 2 x^{6} + 6 x^{4} + 8.8}$$",
+    "code": "f(x) = 8*x**7*(x**2 + 1)/(14*x**8 + 2*x**6 + 6*x**4 + 8.8)",
+    "label": "odd",
+    "id": "isobench/math/parity_275"
+}

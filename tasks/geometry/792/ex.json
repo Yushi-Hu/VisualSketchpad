@@ -1,0 +1,134 @@
+{
+    "problem_text": "Find x (Line TR). Assume that segments that appear to be tangent are tangent.",
+    "choices": [
+        "3",
+        "6",
+        "8",
+        "10"
+    ],
+    "answer": "D",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Circle",
+        "Other"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "textbook2_chapter10.pdf page 37",
+    "comment": "",
+    "id": 792,
+    "annot_id": "Ran_2020-03-29_03_56_37",
+    "is_standard": false,
+    "compact_choices": [
+        "3",
+        "6",
+        "8",
+        "10"
+    ],
+    "precise_value": [
+        3.0,
+        6.0,
+        8.0,
+        10.0
+    ],
+    "rough_value": [
+        3,
+        6,
+        8,
+        10
+    ],
+    "compact_text": "Find x. Assume that segments that appear to be tangent are tangent.",
+    "annotat_text": "Find x. Assume that segments that appear to be tangent are tangent.",
+    "unit": "",
+    "img_width": 459,
+    "img_height": 306,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Tangent(Line($),Circle($))",
+            "Find(x)"
+        ],
+        "dissolved_text_logic_form": [
+            "Tangent(Line(P, W),Circle(Z))",
+            "Tangent(Line(P, Q),Circle(Z))",
+            "Tangent(Line(R, S),Circle(Z))",
+            "Tangent(Line(N, A),Circle(Z))",
+            "Find(x)"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(Q, R)), 6)",
+            "Equals(LengthOf(Line(U, T)), 4)",
+            "Equals(LengthOf(Line(V, W)), 8)",
+            "Equals(LengthOf(Line(W, P)), 3)",
+            "Equals(LengthOf(Line(R, T)), x)",
+            "PointLiesOnLine(W, Line(V, P))",
+            "PointLiesOnLine(U, Line(V, T))",
+            "PointLiesOnLine(Q, Line(P, R))",
+            "PointLiesOnLine(S, Line(T, R))",
+            "PointLiesOnCircle(U, Circle(C, radius_6_0))",
+            "PointLiesOnCircle(S, Circle(C, radius_6_0))",
+            "PointLiesOnCircle(W, Circle(C, radius_6_0))",
+            "PointLiesOnCircle(Q, Circle(C, radius_6_0))"
+        ],
+        "line_instances": [
+            "RQ",
+            "RS",
+            "PQ",
+            "PR",
+            "PW",
+            "TR",
+            "TS",
+            "UT",
+            "VP",
+            "VT",
+            "VU",
+            "VW"
+        ],
+        "point_positions": {
+            "C": [
+                153.0,
+                88.0
+            ],
+            "P": [
+                114.0,
+                4.0
+            ],
+            "Q": [
+                169.0,
+                4.0
+            ],
+            "R": [
+                269.0,
+                5.0
+            ],
+            "S": [
+                231.0,
+                116.0
+            ],
+            "T": [
+                212.0,
+                171.0
+            ],
+            "U": [
+                154.0,
+                171.0
+            ],
+            "V": [
+                0.0,
+                173.0
+            ],
+            "W": [
+                70.0,
+                69.0
+            ]
+        },
+        "circle_instances": [
+            "C"
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Define coordinates\npoints = {\n    \"C\": [153.0, 88.0], \n    \"P\": [114.0, 4.0], \n    \"Q\": [169.0, 4.0], \n    \"R\": [269.0, 5.0], \n    \"S\": [231.0, 116.0], \n    \"T\": [212.0, 171.0], \n    \"U\": [154.0, 171.0], \n    \"V\": [0.0, 173.0], \n    \"W\": [70.0, 69.0]\n}\n\n# Define lines\nlines = [\n    (\"R\", \"Q\"), (\"R\", \"S\"), (\"P\", \"Q\"), (\"P\", \"R\"), (\"P\", \"W\"), \n    (\"T\", \"R\"), (\"T\", \"S\"), (\"U\", \"T\"), (\"V\", \"P\"), (\"V\", \"T\"), \n    (\"V\", \"U\"), (\"V\", \"W\")\n]\n\n# Create plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\nax.axis('off')\n\n# Draw lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k')\n\n# Draw circle with radius as the largest distance from C\ncircle_radius = 0\nfor point in ['U', 'S', 'W', 'Q']:\n    dist = np.sqrt((points[point][0] - points[\"C\"][0])**2 + (points[point][1] - points[\"C\"][1])**2)\n    circle_radius = max(circle_radius, dist)\n\ncircle = plt.Circle((points[\"C\"][0], points[\"C\"][1]), circle_radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Set limits\nax.set_xlim(points[\"C\"][0] - 2 * circle_radius, points[\"C\"][0] + 2 * circle_radius)\nax.set_ylim(points[\"C\"][1] - 2 * circle_radius, points[\"C\"][1] + 2 * circle_radius)\n\n# Plot points and labels\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ro')\n    ax.text(coord[0], coord[1], f' {point}', fontsize=20, color='red', verticalalignment='bottom', horizontalalignment='left')\n\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad_old/GPT4API/notebook_testing/4f9473ce97d4447888004c49fe7c91b0.png"
+}

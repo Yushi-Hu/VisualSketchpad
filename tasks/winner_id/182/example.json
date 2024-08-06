@@ -1,0 +1,7 @@
+{
+    "anl": "r n b . k . n r\np p . . . . p p\n. . . . . p . .\n. . b . . . . .\nP . . . p . . .\n. P N . . . . .\n. B P N . q P P\nR . . Q K B . R",
+    "pgn": "1. d4 d5 2. e3 e6 3. Nf3 f6 4. Nc3 e5 5. b3 e4 6. Nd2 c5 7. dxc5 Bxc5 8. a4 d4 9. exd4 Qxd4 10. Bb2 Qxf2#",
+    "fen": "rnb1k1nr/pp4pp/5p2/2b5/P3p3/1PN5/1BPN1qPP/R2QKB1R w KQkq - 0 11",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/esmY1JWB"
+}

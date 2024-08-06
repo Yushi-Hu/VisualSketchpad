@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/225/225.jpg'> Are all the cups and bottles in the picture the same height? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/225/225.jpg"
+    ],
+    "answer": "(a)"
+}

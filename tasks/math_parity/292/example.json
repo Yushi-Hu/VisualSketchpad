@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{- 3 x^{9} - 4 x - 13.11}{3 x^{10} + 6 x^{8} + x^{6} + 20.86}$$",
+    "code": "f(x) = (-3*x**9 - 4*x - 13.11)/(3*x**10 + 6*x**8 + x**6 + 20.86)",
+    "label": "neither",
+    "id": "isobench/math/parity_175"
+}

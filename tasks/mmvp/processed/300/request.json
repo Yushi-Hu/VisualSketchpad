@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/300/300.jpg'> How would you describe the background of the image? Options: (a) Light shining through the clouds from the upper right corner (b) Most of the background is dark and cloudy",
+    "images": [
+        "../tasks/mmvp/processed/300/300.jpg"
+    ],
+    "answer": "(b)"
+}

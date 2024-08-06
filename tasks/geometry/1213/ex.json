@@ -1,0 +1,84 @@
+{
+    "problem_text": "Find AB. Round side measure to the nearest tenth.",
+    "choices": [
+        "16.4",
+        "18.0",
+        "32.0",
+        "35.1"
+    ],
+    "answer": "D",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Triangle"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "textbook1_chapter_8.pdf",
+    "comment": "",
+    "id": 1213,
+    "annot_id": "pan_2020-03-25_20_56_01",
+    "is_standard": false,
+    "compact_choices": [
+        "16.4",
+        "18.0",
+        "32.0",
+        "35.1"
+    ],
+    "precise_value": [
+        16.4,
+        18.0,
+        32.0,
+        35.1
+    ],
+    "rough_value": [
+        16.4,
+        18,
+        32,
+        35.1
+    ],
+    "compact_text": "Find x. Round side measure to the nearest tenth.",
+    "annotat_text": "Find x. Round side measures to the nearest tenth.",
+    "unit": "",
+    "img_width": 219,
+    "img_height": 256,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Find(x)"
+        ],
+        "dissolved_text_logic_form": [
+            "Find(x)"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(A, B)), x)",
+            "Equals(MeasureOf(Angle(B, A, C)), 30)",
+            "Equals(LengthOf(Line(B, C)), 24)",
+            "Equals(MeasureOf(Angle(A, C, B)), 47)"
+        ],
+        "line_instances": [
+            "AB",
+            "AC",
+            "BC"
+        ],
+        "circle_instances": [],
+        "point_positions": {
+            "A": [
+                0.0,
+                0.0
+            ],
+            "B": [
+                160.11971368256232,
+                99.65688042612088
+            ],
+            "C": [
+                120.59331162148064,
+                219.53390009728037
+            ]
+        }
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Coordinates\npoints = {\n    \"A\": [0.0, 0.0],\n    \"B\": [160.11971368256232, 99.65688042612088],\n    \"C\": [120.59331162148064, 219.53390009728037]\n}\n\n# Create figure and axis\nfig, ax = plt.subplots()\nfig.set_figheight(15)\nfig.set_figwidth(15)\n\n# Drawing lines\nlines = [(\"A\", \"B\"), (\"A\", \"C\"), (\"B\", \"C\")]\nfor line in lines:\n    p1, p2 = line\n    x_values = [points[p1][0], points[p2][0]]\n    y_values = [points[p1][1], points[p2][1]]\n    ax.plot(x_values, y_values, 'k')  # 'k' for black line\n\n# Labeling points\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], point, color='red', fontsize=20, ha='right', va='bottom')\n\n# Adjusting plot\nax.set_aspect('equal')\nax.axis('off')\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/f5308156848c4612bdc5c83a150f26b5.png"
+}

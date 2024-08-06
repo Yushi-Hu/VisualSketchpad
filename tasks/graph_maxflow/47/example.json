@@ -1,0 +1,9 @@
+{
+    "source_node": 0,
+    "source_node_color": "red",
+    "sink_node": 3,
+    "sink_node_color": "blue",
+    "adjacency_matrix": "[[0, 0, 1, 8], [0, 0, 0, 7], [0, 0, 0, 4], [0, 0, 0, 0]]",
+    "label": 9,
+    "id": "isobench/algorithm/maxflow_26"
+}

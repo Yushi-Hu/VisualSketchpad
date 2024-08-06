@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/91/91.jpg'> Are there any words displayed on the vehicle's lightbar? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/91/91.jpg"
+    ],
+    "answer": "(a)"
+}

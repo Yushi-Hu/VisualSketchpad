@@ -1,0 +1,7 @@
+{
+    "anl": ". . . . . . r .\np . k . b . . .\n. . p . . . . .\n. . . . p B . .\n. . . . . p . .\nR . . . . . . .\nP P P . . P P P\n. . . r . . K .",
+    "pgn": "1. e4 e5 2. Nf3 Qe7 3. d4 d6 4. d5 f6 5. Bd3 h6 6. O-O g5 7. Re1 h5 8. Nbd2 Qg7 9. Nf1 Ne7 10. Be3 Ng6 11. Bxg5 Nf4 12. Bxf4 exf4 13. Nh4 Rg8 14. e5 fxe5 15. Bg6+ Kd8 16. Qxh5 Be7 17. Nd2 Nd7 18. Ne4 Nf6 19. Nxf6 Bxf6 20. Nf5 Bxf5 21. Qxf5 c5 22. dxc6 bxc6 23. Rad1 Be7 24. Rxe5 Kc7 25. Rd3 Qxe5 26. Qxe5 dxe5 27. Bf5 Rad8 28. Ra3 Rd1#",
+    "fen": "6r1/p1k1b3/2p5/4pB2/5p2/R7/PPP2PPP/3r2K1 w - - 4 29",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/Duus08YC"
+}

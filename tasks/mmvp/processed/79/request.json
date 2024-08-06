@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/79/79.jpg'> In the image, is the snake's head oriented facing upwards or directed forwards? Options: (a) Upwards (b) Forward",
+    "images": [
+        "../tasks/mmvp/processed/79/79.jpg"
+    ],
+    "answer": "(a)"
+}

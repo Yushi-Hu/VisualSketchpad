@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/blink_spatial/processed/val_Spatial_Relation_4/image.jpg'> Is the bowl in front of the apple?\nSelect from the following choices.\n(A) yes\n(B) no",
+    "images": [
+        "../tasks/blink_spatial/processed/val_Spatial_Relation_4/image.jpg"
+    ],
+    "answer": "(A)"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/121/121.jpg'> Does this corn have white kernels? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/121/121.jpg"
+    ],
+    "answer": "(a)"
+}

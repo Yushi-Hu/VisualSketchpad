@@ -1,0 +1,123 @@
+{
+    "problem_text": "In \\odot F, F H \\cong F L and F K = 17. Find L K.",
+    "choices": [
+        "8",
+        "15",
+        "16",
+        "17"
+    ],
+    "answer": "B",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Circle"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "textbook2_chapter10.pdf page 21",
+    "comment": "",
+    "id": 1568,
+    "annot_id": "Ran_2020-03-28_03_36_28",
+    "is_standard": false,
+    "compact_choices": [
+        "8",
+        "15",
+        "16",
+        "17"
+    ],
+    "precise_value": [
+        8.0,
+        15.0,
+        16.0,
+        17.0
+    ],
+    "rough_value": [
+        8,
+        15,
+        16,
+        17
+    ],
+    "compact_text": "In \\odot F, FH \\cong FL and FK = 17. Find LK.",
+    "annotat_text": "In $\\odot F, \\overline{F H} \\cong \\overline{F L}$ and $\\mathrm{FK}=17$.\r\nFind LK",
+    "unit": "",
+    "img_width": 251,
+    "img_height": 213,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Circle(F)",
+            "Equals(LengthOf(Line(F,H)),Line(F,L))",
+            "Equals(LengthOf(Line(F,K)),17)",
+            "Find(LengthOf(Line(L,K)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Circle(F)",
+            "Equals(LengthOf(Line(F,H)),Line(F,L))",
+            "Equals(LengthOf(Line(F,K)),17)",
+            "Find(LengthOf(Line(L,K)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(LengthOf(Line(H, F)), 8)",
+            "PointLiesOnLine(F, Line(G, K))",
+            "PointLiesOnLine(H, Line(G, J))",
+            "PointLiesOnLine(F, Line(H, L))",
+            "PointLiesOnLine(L, Line(K, M))",
+            "PointLiesOnCircle(G, Circle(F, radius_4_0))",
+            "PointLiesOnCircle(M, Circle(F, radius_4_0))",
+            "PointLiesOnCircle(K, Circle(F, radius_4_0))",
+            "PointLiesOnCircle(J, Circle(F, radius_4_0))",
+            "Perpendicular(Line(H, J), Line(H, F))",
+            "Perpendicular(Line(K, L), Line(L, F))"
+        ],
+        "line_instances": [
+            "GH",
+            "GK",
+            "GJ",
+            "HL",
+            "HF",
+            "HJ",
+            "KL",
+            "KM",
+            "KF",
+            "LM",
+            "LF"
+        ],
+        "circle_instances": [
+            "F"
+        ],
+        "point_positions": {
+            "G": [
+                28.02146979524781,
+                154.91604459724013
+            ],
+            "L": [
+                150.5002440810349,
+                90.99206736636563
+            ],
+            "H": [
+                25.738556010420552,
+                89.01172311127652
+            ],
+            "M": [
+                148.01819229966713,
+                155.40875026081852
+            ],
+            "F": [
+                86.48545652512055,
+                91.16114481256805
+            ],
+            "K": [
+                150.31634365954238,
+                27.662944505409328
+            ],
+            "J": [
+                25.04715705767721,
+                28.012034460894434
+            ]
+        }
+    },
+    "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Define the points\npoints = {\n    \"G\": [28.02146979524781, 154.91604459724013],\n    \"L\": [150.5002440810349, 90.99206736636563],\n    \"H\": [25.738556010420552, 89.01172311127652],\n    \"M\": [148.01819229966713, 155.40875026081852],\n    \"F\": [86.48545652512055, 91.16114481256805],\n    \"K\": [150.31634365954238, 27.662944505409328],\n    \"J\": [25.04715705767721, 28.012034460894434]\n}\n\n# Define the lines\nlines = [\n    (\"G\", \"H\"),\n    (\"G\", \"K\"),\n    (\"G\", \"J\"),\n    (\"H\", \"L\"),\n    (\"H\", \"F\"),\n    (\"H\", \"J\"),\n    (\"K\", \"L\"),\n    (\"K\", \"M\"),\n    (\"K\", \"F\"),\n    (\"L\", \"M\"),\n    (\"L\", \"F\")\n]\n\n# Create the plot\nfig, ax = plt.subplots()\n\n# Calculate the circle radius and center\ncenter = np.array(points[\"F\"])\nradius = np.linalg.norm(np.array(points[\"G\"]) - center)\n\n# Draw the circle\ncircle = plt.Circle(center, radius, color='black', fill=False)\nax.add_artist(circle)\n\n# Draw the lines\nfor line in lines:\n    p1, p2 = line\n    x_values = [points[p1][0], points[p2][0]]\n    y_values = [points[p1][1], points[p2][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' is black color for line\n\n# Set plot limits\nlimit = np.max([2 * radius, max(abs(co) for p in points.values() for co in p)])\nax.set_xlim(-limit, limit)\nax.set_ylim(-limit, limit)\n\n# Place the point labels\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], f' {point}', fontsize=20, color='red', verticalalignment='center', horizontalalignment='left')\n\n# Equal aspect ratio and no background grid\nax.set_aspect('equal')\nax.axis('off')\n\n# Show the plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/4d9c5cecb7714f4f945870b82da2e7f3.png"
+}

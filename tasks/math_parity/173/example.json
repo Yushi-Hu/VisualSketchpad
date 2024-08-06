@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{- 5 x^{9} + 5 x^{5} + 4 x - 10.44}{5 x^{10} + 4 x^{6} - 5 x^{4} + 3.66}$$",
+    "code": "f(x) = (-5*x**9 + 5*x**5 + 4*x - 10.44)/(5*x**10 + 4*x**6 - 5*x**4 + 3.66)",
+    "label": "neither",
+    "id": "isobench/math/parity_221"
+}

@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/159/159.jpg'> For the people operating the machine in the image, can you see one arm or both arms? Options: (a) One arm (b) Both arms",
+    "images": [
+        "../tasks/mmvp/processed/159/159.jpg"
+    ],
+    "answer": "(a)"
+}

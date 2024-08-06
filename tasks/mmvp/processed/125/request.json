@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/125/125.jpg'> Can you see a door in this image? Options: (a) Yes (b) No",
+    "images": [
+        "../tasks/mmvp/processed/125/125.jpg"
+    ],
+    "answer": "(a)"
+}

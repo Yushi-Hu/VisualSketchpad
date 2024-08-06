@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{2 x^{8} - 2 x^{7} + 3 x^{5} - 4 x^{2} - 17.11}{5 x^{6} - 2 x^{2} + 4.8}$$",
+    "code": "f(x) = (2*x**8 - 2*x**7 + 3*x**5 - 4*x**2 - 17.11)/(5*x**6 - 2*x**2 + 4.8)",
+    "label": "neither",
+    "id": "isobench/math/parity_245"
+}

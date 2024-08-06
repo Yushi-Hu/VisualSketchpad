@@ -1,0 +1,92 @@
+{
+    "problem_text": "Use parallelogram W X Y Z to find W Z.",
+    "choices": [
+        "4",
+        "24",
+        "28",
+        "52"
+    ],
+    "answer": "B",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Parallelogram"
+    ],
+    "problem_type_goal": [
+        "Length"
+    ],
+    "source": "textbook1_chapter6.pdf page 33",
+    "comment": "",
+    "id": 421,
+    "annot_id": "Ran_2020-03-18_23_55_15",
+    "is_standard": false,
+    "compact_choices": [
+        "4",
+        "24",
+        "28",
+        "52"
+    ],
+    "precise_value": [
+        4.0,
+        24.0,
+        28.0,
+        52.0
+    ],
+    "rough_value": [
+        4,
+        24,
+        28,
+        52
+    ],
+    "compact_text": "Use parallelogram WXYZ to find WZ.",
+    "annotat_text": "Use parallelogram WXYZ to find $WZ$",
+    "unit": "",
+    "img_width": 452,
+    "img_height": 288,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Parallelogram(W,X,Y,Z)",
+            "Find(LengthOf(Line(W,Z)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Parallelogram(W,X,Y,Z)",
+            "Find(LengthOf(Line(W,Z)))"
+        ],
+        "diagram_logic_form": [
+            "Equals(MeasureOf(Angle(X, W, Z)), 105)",
+            "Equals(LengthOf(Line(Y, X)), 24)",
+            "Equals(LengthOf(Line(Z, Y)), 28)"
+        ],
+        "line_instances": [
+            "ZW",
+            "ZY",
+            "WX",
+            "YX"
+        ],
+        "point_positions": {
+            "Z": [
+                1.0,
+                177.0
+            ],
+            "W": [
+                84.0,
+                3.0
+            ],
+            "X": [
+                334.0,
+                1.0
+            ],
+            "Y": [
+                251.0,
+                175.0
+            ]
+        },
+        "circle_instances": [
+            ""
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\n\n# Define coordinates\npoints = {\"Z\": [1.0, 177.0], \"W\": [84.0, 3.0], \"X\": [334.0, 1.0], \"Y\": [251.0, 175.0]}\n\n# Define lines based on point connections\nlines = [(\"Z\", \"W\"), (\"Z\", \"Y\"), (\"W\", \"X\"), (\"Y\", \"X\")]\n\n# Create a plot\nfig, ax = plt.subplots()\nax.set_aspect('equal')\n\n# Draw lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, color='black')\n\n# Annotate points and ensure labels do not overlap with the lines\nfor point, coord in points.items():\n    ax.text(coord[0], coord[1], f' {point}', verticalalignment='bottom', horizontalalignment='right', color='red', fontsize=20)\n\n# Set figure size\nfig.set_size_inches(10, 10)\n\n# Hide axes\nax.axis('off')\n\n# Show the plot\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/8917fe9507964212abdb35eeafa0ca33.png"
+}

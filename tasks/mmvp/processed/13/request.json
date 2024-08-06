@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/13/13.jpg'> Is the image more likely of a single ear of corn or multiple ears Options: (a) Single (b) Multiple",
+    "images": [
+        "../tasks/mmvp/processed/13/13.jpg"
+    ],
+    "answer": "(a)"
+}

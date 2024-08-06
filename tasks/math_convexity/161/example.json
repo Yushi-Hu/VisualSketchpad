@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = - 1.55 x^{2} - e^{1.76 x} - 10.01$$",
+    "code": "f(x) = -1.55*x**2 - exp(1.76*x) - 10.01",
+    "label": "concave",
+    "id": "isobench/math/convexity_131"
+}

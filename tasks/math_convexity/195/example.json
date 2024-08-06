@@ -1,0 +1,7 @@
+{
+    "domain": "x > 0",
+    "latex": "$$f(x) = 0.96 x^{2} + e^{0.12 x} - 0.69 \\log{\\left(x \\right)} - 2.17$$",
+    "code": "f(x) = 0.96*x**2 + exp(0.12*x) - 0.69*log(x) - 2.17",
+    "label": "convex",
+    "id": "isobench/math/convexity_98"
+}

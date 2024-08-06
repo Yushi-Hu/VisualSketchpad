@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/148/148.jpg'> In the picture, is the snake's head visible or not visible? Options: (a) Visible (b) Not visible",
+    "images": [
+        "../tasks/mmvp/processed/148/148.jpg"
+    ],
+    "answer": "(b)"
+}

@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{2 x \\left(4 x^{6} + x^{4} + 5 x^{2} + 4\\right)}{4 x^{8} + 8 x^{4} + 16.2}$$",
+    "code": "f(x) = 2*x*(4*x**6 + x**4 + 5*x**2 + 4)/(4*x**8 + 8*x**4 + 16.2)",
+    "label": "odd",
+    "id": "isobench/math/parity_326"
+}

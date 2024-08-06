@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{x^{7} + x^{4} + 3 x^{3} - 17.33}{15 x^{8} - 3 x^{4} + 4.27}$$",
+    "code": "f(x) = (x**7 + x**4 + 3*x**3 - 17.33)/(15*x**8 - 3*x**4 + 4.27)",
+    "label": "neither",
+    "id": "isobench/math/parity_159"
+}

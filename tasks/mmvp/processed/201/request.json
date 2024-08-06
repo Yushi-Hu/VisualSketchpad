@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/201/201.jpg'> What are the words in the image: Options: (a) \"Happy Easter\" (b) \"Happy Easter!\"",
+    "images": [
+        "../tasks/mmvp/processed/201/201.jpg"
+    ],
+    "answer": "(a)"
+}

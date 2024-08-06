@@ -1,0 +1,7 @@
+{
+    "anl": "r . . B r . k .\np p p b . p b p\n. n n . p . p .\n. . . . . . . .\n. . . P . . . .\n. . P B . N . .\nP P . Q . P P P\nR . . . R N K .",
+    "pgn": "1. e4 Nf6 2. Bc4 d5 3. exd5 Nxd5 4. Nf3 e6 5. O-O Be7 6. Re1 O-O 7. c3 Nc6 8. d4 Bf6 9. Nbd2 Nb6 10. Bd3 g6 11. Nf1 Kg7 12. Be3 Re8 13. Qd2 Bd7 14. Bh6+ Kg8 15. Bg5 Bg7 16. Bxd8",
+    "fen": "r2Br1k1/pppb1pbp/1nn1p1p1/8/3P4/2PB1N2/PP1Q1PPP/R3RNK1 b - - 0 16",
+    "label": "White",
+    "id": "isobench/chess/winner_id/yyvXsSAT"
+}

@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{2 x^{3} \\left(x^{2} - 5\\right)}{10 x^{10} - 2 x^{4} + 3.16}$$",
+    "code": "f(x) = 2*x**3*(x**2 - 5)/(10*x**10 - 2*x**4 + 3.16)",
+    "label": "odd",
+    "id": "isobench/math/parity_371"
+}

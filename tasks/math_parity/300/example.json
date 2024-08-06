@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{- 9 x - 12.08}{x^{10} + 8 x^{4} - 5 x^{2} + 14.67}$$",
+    "code": "f(x) = (-9*x - 12.08)/(x**10 + 8*x**4 - 5*x**2 + 14.67)",
+    "label": "neither",
+    "id": "isobench/math/parity_173"
+}

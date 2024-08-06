@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{x^{7} \\cdot \\left(8.0 x^{2} + 2.0\\right)}{4.0 x^{10} + 4.0 x^{6} - 8.0 x^{4} + 4.48}$$",
+    "code": "f(x) = x**7*(8.0*x**2 + 2.0)/(4.0*x**10 + 4.0*x**6 - 8.0*x**4 + 4.48)",
+    "label": "odd",
+    "id": "isobench/math/parity_375"
+}

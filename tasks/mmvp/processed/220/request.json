@@ -1,0 +1,7 @@
+{
+    "query": "<img src='../tasks/mmvp/processed/220/220.jpg'> Is the person in the image running towards or away from the camera? Options: (a) Towards (b) Away from",
+    "images": [
+        "../tasks/mmvp/processed/220/220.jpg"
+    ],
+    "answer": "(b)"
+}

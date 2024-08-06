@@ -1,0 +1,7 @@
+{
+    "domain": null,
+    "latex": "$$f(x) = \\frac{8 x \\left(x^{6} - 1\\right)}{10 x^{10} - 6 x^{6} - 8 x^{4} + 17.58}$$",
+    "code": "f(x) = 8*x*(x**6 - 1)/(10*x**10 - 6*x**6 - 8*x**4 + 17.58)",
+    "label": "odd",
+    "id": "isobench/math/parity_303"
+}

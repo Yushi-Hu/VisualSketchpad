@@ -1,0 +1,7 @@
+{
+    "anl": ". k . r . . . r\np p . . b p p p\n. . . . . n . .\n. . . . n . . .\n. . . . P . . .\n. . N . . . . .\nP P . . K P P P\nR . . R . . . .",
+    "pgn": "1. e4 c5 2. c3 e5 3. d4 cxd4 4. cxd4 Qc7 5. Nf3 d6 6. dxe5 dxe5 7. Bb5+ Bd7 8. Bxd7+ Nxd7 9. Qa4 Qxc1+ 10. Qd1 Qxd1+ 11. Kxd1 O-O-O 12. Nc3 Kb8 13. Ke2 Ngf6 14. Rhd1 Be7 15. Nxe5 Nxe5",
+    "fen": "1k1r3r/pp2bppp/5n2/4n3/4P3/2N5/PP2KPPP/R2R4 w - - 0 16",
+    "label": "Black",
+    "id": "isobench/chess/winner_id/4mezGeOP"
+}
