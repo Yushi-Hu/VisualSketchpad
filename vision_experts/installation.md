@@ -76,3 +76,10 @@ For Depth-Anything
 cd Depth-Anything/
 python depthanything_server.py 
 ```
+
+## Testing and using the servers
+
+After launching each server, put the server address in [`agent/config.py`](https://github.com/Yushi-Hu/VisualSketchpad/blob/main/agent/config.py)
+
+Also, if you visit the server address, you should see a gradio interface. For example, the interface for DepthAnything server should look like the following:
+[`https://huggingface.co/spaces/yushihu/depthanything`](https://huggingface.co/spaces/yushihu/depthanything)
