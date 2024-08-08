@@ -47,7 +47,7 @@ def run_agent(task_input, output_dir, task_type="vision", task_name=None):
         
         # test if vision tools are loaded
         try:
-            from tools import *
+            from vision_tools import *
         except ImportError as e:
             raise ImportError("Vision tools are not loaded. Please install vision_experts.")
         
@@ -132,16 +132,3 @@ def run_agent(task_input, output_dir, task_type="vision", task_name=None):
     planner.reset()
     
     
-    
-if __name__ == "__main__":
-    # run_agent('../tasks/vstar/processed/relative_position@sa_25747/',
-    #           '../outputs/vstar')
-    
-    # run_agent('../tasks/math_parity/0',
-    #         '../outputs/math_parity',
-    #         task_type="math",
-    #         task_name="math_parity")
-    
-    run_agent('../tasks/geometry/8',
-        '../outputs/geometry',
-        task_type="geo")
