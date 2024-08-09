@@ -1,0 +1,135 @@
+{
+    "problem_text": "In \\odot R, S U = 20, Y W = 20, and m \\widehat Y X = 45. Find m \\widehat S U.",
+    "choices": [
+        "20",
+        "30",
+        "45",
+        "90"
+    ],
+    "answer": "D",
+    "detailed_solution": " ",
+    "problem_type_graph": [
+        "Circle"
+    ],
+    "problem_type_goal": [
+        "Angle"
+    ],
+    "source": "textbook2_chapter10.pdf page 64",
+    "comment": "",
+    "id": 2079,
+    "annot_id": "Ran_2020-03-29_05_43_21",
+    "is_standard": false,
+    "compact_choices": [
+        "20",
+        "30",
+        "45",
+        "90"
+    ],
+    "precise_value": [
+        20.0,
+        30.0,
+        45.0,
+        90.0
+    ],
+    "rough_value": [
+        20,
+        30,
+        45,
+        90
+    ],
+    "compact_text": "In \\odot R, SU = 20, YW = 20, and m \\widehat YX = 45. Find m \\widehat SU.",
+    "annotat_text": "In $\\odot R, S U=20, Y W=20,$ and $m \\widehat{Y X}=45$.\r\nFind $m\\widehat{S U}$",
+    "unit": "",
+    "img_width": 278,
+    "img_height": 273,
+    "data_type": "train",
+    "date": "Fri Sep 18 22:23:14 2020",
+    "system": "linux",
+    "logic_form": {
+        "text_logic_form": [
+            "Circle(R)",
+            "Equals(LengthOf(Line(S,U)),20)",
+            "Equals(LengthOf(Line(Y,W)),20)",
+            "Equals(MeasureOf(Arc(Y,X)),45)",
+            "Find(MeasureOf(Arc(S,U)))"
+        ],
+        "dissolved_text_logic_form": [
+            "Circle(R)",
+            "Equals(LengthOf(Line(S,U)),20)",
+            "Equals(LengthOf(Line(Y,W)),20)",
+            "Equals(MeasureOf(Arc(Y,X)),45)",
+            "Find(MeasureOf(Arc(S,U)))"
+        ],
+        "diagram_logic_form": [
+            "PointLiesOnLine(Z, Line(Y, W))",
+            "PointLiesOnLine(V, Line(U, S))",
+            "PointLiesOnLine(Z, Line(R, X))",
+            "PointLiesOnLine(V, Line(R, T))",
+            "PointLiesOnCircle(Y, Circle(R, radius_5_0))",
+            "PointLiesOnCircle(U, Circle(R, radius_5_0))",
+            "PointLiesOnCircle(S, Circle(R, radius_5_0))",
+            "PointLiesOnCircle(W, Circle(R, radius_5_0))",
+            "PointLiesOnCircle(X, Circle(R, radius_5_0))",
+            "PointLiesOnCircle(T, Circle(R, radius_5_0))",
+            "Perpendicular(Line(V, S), Line(V, R))",
+            "Perpendicular(Line(Z, R), Line(Y, Z))"
+        ],
+        "line_instances": [
+            "RT",
+            "RX",
+            "US",
+            "VR",
+            "VS",
+            "VT",
+            "VU",
+            "YW",
+            "YZ",
+            "ZR",
+            "ZW",
+            "ZX"
+        ],
+        "point_positions": {
+            "R": [
+                100.0,
+                97.0
+            ],
+            "S": [
+                106.0,
+                0.0
+            ],
+            "T": [
+                178.0,
+                39.0
+            ],
+            "U": [
+                195.0,
+                121.0
+            ],
+            "V": [
+                150.0,
+                60.0
+            ],
+            "W": [
+                141.0,
+                186.0
+            ],
+            "X": [
+                61.0,
+                188.0
+            ],
+            "Y": [
+                7.0,
+                128.0
+            ],
+            "Z": [
+                74.0,
+                157.0
+            ]
+        },
+        "circle_instances": [
+            "R"
+        ]
+    },
+    "code": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Coordinates\npoints = {\n    \"R\": [100.0, 97.0], \"S\": [106.0, 0.0], \"T\": [178.0, 39.0], \"U\": [195.0, 121.0],\n    \"V\": [150.0, 60.0], \"W\": [141.0, 186.0], \"X\": [61.0, 188.0], \"Y\": [7.0, 128.0],\n    \"Z\": [74.0, 157.0]\n}\n\n# Lines\nlines = [\n    (\"R\", \"T\"), (\"R\", \"X\"), (\"U\", \"S\"), (\"V\", \"R\"), (\"V\", \"S\"),\n    (\"V\", \"T\"), (\"V\", \"U\"), (\"Y\", \"W\"), (\"Y\", \"Z\"), (\"Z\", \"R\"),\n    (\"Z\", \"W\"), (\"Z\", \"X\")\n]\n\n# Plot setup\nfig, ax = plt.subplots()\nax.set_aspect('equal')\nax.axis('off')\n\n# Draw Lines\nfor line in lines:\n    x_values = [points[line[0]][0], points[line[1]][0]]\n    y_values = [points[line[0]][1], points[line[1]][1]]\n    ax.plot(x_values, y_values, 'k-')  # 'k-' for black line\n\n# Draw Circles\nradius = np.linalg.norm(np.array(points[\"R\"]) - np.array(points[\"S\"]))\ncircle = plt.Circle((points[\"R\"][0], points[\"R\"][1]), radius, color='k', fill=False)\nax.add_artist(circle)\n\n# Plot points\nfor point, coord in points.items():\n    ax.plot(coord[0], coord[1], 'ko')  # 'ko' for black dot\n    ax.text(coord[0]+2, coord[1]+2, point, fontsize=20, color='red', va='bottom', ha='left')\n\n# Adjust plot limits\nax.set_xlim(0, 250)\nax.set_ylim(0, 250)\n\nplt.show()\n",
+    "image_path_code": "/fsx-onellm/swj0419/sketchpad/sketchpad/GPT4API/notebook_testing/90a26f966d804be886a8e31c9c89b0a4.png"
+}

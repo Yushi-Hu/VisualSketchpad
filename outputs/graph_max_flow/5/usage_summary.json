@@ -1,0 +1,20 @@
+{
+    "total": {
+        "total_cost": 0,
+        "gpt-4o-2024-05-13": {
+            "cost": 0,
+            "prompt_tokens": 15668,
+            "completion_tokens": 871,
+            "total_tokens": 16539
+        }
+    },
+    "actual": {
+        "total_cost": 0,
+        "gpt-4o-2024-05-13": {
+            "cost": 0,
+            "prompt_tokens": 15668,
+            "completion_tokens": 871,
+            "total_tokens": 16539
+        }
+    }
+}

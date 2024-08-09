@@ -47,7 +47,7 @@ def run_agent(task_input, output_dir, task_type="vision", task_name=None):
         
         # test if vision tools are loaded
         try:
-            from vision_tools import *
+            from tools import som_client, gd_client, da_client
         except ImportError as e:
             raise ImportError("Vision tools are not loaded. Please install vision_experts.")
         
