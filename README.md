@@ -72,6 +72,9 @@ run_agent("../tasks/blink_spatial/processed/val_Spatial_Relation_1", "../outputs
 
 We put the expected running outputs in `outputs` as reference.
 
+### View agent running traces.
+See `record_viewer.ipynb`. It is a good example of how Visual Sketchpad works. Also, it shows how to visualize an agent running trace saved in `output.json`.
+
 
 ## Run a task
 
