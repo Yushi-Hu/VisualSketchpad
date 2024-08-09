@@ -87,3 +87,10 @@ python run_task.py --task blink_spatial
 ```
 
 This will run the whole task and save all execution traces to `outputs`. Notice that the task should be one of `"vstar", "blink_viscorr", "blink_semcorr", "blink_depth","blink_jigsaw", "blink_spatial", "mmvp", "geometry", "graph_connectivity", "graph_isomorphism", "graph_maxflow", "math_convexity", "math_parity", "winner_id"`
+
+
+## Agent Trajectories
+
+To facilitate future research, we also share the agent trajectories we get on all tasks in the paper in this [Google Drive Link](https://drive.google.com/drive/folders/1iVj_K4Z8XwXxWFFKl0cbGQrU-oeCmGQT?usp=sharing)。
+They have the same format as the examples in `outputs` in this repo.
+
