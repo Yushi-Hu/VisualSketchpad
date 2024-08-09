@@ -71,3 +71,16 @@ run_agent("../tasks/blink_spatial/processed/val_Spatial_Relation_1", "../outputs
 ```
 
 We put the expected running outputs in `outputs` as reference.
+
+
+## Run a task
+
+If you want to run all the examples in a task. First run the following:
+```bash
+cd agents
+
+# for example, run blink spatial relation task
+python run_task.py --task blink_spatial
+```
+
+This will run the whole task and save all execution traces to `outputs`. Notice that the task should be one of `"vstar", "blink_viscorr", "blink_semcorr", "blink_depth","blink_jigsaw", "blink_spatial", "mmvp", "geometry", "graph_connectivity", "graph_isomorphism", "graph_maxflow", "math_convexity", "math_parity", "winner_id"`
