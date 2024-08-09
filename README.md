@@ -91,6 +91,6 @@ This will run the whole task and save all execution traces to `outputs`. Notice 
 
 # Agent Trajectories
 
-To facilitate future research, we also share the agent trajectories we get on all tasks in the paper in this [Google Drive Link](https://drive.google.com/drive/folders/1iVj_K4Z8XwXxWFFKl0cbGQrU-oeCmGQT?usp=sharing)。
+To facilitate future research, we also share the agent trajectories we get on all tasks in the paper in this [Google Drive Link](https://drive.google.com/drive/u/3/folders/1NwB9Bbuw-oEVXZhslodbspXEag8lD0wy)。
 They have the same format as the examples in `outputs` in this repo.
 
