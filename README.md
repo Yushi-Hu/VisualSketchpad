@@ -1,4 +1,4 @@
-# Visual Sketchpad  <img src="assets/icon.png" width="50" />
+# (NeurIPS 2024) Visual Sketchpad  <img src="assets/icon.png" width="50" />
 This repo contains codes for the paper "[Visual Sketchpad: Sketching as a Visual Chain of Thought for Multimodal Language Models](https://arxiv.org/abs/2406.09403)"
 
 [**🌐 Homepage**](https://visualsketchpad.github.io/) | [**📖 arXiv**](https://arxiv.org/abs/2404.12390) | [**📑 Paper**](https://arxiv.org/pdf/2406.09403.pdf) 
