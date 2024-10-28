@@ -3,7 +3,7 @@ import os, glob, argparse
 from tqdm import tqdm
 
 def run_task(task, output_dir, task_type="vision", task_name=None):
-    all_task_instances = glob.glob(f"../tasks/{task}/processed/*/" if task_type == "vision" else f"tasks/{task}/*/")
+    all_task_instances = glob.glob(f"../tasks/{task}/processed/*/" if task_type == "vision" else f"../tasks/{task}/*/")
     output_dir = os.path.join(output_dir, task)
     
     for task_instance in tqdm(all_task_instances):
