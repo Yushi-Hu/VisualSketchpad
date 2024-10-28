@@ -5,7 +5,9 @@ This repo contains codes for the paper "[Visual Sketchpad: Sketching as a Visual
 
 ## 🔔News
  **🔥[2024-10-28]: Thanks @velocityCavalry for reporting a potential bug! Updated codebase to be more robust**
+ 
  **🔥[2024-09-26]: Accepted to NeurIPS 2024!**
+ 
  **🔥[2024-08-03]: Releasing the codes for Visual Sketchpad**
 
  ## Introduction
