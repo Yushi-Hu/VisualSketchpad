@@ -28,8 +28,6 @@ class CodeExecutor:
         # set up the jupyter executor
         self.executor = JupyterCodeExecutor(self.server, output_dir=self.working_dir)
         
-        breakpoint()
-        
         # initialize the environment
         self.init_env(use_vision_tools)
         
@@ -110,7 +108,6 @@ class CodeExecutor:
                         code=code),
             ]
         )
-        breakpoint()
         ret = self.result_processor(execution_result)
         return ret
     
