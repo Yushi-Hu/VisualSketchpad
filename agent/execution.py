@@ -28,6 +28,8 @@ class CodeExecutor:
         # set up the jupyter executor
         self.executor = JupyterCodeExecutor(self.server, output_dir=self.working_dir)
         
+        breakpoint()
+        
         # initialize the environment
         self.init_env(use_vision_tools)
         
@@ -80,11 +82,18 @@ class CodeExecutor:
             
             for line in output_lines:
                 if line.startswith("<PIL."):
-                    new_str += f"<img src='{file_paths[image_idx]}'>"
-                    image_idx += 1
+                    if image_idx < len(file_paths):
+                        new_str += f"<img src='{file_paths[image_idx]}'>"
+                        image_idx += 1
                 else:
                     new_str += line
                 new_str += "\n"
+            
+            # add the remaining images
+            for file_idx, file in enumerate(file_paths):
+                if file_idx >= image_idx:
+                    new_str += f"<img src='{file}'>"
+                    new_str += "\n"
                 
             return exit_code, new_str, file_paths
         
@@ -101,7 +110,9 @@ class CodeExecutor:
                         code=code),
             ]
         )
-        return self.result_processor(execution_result)
+        breakpoint()
+        ret = self.result_processor(execution_result)
+        return ret
     
     def init_env(self, use_vision_tools):
         init_code = ("import sys\n"
