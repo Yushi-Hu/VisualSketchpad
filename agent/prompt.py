@@ -487,7 +487,7 @@ plt.close()
 # Load image from buffer
 buf.seek(0)
 image = Image.open(buf)
-print(image)
+display(image)
 ```
 OBSERVATION: Execution success. The output is as follows:
 <the image outputs of the previous code is here.>
@@ -528,7 +528,7 @@ plt.close()
 # Load image from buffer
 buf.seek(0)
 image = Image.open(buf)
-print(image)
+display(image)
 
 ```
 OBSERVATION: Execution success. The output is as follows:
@@ -566,10 +566,7 @@ png_bytes = svg2png(bytestring=svg_data)
 image = Image.open(BytesIO(png_bytes))
 
 # Display the image using matplotlib
-plt.imshow(image)
-plt.axis('off')  # Disable axis
-plt.show()
-print(image)
+display(image)
 ```
 OBSERVATION: Execution success. The output is as follows:
 <the image outputs of the previous code is here.>
@@ -659,7 +656,7 @@ plt.close()
 # Load image from buffer
 buf.seek(0)
 image = Image.open(buf)
-print(image)
+display(image)
 ```
 OBSERVATION: Execution success. The output is as follows:
 <the image outputs of the previous code is here.>
