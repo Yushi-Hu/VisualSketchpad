@@ -48,7 +48,7 @@ cd ..
 ### set up latest gradio
 
 ```bash
-pip install gradio==4.39.0 gradio_client==1.1.1
+pip install gradio==5.38.2 gradio_client==1.11.0
 ```
 
 
