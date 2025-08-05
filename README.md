@@ -5,7 +5,7 @@ This repo contains codes for the paper "[Visual Sketchpad: Sketching as a Visual
 
 ## 🔔News
 
- **🔥[2025-08-06]: Thanks @FloSophorae for providing the latest environment! You may reference this environment `env.txt` if you meet weird problems running and deploying visual experts.
+ 🔥[2025-08-06]: Thanks @FloSophorae for providing the latest environment! You may reference this environment `env.txt` if you meet weird problems running and deploying visual experts.
  
  **🔥[2024-10-28]: Thanks @velocityCavalry for reporting a potential bug! Updated codebase to be more robust**
  
