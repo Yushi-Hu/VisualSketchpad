@@ -83,7 +83,7 @@ See `record_viewer.ipynb`. It is a good example of how Visual Sketchpad works. A
 
 If you want to run all the examples in a task. First run the following:
 ```bash
-cd agents
+cd agent
 
 # for example, run blink spatial relation task
 python run_task.py --task blink_spatial
