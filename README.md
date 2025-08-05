@@ -25,6 +25,8 @@ pip install pyautogen==0.2.26
 pip install 'pyautogen[jupyter-executor]'
 pip install Pillow joblib matplotlib opencv-python numpy gradio gradio_client networkx scipy datasets
 ```
+(if you would like to use ag2, please reference this PR: https://github.com/Yushi-Hu/VisualSketchpad/pull/16)
+
 Set up your OpenAI API key in [`agent/config.py`](https://github.com/Yushi-Hu/VisualSketchpad/blob/main/agent/config.py). Edit the following:
 ```python
 # set up the LLM for the agent
@@ -33,8 +35,6 @@ os.environ["AUTOGEN_USE_DOCKER"] = "False"
 llm_config={"cache_seed": None, "config_list": [{"model": "gpt-4o", "temperature": 0.0, "api_key": os.environ.get("OPENAI_API_KEY")}]}
 ```
 Above is all it needs for math and geometry tasks. 
-
-(if you would like to use ag2, please reference this PR: https://github.com/Yushi-Hu/VisualSketchpad/pull/16)
 
 ### Installing vision experts for computer vision tasks
 
@@ -49,6 +49,7 @@ GROUNDING_DINO_ADDRESS = "[YOUR GroundingDINO SERVER ADDRESS]"
 DEPTH_ANYTHING_ADDRESS = "[YOUR Depth-Anything SERVER ADDRESS]"
 ```
 
+[Updated 2025.08.95] If you meet weird problems, you may reference this environment `env.txt` provided by @FloSophorae .
 
 # Quick Start
 
