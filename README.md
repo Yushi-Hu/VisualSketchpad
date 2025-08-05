@@ -4,6 +4,8 @@ This repo contains codes for the paper "[Visual Sketchpad: Sketching as a Visual
 [**🌐 Homepage**](https://visualsketchpad.github.io/) | [**📖 arXiv**](https://arxiv.org/abs/2404.12390) | [**📑 Paper**](https://arxiv.org/pdf/2406.09403.pdf) 
 
 ## 🔔News
+
+ **🔥[2025-08-06]: Thanks @FloSophorae for providing the latest environment! You may reference this environment `env.txt` if you meet weird problems running and deploying visual experts.
  **🔥[2024-10-28]: Thanks @velocityCavalry for reporting a potential bug! Updated codebase to be more robust**
  
  **🔥[2024-09-26]: Accepted to NeurIPS 2024!**
@@ -49,7 +51,7 @@ GROUNDING_DINO_ADDRESS = "[YOUR GroundingDINO SERVER ADDRESS]"
 DEPTH_ANYTHING_ADDRESS = "[YOUR Depth-Anything SERVER ADDRESS]"
 ```
 
-[Updated 2025.08.95] If you meet weird problems, you may reference this environment `env.txt` provided by @FloSophorae .
+
 
 # Quick Start
 
