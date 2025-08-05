@@ -34,6 +34,8 @@ llm_config={"cache_seed": None, "config_list": [{"model": "gpt-4o", "temperature
 ```
 Above is all it needs for math and geometry tasks. 
 
+(if you would like to use ag2, please reference this PR: https://github.com/Yushi-Hu/VisualSketchpad/pull/16)
+
 ### Installing vision experts for computer vision tasks
 
 For computer vision tasks, you also need to install the vision experts.
