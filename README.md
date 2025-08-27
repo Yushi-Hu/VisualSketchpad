@@ -24,8 +24,8 @@ Install the agent environment as follows:
 ```bash
 conda create -n sketchpad python=3.9
 
-pip install pyautogen==0.2.26
-pip install 'pyautogen[jupyter-executor]'
+pip install ag2==0.2.26
+pip install 'ag2[jupyter-executor]'
 pip install Pillow joblib matplotlib opencv-python numpy gradio gradio_client networkx scipy datasets
 ```
 (if you would like to use ag2, please reference this PR: https://github.com/Yushi-Hu/VisualSketchpad/pull/16)
